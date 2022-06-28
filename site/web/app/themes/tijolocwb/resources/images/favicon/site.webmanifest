@@ -1,0 +1,54 @@
+{
+    "name": "Restaurante - comida descomplicada",
+    "short_name": "Restaurante - comida descomplicada",
+    "icons": [
+        {
+            "src": "./android-chrome-36x36_65ea5ae4.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "./android-chrome-48x48_2a4f46f6.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "./android-chrome-72x72_2aa6b4f2.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "./android-chrome-96x96_32d2b969.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./android-chrome-144x144_5d5cf8bf.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./android-chrome-192x192_518716cd.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./android-chrome-256x256_cbbfa22e.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./android-chrome-384x384_8ae14508.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "./android-chrome-512x512_056c0be6.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

@@ -40,7 +40,7 @@ add_action('after_setup_theme', function () {
         'clean-up',
         'nav-walker',
         'nice-search',
-        'relative-urls',
+        'relative-urls'
     ]);
 
     /**
@@ -55,7 +55,7 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
      */
     register_nav_menus([
-        'primary_navigation' => __('Primary Navigation', 'sage'),
+        'primary_navigation' => __('Primary Navigation', 'sage')
     ]);
 
     /**
@@ -77,6 +77,12 @@ add_action('after_setup_theme', function () {
     add_theme_support('post-thumbnails');
 
     /**
+     * Enable wide alignment support.
+     * @link https://wordpress.org/gutenberg/handbook/designers-developers/developers/themes/theme-support/#wide-alignment
+     */
+    add_theme_support('align-wide');
+
+    /**
      * Enable responsive embed support.
      * @link https://wordpress.org/gutenberg/handbook/designers-developers/developers/themes/theme-support/#responsive-embedded-content
      */
@@ -93,7 +99,7 @@ add_action('after_setup_theme', function () {
         'gallery',
         'search-form',
         'script',
-        'style',
+        'style'
     ]);
 
     /**
@@ -113,16 +119,25 @@ add_action('widgets_init', function () {
         'before_widget' => '<section class="widget %1$s %2$s">',
         'after_widget' => '</section>',
         'before_title' => '<h3>',
-        'after_title' => '</h3>',
+        'after_title' => '</h3>'
     ];
 
     register_sidebar([
         'name' => __('Primary', 'sage'),
-        'id' => 'sidebar-primary',
+        'id' => 'sidebar-primary'
     ] + $config);
 
     register_sidebar([
         'name' => __('Footer', 'sage'),
-        'id' => 'sidebar-footer',
+        'id' => 'sidebar-footer'
     ] + $config);
 });
+
+// Disable REST API link tag
+remove_action('wp_head', 'rest_output_link_wp_head', 10);
+
+// Disable oEmbed Discovery Links
+remove_action('wp_head', 'wp_oembed_add_discovery_links', 10);
+
+// Disable REST API link in HTTP headers
+remove_action('template_redirect', 'rest_output_link_header', 11, 0);

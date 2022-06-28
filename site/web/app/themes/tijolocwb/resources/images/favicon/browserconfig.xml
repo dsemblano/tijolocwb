@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="/app/themes/tijolocwb/dist/images/favicon/mstile-150x150_24cfec6f.png"/>
+            <square310x310logo src="/app/themes/tijolocwb/dist/images/favicon/mstile-310x310_c789653e.png"/>
+            <TileColor>#da532c</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
