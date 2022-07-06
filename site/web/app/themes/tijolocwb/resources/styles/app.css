@@ -1,3 +1,197 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: 'acumin_pro_extracondensedIt';
+    src: url(~@fonts/Acumin/acumin_pro_extracondensed-webfont.eot);
+    src: url(~@fonts/Acumin/acumin_pro_extracondensed-webfont.eot?#iefix) format("embedded-opentype"), url(~@fonts/Acumin/acumin_pro_extracondensed-webfont.woff2) format("woff2"), url(~@fonts/Acumin/acumin_pro_extracondensed-webfont.woff) format("woff"), url(~@fonts/Acumin/acumin_pro_extracondensed-webfont.ttf) format("truetype");
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: cuprumregular;
+    src: url(~@fonts/Cuprum/Cuprum-Regular-webfont.eot);
+    src: url(~@fonts/Cuprum/Cuprum-Regular-webfont.eot?#iefix) format("embedded-opentype"), url(~@fonts/Cuprum/Cuprum-Regular-webfont.woff) format("woff"), url(~@fonts/Cuprum/Cuprum-Regular-webfont.ttf) format("truetype");
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --app-height: 100%;
+}
+
+body {
+    font-family: 'cuprumregular', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.nav-primary {
+    font-family: 'acumin_pro_extracondensedIt', sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+// Header
+
+// #menu-menu-principal li a {
+//     background-color: red;
+// }
+.mobmenu {
+  z-index: 0 !important;
+}
+
+.banner .nav {
+    @apply list-none p-0 flex flex-wrap;
+
+    .current_page_item {
+      font-weight: bold;
+    }
+}
+
+.banner .nav a {
+    @apply inline-block px-2 py-2 border-none;
+
+    &:hover {
+      opacity: .66;
+    }
+}
+
+/* Necessário para ajustar a fonte da Tijolo, que é muito pequena */
+
+@screen xl {
+    .banner .nav a {
+        @apply px-8;
+    }
+}
+
+// Home
+#tela1 {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    // width: 100vw;
+    height: 100vh;
+
+    @media not all and (hover: hover) {
+        height: var(--app-height);
+    }
+}
+
+.top-10 {
+    top: 2.5rem;
+    position: relative;
+}
+
+.qrr-booking-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+
+    input,
+    select,
+    textarea {
+        @apply text-gray-800;
+    }
+}
+
+// Pages
+// Cardapio
+.cardapio {
+    @apply bg-tijolocardapio;
+}
+
+.horarios {
+    @apply bg-tijolohorarios text-white;
+
+    .wp-block-image.invert img {
+        filter: invert(100%);
+    }
+}
+
+.galeria {
+    @apply bg-tijolocardapio;
+}
+
+.reservas-data {
+    @apply bg-tijologreen;
+
+    form {
+        @apply text-gray-200;
+    }
+}
+
+.wp-block-separator {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.menu-menu-principal-container {
+  ul {
+    @apply text-2xl;
+
+    ul {
+      display: none;
+      position: absolute;
+      top: 2em;
+      left: 0;
+      z-index: 99999;
+      visibility: hidden;
+      opacity: 0;
+      min-width: 5rem;
+      // transition: all 0.5s ease;
+      // margin-top: 1rem;
+      // width: 180px;
+      // box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    li > a:not(:last-child)::after {
+      content: " ▾";
+    }
+
+    li:hover > ul,
+    li:focus-within > ul,
+    li ul:hover,
+    li ul:focus {
+      display: block;
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  li {
+    position: relative;
+    // transition-duration: 0.5s;
+
+    ul li {
+      clear: both;
+      width: 100%;
+    }
+
+    &:focus-within a {
+      outline: none;
+    }
+
+    &:hover,
+    &:focus-within {
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
