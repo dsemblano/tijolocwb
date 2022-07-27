@@ -19,7 +19,10 @@ module.exports = async (app) => {
      * These files should be processed as part of the build
      * even if they are not explicitly imported in application assets.
      */
-    .assets('images')
+     .assets([
+      {from: app.path("@src/images"), to: app.path("@dist/images/@file")},
+      {from: app.path("@src/fonts"), to: app.path("@dist/fonts/@file")},
+    ])
 
     /**
      * These files will trigger a full page reload
@@ -37,5 +40,10 @@ module.exports = async (app) => {
     /**
      * Development URL to be used in the browser.
      */
-    .serve('http://0.0.0.0:3000');
+    .serve('http://0.0.0.0:3000')
+
+    /**
+     * Relative path to the public directory.
+     */
+     .setPublicPath('/app/themes/sage/public/');
 };
