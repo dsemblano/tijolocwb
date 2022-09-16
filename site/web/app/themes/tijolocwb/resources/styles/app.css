@@ -147,6 +147,8 @@ h5,
     @apply text-2xl;
 
     ul {
+      @apply bg-tijolo shadow-sm;
+
       display: none;
       position: absolute;
       top: 2em;
