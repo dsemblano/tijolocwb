@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd3b278df5d2b7b901a4dace8187b44b",
+    "content-hash": "632286a403eeef137ab14adebba32b6c",
     "packages": [
         {
             "name": "brick/math",
@@ -4879,6 +4879,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-cfdb7/"
+        },
+        {
+            "name": "wpackagist-plugin/custom-registration-form-builder-with-submission-manager",
+            "version": "5.1.6.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-registration-form-builder-with-submission-manager/",
+                "reference": "tags/5.1.6.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-registration-form-builder-with-submission-manager.5.1.6.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-registration-form-builder-with-submission-manager/"
         },
         {
             "name": "wpackagist-plugin/loco-translate",

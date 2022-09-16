@@ -8,6 +8,7 @@ module.exports = {
         tijoloyellow: '#E2CB9F',
         tijolocardapio: '#dbc8b2',
         tijolohorarios: '#666b54',
+        tijolopink: '#D68778',
       },
     },
   },
