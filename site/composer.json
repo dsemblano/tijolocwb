@@ -56,6 +56,7 @@
     "wpackagist-plugin/contact-form-cfdb7":">=1.2.6.4",
     "wpackagist-plugin/autodescription":">=4.2.5",
     "wpackagist-plugin/redirection":">=5.2.3",
+    "wpackagist-plugin/ewww-image-optimizer":">=6.6.0",
     "roots/acorn": "^2.0"
   },
   "require-dev": {
