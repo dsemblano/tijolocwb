@@ -35,7 +35,6 @@ h4,
 h5,
 .nav-primary {
     font-family: 'acumin_pro_extracondensedIt', sans-serif;
-    font-size: 2rem;
 }
 
 p {
@@ -149,9 +148,7 @@ p {
 
 .menu-menu-principal-container {
   ul {
-    @apply text-2xl;
-
-    ul {
+    .sub-menu {
       @apply bg-tijolo shadow-xl;
 
       display: none;
@@ -161,7 +158,7 @@ p {
       z-index: 99999;
       visibility: hidden;
       opacity: 0;
-      min-width: 5rem;
+      min-width: 20rem;
       // transition: all 0.5s ease;
       // margin-top: 1rem;
       // width: 180px;
