@@ -10,7 +10,7 @@
     @endif
     <nav class="nav-primary flex flex-row justify-evenly items-center w-full py-2" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">
       @if (has_nav_menu('primary_navigation'))
-        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav text-white text-xl md:text-4xl tracking-widest', 'echo' => false]) !!}
+        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav text-white text-xl md:text-3xl tracking-widest', 'echo' => false]) !!}
       @endif
     </nav>
   </div>

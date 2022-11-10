@@ -148,7 +148,7 @@ p {
 
 .menu-menu-principal-container {
   ul {
-    .sub-menu {
+    ul {
       @apply bg-tijolo shadow-xl;
 
       display: none;
@@ -158,7 +158,7 @@ p {
       z-index: 99999;
       visibility: hidden;
       opacity: 0;
-      min-width: 20rem;
+      min-width: 5rem;
       // transition: all 0.5s ease;
       // margin-top: 1rem;
       // width: 180px;

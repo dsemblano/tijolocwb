@@ -9,7 +9,7 @@
   <?php echo \Roots\view('layouts/head/favicon')->render(); ?>
   <?php echo \Roots\view('layouts/head/gconsole')->render(); ?>
   <?php echo \Roots\view('layouts/head/gsearchengineags')->render(); ?>
-  <?php echo \Roots\view('layouts/head/gtags')->render(); ?>
+  <?php echo \Roots\view('layouts/head/gtaghead')->render(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -22,6 +22,7 @@
 
   <?php do_action('get_footer'); ?>
   <?php wp_footer(); ?>
+  <?php echo \Roots\view('partials/snippets/gtagbody')->render(); ?>
 </body>
 
 </html>
