@@ -19,9 +19,12 @@
   },
   "devDependencies": {
     "@roots/bud": "6.4.5",
-    "@roots/bud-tailwindcss": "6.4.5",
-    "@roots/sage": "6.4.5",
     "@roots/bud-postcss": "6.4.5",
-    "@roots/bud-sass": "6.4.5"
+    "@roots/bud-sass": "6.4.5",
+    "@roots/bud-tailwindcss": "6.4.5",
+    "@roots/sage": "6.4.5"
+  },
+  "dependencies": {
+    "flowbite": "^1.5.3"
   }
 }

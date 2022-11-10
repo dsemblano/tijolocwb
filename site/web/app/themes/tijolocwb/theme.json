@@ -27,12 +27,12 @@
         {
           "name": "Black",
           "slug": "black",
-          "color": "#000"
+          "color": "#000000"
         },
         {
           "name": "White",
           "slug": "white",
-          "color": "#fff"
+          "color": "#ffffff"
         },
         {
           "name": "Slate 50",
@@ -287,102 +287,102 @@
         {
           "name": "Red 50",
           "slug": "red-50",
-          "color": "#fef2f2"
+          "color": "#fdf2f2"
         },
         {
           "name": "Red 100",
           "slug": "red-100",
-          "color": "#fee2e2"
+          "color": "#fde8e8"
         },
         {
           "name": "Red 200",
           "slug": "red-200",
-          "color": "#fecaca"
+          "color": "#fbd5d5"
         },
         {
           "name": "Red 300",
           "slug": "red-300",
-          "color": "#fca5a5"
+          "color": "#f8b4b4"
         },
         {
           "name": "Red 400",
           "slug": "red-400",
-          "color": "#f87171"
+          "color": "#f98080"
         },
         {
           "name": "Red 500",
           "slug": "red-500",
-          "color": "#ef4444"
+          "color": "#f05252"
         },
         {
           "name": "Red 600",
           "slug": "red-600",
-          "color": "#dc2626"
+          "color": "#e02424"
         },
         {
           "name": "Red 700",
           "slug": "red-700",
-          "color": "#b91c1c"
+          "color": "#c81e1e"
         },
         {
           "name": "Red 800",
           "slug": "red-800",
-          "color": "#991b1b"
+          "color": "#9b1c1c"
         },
         {
           "name": "Red 900",
           "slug": "red-900",
-          "color": "#7f1d1d"
+          "color": "#771d1d"
         },
         {
           "name": "Orange 50",
           "slug": "orange-50",
-          "color": "#fff7ed"
+          "color": "#fff8f1"
         },
         {
           "name": "Orange 100",
           "slug": "orange-100",
-          "color": "#ffedd5"
+          "color": "#feecdc"
         },
         {
           "name": "Orange 200",
           "slug": "orange-200",
-          "color": "#fed7aa"
+          "color": "#fcd9bd"
         },
         {
           "name": "Orange 300",
           "slug": "orange-300",
-          "color": "#fdba74"
+          "color": "#fdba8c"
         },
         {
           "name": "Orange 400",
           "slug": "orange-400",
-          "color": "#fb923c"
+          "color": "#ff8a4c"
         },
         {
           "name": "Orange 500",
           "slug": "orange-500",
-          "color": "#f97316"
+          "color": "#ff5a1f"
         },
         {
           "name": "Orange 600",
           "slug": "orange-600",
-          "color": "#ea580c"
+          "color": "#d03801"
         },
         {
           "name": "Orange 700",
           "slug": "orange-700",
-          "color": "#c2410c"
+          "color": "#b43403"
         },
         {
           "name": "Orange 800",
           "slug": "orange-800",
-          "color": "#9a3412"
+          "color": "#8a2c0d"
         },
         {
           "name": "Orange 900",
           "slug": "orange-900",
-          "color": "#7c2d12"
+          "color": "#771d1d"
         },
         {
           "name": "Amber 50",
@@ -437,52 +437,52 @@
         {
           "name": "Yellow 50",
           "slug": "yellow-50",
-          "color": "#fefce8"
+          "color": "#fdfdea"
         },
         {
           "name": "Yellow 100",
           "slug": "yellow-100",
-          "color": "#fef9c3"
+          "color": "#fdf6b2"
         },
         {
           "name": "Yellow 200",
           "slug": "yellow-200",
-          "color": "#fef08a"
+          "color": "#fce96a"
         },
         {
           "name": "Yellow 300",
           "slug": "yellow-300",
-          "color": "#fde047"
+          "color": "#faca15"
         },
         {
           "name": "Yellow 400",
           "slug": "yellow-400",
-          "color": "#facc15"
+          "color": "#e3a008"
         },
         {
           "name": "Yellow 500",
           "slug": "yellow-500",
-          "color": "#eab308"
+          "color": "#c27803"
         },
         {
           "name": "Yellow 600",
           "slug": "yellow-600",
-          "color": "#ca8a04"
+          "color": "#9f580a"
         },
         {
           "name": "Yellow 700",
           "slug": "yellow-700",
-          "color": "#a16207"
+          "color": "#8e4b10"
         },
         {
           "name": "Yellow 800",
           "slug": "yellow-800",
-          "color": "#854d0e"
+          "color": "#723b13"
         },
         {
           "name": "Yellow 900",
           "slug": "yellow-900",
-          "color": "#713f12"
+          "color": "#633112"
         },
         {
           "name": "Lime 50",
@@ -537,52 +537,52 @@
         {
           "name": "Green 50",
           "slug": "green-50",
-          "color": "#f0fdf4"
+          "color": "#f3faf7"
         },
         {
           "name": "Green 100",
           "slug": "green-100",
-          "color": "#dcfce7"
+          "color": "#def7ec"
         },
         {
           "name": "Green 200",
           "slug": "green-200",
-          "color": "#bbf7d0"
+          "color": "#bcf0da"
         },
         {
           "name": "Green 300",
           "slug": "green-300",
-          "color": "#86efac"
+          "color": "#84e1bc"
         },
         {
           "name": "Green 400",
           "slug": "green-400",
-          "color": "#4ade80"
+          "color": "#31c48d"
         },
         {
           "name": "Green 500",
           "slug": "green-500",
-          "color": "#22c55e"
+          "color": "#0e9f6e"
         },
         {
           "name": "Green 600",
           "slug": "green-600",
-          "color": "#16a34a"
+          "color": "#057a55"
         },
         {
           "name": "Green 700",
           "slug": "green-700",
-          "color": "#15803d"
+          "color": "#046c4e"
         },
         {
           "name": "Green 800",
           "slug": "green-800",
-          "color": "#166534"
+          "color": "#03543f"
         },
         {
           "name": "Green 900",
           "slug": "green-900",
-          "color": "#14532d"
+          "color": "#014737"
         },
         {
           "name": "Emerald 50",
@@ -637,52 +637,52 @@
         {
           "name": "Teal 50",
           "slug": "teal-50",
-          "color": "#f0fdfa"
+          "color": "#edfafa"
         },
         {
           "name": "Teal 100",
           "slug": "teal-100",
-          "color": "#ccfbf1"
+          "color": "#d5f5f6"
         },
         {
           "name": "Teal 200",
           "slug": "teal-200",
-          "color": "#99f6e4"
+          "color": "#afecef"
         },
         {
           "name": "Teal 300",
           "slug": "teal-300",
-          "color": "#5eead4"
+          "color": "#7edce2"
         },
         {
           "name": "Teal 400",
           "slug": "teal-400",
-          "color": "#2dd4bf"
+          "color": "#16bdca"
         },
         {
           "name": "Teal 500",
           "slug": "teal-500",
-          "color": "#14b8a6"
+          "color": "#0694a2"
         },
         {
           "name": "Teal 600",
           "slug": "teal-600",
-          "color": "#0d9488"
+          "color": "#047481"
         },
         {
           "name": "Teal 700",
           "slug": "teal-700",
-          "color": "#0f766e"
+          "color": "#036672"
         },
         {
           "name": "Teal 800",
           "slug": "teal-800",
-          "color": "#115e59"
+          "color": "#05505c"
         },
         {
           "name": "Teal 900",
           "slug": "teal-900",
-          "color": "#134e4a"
+          "color": "#014451"
         },
         {
           "name": "Cyan 50",
@@ -787,102 +787,102 @@
         {
           "name": "Blue 50",
           "slug": "blue-50",
-          "color": "#eff6ff"
+          "color": "#ebf5ff"
         },
         {
           "name": "Blue 100",
           "slug": "blue-100",
-          "color": "#dbeafe"
+          "color": "#e1effe"
         },
         {
           "name": "Blue 200",
           "slug": "blue-200",
-          "color": "#bfdbfe"
+          "color": "#c3ddfd"
         },
         {
           "name": "Blue 300",
           "slug": "blue-300",
-          "color": "#93c5fd"
+          "color": "#a4cafe"
         },
         {
           "name": "Blue 400",
           "slug": "blue-400",
-          "color": "#60a5fa"
+          "color": "#76a9fa"
         },
         {
           "name": "Blue 500",
           "slug": "blue-500",
-          "color": "#3b82f6"
+          "color": "#3f83f8"
         },
         {
           "name": "Blue 600",
           "slug": "blue-600",
-          "color": "#2563eb"
+          "color": "#1c64f2"
         },
         {
           "name": "Blue 700",
           "slug": "blue-700",
-          "color": "#1d4ed8"
+          "color": "#1a56db"
         },
         {
           "name": "Blue 800",
           "slug": "blue-800",
-          "color": "#1e40af"
+          "color": "#1e429f"
         },
         {
           "name": "Blue 900",
           "slug": "blue-900",
-          "color": "#1e3a8a"
+          "color": "#233876"
         },
         {
           "name": "Indigo 50",
           "slug": "indigo-50",
-          "color": "#eef2ff"
+          "color": "#f0f5ff"
         },
         {
           "name": "Indigo 100",
           "slug": "indigo-100",
-          "color": "#e0e7ff"
+          "color": "#e5edff"
         },
         {
           "name": "Indigo 200",
           "slug": "indigo-200",
-          "color": "#c7d2fe"
+          "color": "#cddbfe"
         },
         {
           "name": "Indigo 300",
           "slug": "indigo-300",
-          "color": "#a5b4fc"
+          "color": "#b4c6fc"
         },
         {
           "name": "Indigo 400",
           "slug": "indigo-400",
-          "color": "#818cf8"
+          "color": "#8da2fb"
         },
         {
           "name": "Indigo 500",
           "slug": "indigo-500",
-          "color": "#6366f1"
+          "color": "#6875f5"
         },
         {
           "name": "Indigo 600",
           "slug": "indigo-600",
-          "color": "#4f46e5"
+          "color": "#5850ec"
         },
         {
           "name": "Indigo 700",
           "slug": "indigo-700",
-          "color": "#4338ca"
+          "color": "#5145cd"
         },
         {
           "name": "Indigo 800",
           "slug": "indigo-800",
-          "color": "#3730a3"
+          "color": "#42389d"
         },
         {
           "name": "Indigo 900",
           "slug": "indigo-900",
-          "color": "#312e81"
+          "color": "#362f78"
         },
         {
           "name": "Violet 50",
@@ -937,52 +937,52 @@
         {
           "name": "Purple 50",
           "slug": "purple-50",
-          "color": "#faf5ff"
+          "color": "#f6f5ff"
         },
         {
           "name": "Purple 100",
           "slug": "purple-100",
-          "color": "#f3e8ff"
+          "color": "#edebfe"
         },
         {
           "name": "Purple 200",
           "slug": "purple-200",
-          "color": "#e9d5ff"
+          "color": "#dcd7fe"
         },
         {
           "name": "Purple 300",
           "slug": "purple-300",
-          "color": "#d8b4fe"
+          "color": "#cabffd"
         },
         {
           "name": "Purple 400",
           "slug": "purple-400",
-          "color": "#c084fc"
+          "color": "#ac94fa"
         },
         {
           "name": "Purple 500",
           "slug": "purple-500",
-          "color": "#a855f7"
+          "color": "#9061f9"
         },
         {
           "name": "Purple 600",
           "slug": "purple-600",
-          "color": "#9333ea"
+          "color": "#7e3af2"
         },
         {
           "name": "Purple 700",
           "slug": "purple-700",
-          "color": "#7e22ce"
+          "color": "#6c2bd9"
         },
         {
           "name": "Purple 800",
           "slug": "purple-800",
-          "color": "#6b21a8"
+          "color": "#5521b5"
         },
         {
           "name": "Purple 900",
           "slug": "purple-900",
-          "color": "#581c87"
+          "color": "#4a1d96"
         },
         {
           "name": "Fuchsia 50",
@@ -1042,47 +1042,47 @@
         {
           "name": "Pink 100",
           "slug": "pink-100",
-          "color": "#fce7f3"
+          "color": "#fce8f3"
         },
         {
           "name": "Pink 200",
           "slug": "pink-200",
-          "color": "#fbcfe8"
+          "color": "#fad1e8"
         },
         {
           "name": "Pink 300",
           "slug": "pink-300",
-          "color": "#f9a8d4"
+          "color": "#f8b4d9"
         },
         {
           "name": "Pink 400",
           "slug": "pink-400",
-          "color": "#f472b6"
+          "color": "#f17eb8"
         },
         {
           "name": "Pink 500",
           "slug": "pink-500",
-          "color": "#ec4899"
+          "color": "#e74694"
         },
         {
           "name": "Pink 600",
           "slug": "pink-600",
-          "color": "#db2777"
+          "color": "#d61f69"
         },
         {
           "name": "Pink 700",
           "slug": "pink-700",
-          "color": "#be185d"
+          "color": "#bf125d"
         },
         {
           "name": "Pink 800",
           "slug": "pink-800",
-          "color": "#9d174d"
+          "color": "#99154b"
         },
         {
           "name": "Pink 900",
           "slug": "pink-900",
-          "color": "#831843"
+          "color": "#751a3d"
         },
         {
           "name": "Rose 50",
