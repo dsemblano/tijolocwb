@@ -4,20 +4,22 @@
 
 @include('sections.header')
 @php $current_page = basename(get_permalink()) @endphp
-  <main id="main" class="main{{ ! is_front_page() ? " $current_page" : '' }}">
+<main id="main" class="main{{ ! is_front_page() ? " $current_page" : '' }}">
+  <div class="parallax">
     @if (! is_front_page())
-      <div class="container">
-        @yield('content')
-      </div>
-    @else
+    <div class="container">
       @yield('content')
+    </div>
+    @else
+    @yield('content')
     @endif
-  </main>
+  </div>
+</main>
 
-  @hasSection('sidebar')
-    <aside class="sidebar">
-      @yield('sidebar')
-    </aside>
-  @endif
+@hasSection('sidebar')
+<aside class="sidebar">
+  @yield('sidebar')
+</aside>
+@endif
 
 @include('sections.footer')
