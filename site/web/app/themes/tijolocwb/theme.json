@@ -1145,6 +1145,11 @@
           "color": "#a5ab9d"
         },
         {
+          "name": "Tijologreentext",
+          "slug": "tijologreentext",
+          "color": "#666a55"
+        },
+        {
           "name": "Tijoloyellow",
           "slug": "tijoloyellow",
           "color": "#e2cb9f"
@@ -1270,9 +1275,19 @@
           "size": "8rem"
         },
         {
-          "name": "xxl",
-          "slug": "xxl",
-          "size": "15rem"
+          "name": "logoh1",
+          "slug": "logoh1",
+          "size": "30vh"
+        },
+        {
+          "name": "logoh2",
+          "slug": "logoh2",
+          "size": "15vh"
+        },
+        {
+          "name": "logoh1desc",
+          "slug": "logoh1desc",
+          "size": "5vh"
         }
       ]
     }
