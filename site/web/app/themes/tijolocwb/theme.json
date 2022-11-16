@@ -1268,6 +1268,11 @@
           "name": "9xl",
           "slug": "9xl",
           "size": "8rem"
+        },
+        {
+          "name": "xxl",
+          "slug": "xxl",
+          "size": "15rem"
         }
       ]
     }
