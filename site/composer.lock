@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20078a412e108c728e1c9c1d8671d7b2",
+    "content-hash": "e840e9b739eef5b9879717ef891a8f3a",
     "packages": [
         {
             "name": "brick/math",
@@ -2365,7 +2365,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.1",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -2396,7 +2396,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.1"
+                "source": "https://github.com/roots/wordpress/tree/6.1.1"
             },
             "funding": [
                 {
@@ -2483,22 +2483,22 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.1",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.1"
+                "reference": "6.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.1-no-content.zip",
-                "shasum": "e6b0dd73f548828be79c226771dd19a36d692a1d"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.1.1-no-content.zip",
+                "shasum": "ad2d202747c5356e7b6246fbc339b46aebfa0665"
             },
             "require": {
                 "php": ">= 5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "6.1"
+                "wordpress/core-implementation": "6.1.1"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -2549,7 +2549,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2022-11-02T00:09:39+00:00"
+            "time": "2022-11-15T19:14:34+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -4799,6 +4799,24 @@
             "time": "2022-01-24T18:55:24+00:00"
         },
         {
+            "name": "wpackagist-plugin/advanced-database-cleaner",
+            "version": "3.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-database-cleaner/",
+                "reference": "tags/3.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-database-cleaner.3.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-database-cleaner/"
+        },
+        {
             "name": "wpackagist-plugin/autodescription",
             "version": "4.2.7.1",
             "source": {
@@ -4853,6 +4871,24 @@
             "homepage": "https://wordpress.org/plugins/block-navigation/"
         },
         {
+            "name": "wpackagist-plugin/database-cleaner",
+            "version": "0.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/database-cleaner/",
+                "reference": "tags/0.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/database-cleaner.0.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/database-cleaner/"
+        },
+        {
             "name": "wpackagist-plugin/ewww-image-optimizer",
             "version": "6.9.2",
             "source": {
@@ -4889,16 +4925,34 @@
             "homepage": "https://wordpress.org/plugins/loco-translate/"
         },
         {
-            "name": "wpackagist-plugin/media-library-organizer",
-            "version": "1.4.9",
+            "name": "wpackagist-plugin/media-cleaner",
+            "version": "6.5.0",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/media-library-organizer/",
-                "reference": "tags/1.4.9"
+                "url": "https://plugins.svn.wordpress.org/media-cleaner/",
+                "reference": "tags/6.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/media-library-organizer.1.4.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/media-cleaner.6.5.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/media-cleaner/"
+        },
+        {
+            "name": "wpackagist-plugin/media-library-organizer",
+            "version": "1.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/media-library-organizer/",
+                "reference": "tags/1.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/media-library-organizer.1.5.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

@@ -56,6 +56,9 @@
     "wpackagist-plugin/wp-smushit":">=3.12.3",
     "wpackagist-plugin/media-library-organizer":">=1.4.6",
     "wpackagist-plugin/webp-express":">=0.25.5",
+    "wpackagist-plugin/media-cleaner":">=6.5.0",
+    "wpackagist-plugin/database-cleaner":">=0.7.1",
+    "wpackagist-plugin/advanced-database-cleaner":">=3.1.1",
     "roots/acorn": "^2.0"
   },
   "require-dev": {
