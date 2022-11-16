@@ -5,8 +5,8 @@
     {{-- <h1 class="flex justify-center">
       <img id="tijolo_logo" width="376" height="262" src="@asset('images/logotijolo.png')" alt="Tijolo CWB"/>
     </h1> --}}
-    <div class="flex justify-center logohome">
-      <h1 class="text-white text-logoh1 relative">
+    <div class="flex justify-center">
+      <h1 class="text-white text-logoh1 logohome relative">
         Tijolo
         <div class="text-logoh1desc absolute right-0 bottom-5">comidas e vinhos</div>
       </h1>
