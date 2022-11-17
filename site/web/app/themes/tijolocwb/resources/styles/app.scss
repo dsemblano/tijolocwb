@@ -210,7 +210,8 @@ picture {
 }
 
 // Wordpress blocks
-figure.wp-block-pullquote {
+figure.wp-block-pullquote,
+h2.has-text-align-center {
   border-top: 5px solid black;
   border-bottom: 5px solid black;
 }
