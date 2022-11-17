@@ -38,6 +38,10 @@ body {
     font-family: 'acumin_pro_extracondensedIt', sans-serif;
 }
 
+h2 {
+  @apply text-3xl;
+}
+
 p {
   font-size: 1.5rem;
 }
