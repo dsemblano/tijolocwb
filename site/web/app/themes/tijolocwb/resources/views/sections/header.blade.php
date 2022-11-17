@@ -3,7 +3,7 @@
     @if (! is_front_page())
     <a class="brand" href="{{ home_url('/') }}">
       {{-- {{ get_bloginfo('name', 'display') }} --}}
-      <img src="@asset('images/tijolo_logo.png')" width="61" height="43" alt="Tijolo Comidas e Vinhos" class="w-16 py-2" />
+      <img src="@asset('images/tijolo_logo.png')" width="61" height="43" alt="Tijolo CWB - Comidas e Vinhos" class="w-16 py-2" />
     </a>
     @endif
     <nav class="nav-primary flex flex-row justify-evenly items-center w-full py-2" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">

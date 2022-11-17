@@ -8,7 +8,6 @@
   <?php echo \Roots\view('layouts/head/clarity')->render(); ?>
   <?php echo \Roots\view('layouts/head/favicon')->render(); ?>
   <?php echo \Roots\view('layouts/head/gconsole')->render(); ?>
-  <?php echo \Roots\view('layouts/head/gsearchengineags')->render(); ?>
   <?php echo \Roots\view('layouts/head/gtaghead')->render(); ?>
 </head>
 
