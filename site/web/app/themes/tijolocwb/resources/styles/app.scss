@@ -210,10 +210,15 @@ picture {
 }
 
 // Wordpress blocks
-figure.wp-block-pullquote,
+figure.wp-block-pullquote {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
 h2.has-text-align-center {
   border-top: 5px solid black;
   border-bottom: 5px solid black;
+  padding: 2em 0 2em 0;
 }
 
 .wp-block-media-text__content {
