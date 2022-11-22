@@ -6,6 +6,7 @@ composer_keep_updated: true
 php_version: "8.1"
 ntp_timezone: Etc/UTC
 ntp_manage_config: true
+max_journal_size: 512M
 www_root: /srv/www
 letsencrypt_contact_emails:
   - dsemblano@gmail.com

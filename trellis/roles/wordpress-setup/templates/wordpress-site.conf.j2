@@ -36,6 +36,12 @@ server {
   {% if item.value.cache is defined and item.value.cache.enabled | default(false) -%}
   # Fastcgi cache conditions
   set $skip_cache 0;
+
+  # Skip requests with HTTP methods that should not be cached: DELETE, OPTIONS, PATCH, POST, PUT
+  if ($request_method !~ ^(GET|HEAD)$) {
+    set $skip_cache 1;
+  }
+
   if ($query_string != "") {
     set $skip_cache 1;
   }
@@ -190,11 +196,11 @@ server {
   {% endif -%}
 
   {% if h5bp_cross_domain_fonts_enabled -%}
-  include h5bp/location/cross-domain-fonts.conf;
+  include h5bp/directive-only/cross-origin-requests.conf;
   {% endif -%}
 
   {% if h5bp_expires_enabled -%}
-  include h5bp/location/expires.conf;
+  expires $expires;
   {% endif -%}
 
   {% if h5bp_protect_system_files_enabled -%}
