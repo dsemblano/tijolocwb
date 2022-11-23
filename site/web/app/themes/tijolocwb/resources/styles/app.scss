@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "./menu.scss";
 
 @font-face {
     font-family: 'acumin_pro_extracondensedIt';
@@ -20,10 +21,10 @@
     font-style: normal;
 }
 
-@font-face {
-  font-family: 'mobmenu';
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'mobmenu';
+//   font-display: swap;
+// }
 
 :root {
     --app-height: 100%;
@@ -59,39 +60,6 @@ p {
   margin-left: auto;
   padding-right: 1rem;
   padding-left: 1rem;
-}
-
-// Header
-
-// #menu-menu-principal li a {
-//     background-color: red;
-// }
-.mobmenu {
-  z-index: 0 !important;
-}
-
-.banner .nav {
-    @apply list-none p-0 flex flex-wrap;
-
-    .current_page_item {
-      font-weight: bold;
-    }
-}
-
-.banner .nav a {
-    @apply inline-block px-2 py-2 border-none;
-
-    &:hover {
-      opacity: .66;
-    }
-}
-
-/* Necessário para ajustar a fonte da Tijolo, que é muito pequena */
-
-@screen xl {
-    .banner .nav a {
-        @apply px-8;
-    }
 }
 
 // Home
@@ -152,56 +120,6 @@ p {
     form {
         @apply text-gray-200;
     }
-}
-
-.menu-menu-principal-container {
-  ul {
-    ul {
-      @apply bg-tijolo shadow-xl;
-
-      display: none;
-      position: absolute;
-      top: 2em;
-      left: 0;
-      z-index: 99999;
-      visibility: hidden;
-      opacity: 0;
-      width: 23rem;
-      // transition: all 0.5s ease;
-      // margin-top: 1rem;
-      // width: 180px;
-      // box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-    }
-
-    li > a:not(:last-child)::after {
-      content: " ▾";
-    }
-
-    li:hover > ul {
-      display: block;
-      visibility: visible;
-      opacity: 1;
-    }
-  }
-
-  li {
-    position: relative;
-    // transition-duration: 0.5s;
-
-    ul li {
-      clear: both;
-      width: 100%;
-    }
-
-    &:focus-within a {
-      outline: none;
-    }
-
-    &:hover,
-    &:focus-within {
-      cursor: pointer;
-    }
-  }
 }
 
 picture {

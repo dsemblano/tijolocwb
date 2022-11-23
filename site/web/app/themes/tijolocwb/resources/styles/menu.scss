@@ -1,0 +1,123 @@
+// #menu-menu-principal li a {
+//     background-color: red;
+// }
+// .mobmenu {
+//   z-index: 0 !important;
+// }
+
+// .banner .nav {
+//     @apply list-none p-0 flex flex-wrap;
+
+//     .current_page_item {
+//       font-weight: bold;
+//     }
+// }
+
+// .banner .nav a {
+//     @apply inline-block px-2 py-2 border-none;
+
+//     &:hover {
+//       opacity: .66;
+//     }
+// }
+
+/* Necessário para ajustar a fonte da Tijolo, que é muito pequena */
+
+// @screen xl {
+//     .banner .nav a {
+//         @apply px-8;
+//     }
+// }
+
+.menu-menu-principal-container {
+  @apply bg-tijolo w-full;
+
+  box-shadow: 3px 8px 6px rgba(0, 0, 0, 0.2);
+
+  ul#menu-menu-principal {
+
+    li {
+      margin-bottom: 1rem;
+    }
+
+    .sub-menu {
+      @apply bg-tijolo;
+
+      margin-left: 1rem;
+    }
+
+    li > a:not(:last-child)::after {
+      content: " ▾";
+    }
+
+  }
+
+}
+
+@screen xl {
+
+  .menu-menu-principal-container {    
+    box-shadow: none;
+
+    ul#menu-menu-principal {
+
+      li {
+        margin-bottom: 0;
+
+        a {
+         
+          @apply hover:underline;
+        }
+      }
+
+      .sub-menu {
+        margin-left: 0;
+        display: none;
+        position: absolute;
+        top: 2rem;
+        left: 0;
+        z-index: 99999;
+        visibility: hidden; 
+        opacity: 0;
+        // min-width: 15rem;
+        // max-width: 25rem;
+        width: 30rem;
+        transition: all 0.5s ease;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+        padding: 0.5rem 1rem 1rem 1rem;
+  
+        li {
+          margin-bottom: 0.5rem;
+        }
+      }
+   
+      li:hover > ul,
+      li:focus-within > ul,
+      li ul:hover,
+      li ul:focus {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+   
+    li {
+      position: relative;
+      // transition-duration: 0.5s;
+   
+      ul li {
+        clear: both;
+        width: 100%;
+      }
+   
+      &:focus-within a {
+        outline: none;
+      }
+   
+      &:hover,
+      &:focus-within {
+        cursor: pointer;
+      }
+    }
+  }
+}

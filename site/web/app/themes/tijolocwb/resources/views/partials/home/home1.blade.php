@@ -6,10 +6,10 @@
       <img id="tijolo_logo" width="376" height="262" src="@asset('images/logotijolo.png')" alt="Tijolo CWB"/>
     </h1> --}}
     <div class="flex justify-center">
-      <h1 class="text-white text-logoh1 logohome relative">
-        Tijolo
-        <div class="text-logoh1desc absolute right-0 bottom-5">comidas e vinhos</div>
-      </h1>
+        <h1 class="text-white text-logoh1 logohome relative">
+          Tijolo
+          <div class="text-logoh1desc absolute right-0 bottom-5">comidas e vinhos</div>
+        </h1>
     </div>
     <div class="flex justify-center mt-10">
       <a href="https://www.getinapp.com.br/curitiba/tijolo-cwb" target="_blank" class="flex justify-center hover:bg-tijolopink text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">

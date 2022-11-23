@@ -46,7 +46,7 @@
     "wpackagist-plugin/automatic-translator-addon-for-loco-translate":">=2.1.1",
     "wpackagist-plugin/wps-hide-login":">=1.5.4.2",
     "wpackagist-plugin/wp-mail-smtp":">=1.8.1",
-    "wpackagist-plugin/mobile-menu":">=2.8.1.8",
+    "wpackagist-plugin/responsive-menu":">=4.2.0",
     "wpackagist-plugin/wayfinder":">=1.1.2",
     "wpackagist-plugin/block-navigation":">=4.0.1",
     "wpackagist-theme/twentytwentytwo": "^1.2",
