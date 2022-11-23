@@ -21,3 +21,4 @@
 @endif
 
 @include('sections.footer')
+@include('partials/arrowcdtop')
