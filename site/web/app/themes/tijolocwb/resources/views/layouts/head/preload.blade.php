@@ -1,0 +1,1 @@
+<link rel="preload" as="image" href="@asset('images/logotijolo.png')">
