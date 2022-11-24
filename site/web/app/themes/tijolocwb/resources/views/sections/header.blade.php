@@ -22,7 +22,7 @@
           {{-- <div class="hidden relative lg:block">
             @include('partials/inputsearch')
           </div> --}}
-          <button data-collapse-toggle="mobile-menu-3" type="button"
+          <button aria-label="Botão menu sanduíche" data-collapse-toggle="mobile-menu-3" type="button"
             class="inline-flex items-center p-2 text-sm text-white rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="mobile-menu-3" aria-expanded="false">
             <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
