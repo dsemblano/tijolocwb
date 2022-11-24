@@ -4,7 +4,7 @@
     <div class="flex flex-wrap lg:flex-nowrap justify-between items-center mx-auto">
       <a class="brand" href="{{ home_url('/') }}">
         {{-- {{ get_bloginfo('name', 'display') }} --}}
-        <img src="@asset('images/tijolo_logo.png')" width="61" height="43" alt="Tijolo Comidas e Vinhos"
+        <img src="@asset('images/logotijolo.png')" width="61" height="43" alt="Tijolo Comidas e Vinhos"
           class="w-16 py-2" />
       </a>
       @else
