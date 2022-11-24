@@ -23,7 +23,7 @@
             @include('partials/inputsearch')
           </div> --}}
           <button aria-label="Botão menu sanduíche" data-collapse-toggle="mobile-menu-3" type="button"
-            class="inline-flex items-center p-2 text-sm text-white rounded-lg lg:hidden focus:outline-none focus:bg-white focus:text-tijolo dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            class="inline-flex items-center p-2 text-sm text-white rounded-lg lg:hidden"
             aria-controls="mobile-menu-3" aria-expanded="false">
             <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd"
