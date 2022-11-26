@@ -55,6 +55,6 @@ add_filter('the_generator', 'remove_wp_version_rss');
 add_filter('script_loader_tag', function ($url) {
     if ( is_user_logged_in() ) return $url; //don't break WP Admin
     if ( FALSE === strpos( $url, '.js' ) ) return $url;
-    if ( strpos( $url, 'jquery.js' ) ) return $url;
+    if ( strpos( $url, 'jquery.min.js' ) ) return $url;
     return str_replace( ' src', ' defer src', $url );
 });
