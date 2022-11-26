@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffdb5eb1c9d2c010d7c2e72699c0cfda",
+    "content-hash": "432b9a0bdacaaf560e2981940581bfd0",
     "packages": [
         {
             "name": "brick/math",
@@ -5049,6 +5049,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/responsive-menu/"
+        },
+        {
+            "name": "wpackagist-plugin/schema-and-structured-data-for-wp",
+            "version": "1.9.104",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/schema-and-structured-data-for-wp/",
+                "reference": "tags/1.9.104"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/schema-and-structured-data-for-wp.1.9.104.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/schema-and-structured-data-for-wp/"
         },
         {
             "name": "wpackagist-plugin/wayfinder",
