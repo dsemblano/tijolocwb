@@ -21,6 +21,6 @@
 @endif
 
 @include('sections.footer')
-@if  (! is_front_page())
+@if (! is_front_page())
 @include('partials/arrowcdtop')
 @endif
