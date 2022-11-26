@@ -1,4 +1,4 @@
-{{-- @include('partials/snippets.appheightjs') --}}
+@include('partials/snippets.appheightjs')
 
 <section id="tela1" class="home-section flex justify-center items-center bg-tijolo">
   <div class="container">
