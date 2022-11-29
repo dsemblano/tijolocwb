@@ -22,6 +22,7 @@
 
   <?php do_action('get_footer'); ?>
   <?php wp_footer(); ?>
+  <?php echo \Roots\view('partials/snippets/schema.json')->render(); ?>
 </body>
 
 </html>
