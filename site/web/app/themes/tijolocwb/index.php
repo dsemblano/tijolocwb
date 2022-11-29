@@ -13,6 +13,7 @@
 
 <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
+  <?php echo \Roots\view('partials/snippets/gtagbody')->render(); ?>
   <?php do_action('get_header'); ?>
 
   <div id="app">
@@ -21,7 +22,7 @@
 
   <?php do_action('get_footer'); ?>
   <?php wp_footer(); ?>
-  <?php echo \Roots\view('partials/snippets/gtagbody')->render(); ?>
+  <?php echo \Roots\view('partials/snippets/schema.json')->render(); ?>
 </body>
 
 </html>
