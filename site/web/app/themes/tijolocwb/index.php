@@ -9,6 +9,7 @@
   <?php echo \Roots\view('layouts/head/favicon')->render(); ?>
   <?php echo \Roots\view('layouts/head/gconsole')->render(); ?>
   <?php echo \Roots\view('layouts/head/gtaghead')->render(); ?>
+  <?php echo \Roots\view('partials/snippets/schema')->render(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -22,7 +23,6 @@
 
   <?php do_action('get_footer'); ?>
   <?php wp_footer(); ?>
-  <?php echo \Roots\view('partials/snippets/schema.json')->render(); ?>
 </body>
 
 </html>
