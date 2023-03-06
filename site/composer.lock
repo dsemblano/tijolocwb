@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9029934c9e101d04eb5111f34a1edfbb",
+    "content-hash": "cb81cf80ca2cfd259004b81b90b33259",
     "packages": [
         {
             "name": "brick/math",
@@ -4733,24 +4733,6 @@
             "time": "2022-01-24T18:55:24+00:00"
         },
         {
-            "name": "wpackagist-plugin/advanced-database-cleaner",
-            "version": "3.1.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-database-cleaner/",
-                "reference": "tags/3.1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-database-cleaner.3.1.2.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-database-cleaner/"
-        },
-        {
             "name": "wpackagist-plugin/autodescription",
             "version": "4.2.8",
             "source": {
@@ -4859,24 +4841,6 @@
             "homepage": "https://wordpress.org/plugins/loco-translate/"
         },
         {
-            "name": "wpackagist-plugin/media-cleaner",
-            "version": "6.5.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/media-cleaner/",
-                "reference": "tags/6.5.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/media-cleaner.6.5.9.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/media-cleaner/"
-        },
-        {
             "name": "wpackagist-plugin/media-library-organizer",
             "version": "1.5.0",
             "source": {
@@ -4983,42 +4947,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/webp-express/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-enable-webp",
-            "version": "1.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-enable-webp/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-enable-webp.zip?timestamp=1568640254"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-enable-webp/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-smushit",
-            "version": "3.12.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-smushit/",
-                "reference": "tags/3.12.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-smushit.3.12.5.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-smushit/"
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
