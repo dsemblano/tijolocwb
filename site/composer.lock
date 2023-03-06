@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb81cf80ca2cfd259004b81b90b33259",
+    "content-hash": "bfcf0f4d83ddf8b653dbc4da3ebee9b9",
     "packages": [
         {
             "name": "brick/math",
@@ -4931,22 +4931,22 @@
             "homepage": "https://wordpress.org/plugins/wayfinder/"
         },
         {
-            "name": "wpackagist-plugin/webp-express",
-            "version": "0.25.5",
+            "name": "wpackagist-plugin/wp-enable-webp",
+            "version": "1.0",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/webp-express/",
-                "reference": "tags/0.25.5"
+                "url": "https://plugins.svn.wordpress.org/wp-enable-webp/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/webp-express.0.25.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-enable-webp.zip?timestamp=1568640254"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/webp-express/"
+            "homepage": "https://wordpress.org/plugins/wp-enable-webp/"
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
