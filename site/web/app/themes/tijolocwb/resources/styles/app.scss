@@ -148,3 +148,7 @@ h2.has-text-align-center {
 .wp-block-separator {
   margin: 1rem 0rem 1rem 0rem;
 }
+
+.social-icons-div {
+  @apply transform hover:scale-150 transition duration-300 ease-in-out;
+}
