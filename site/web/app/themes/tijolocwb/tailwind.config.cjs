@@ -11,11 +11,19 @@ module.exports = {
         tijolocardapio: '#dbc8b2',
         tijolohorarios: '#666b54',
         tijolopink: '#D68778',
+        tijolop: '#F9FFE0',
+        top: {
+          '85': '85%',
+        }
+      },
+      height: {
+        'mobile': '80vh',
+        'desktop': '80vh',
+        'img-lg': '45rem',
       },
       fontSize: {
-      logoh1: '30vh',
-      logoh2: '15vh',
-      logoh1desc: '5vh',
+      logohome: '20rem',
+      logohomedesc: '5vh',
       },
       lineHeight: {
         home2: '0.8',

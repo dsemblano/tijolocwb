@@ -51,9 +51,9 @@ h6 {
   @apply text-2xl;
 }
 
-p {
-  font-size: 1.5rem;
-}
+// p {
+//   font-size: 1.5rem;
+// }
 
 .container {
   width: 100%;
@@ -63,19 +63,24 @@ p {
   padding-left: 1rem;
 }
 
-// Home
 #tela1 {
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
+  background-image: url("../images/pratos/pratohome2.webp");
 
-    // width: 100vw;
-    height: 100vh;
-
-    @media not all and (hover: hover) {
-        height: var(--app-height);
-    }
 }
+
+// Home
+// #tela1 {
+//     padding: 0;
+//     margin: 0;
+//     overflow: hidden;
+
+//     // width: 100vw;
+//     height: 85vh;
+
+//     @media not all and (hover: hover) {
+//         height: var(--app-height);
+//     }
+// }
 
 .top-10 {
     top: 2.5rem;
@@ -129,26 +134,81 @@ picture {
 }
 
 // Wordpress blocks
-figure.wp-block-pullquote {
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
-}
+// figure.wp-block-pullquote {
+//   border-top: 5px solid black;
+//   border-bottom: 5px solid black;
+// }
 
-h2.has-text-align-center {
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
-  padding: 3.5rem 0;
-  margin-bottom: 2rem;
-}
+// h2.has-text-align-center {
+//   border-top: 5px solid black;
+//   border-bottom: 5px solid black;
+//   padding: 3.5rem 0;
+//   margin-bottom: 2rem;
+// }
 
-.wp-block-media-text__content {
-  margin-top: 1rem;
-}
+// .wp-block-media-text__content {
+//   margin-top: 1rem;
+// }
 
-.wp-block-separator {
-  margin: 1rem 0rem 1rem 0rem;
-}
+// .wp-block-separator {
+//   margin: 1rem 0rem 1rem 0rem;
+// }
 
-.social-icons-div {
-  @apply transform hover:scale-150 transition duration-300 ease-in-out;
+// .social-icons-div {
+//   @apply transform hover:scale-150 transition duration-300 ease-in-out;
+// }
+
+// .footer-nav {
+//   li {
+
+//     &:hover {
+//       text-decoration: underline; 
+//     }
+//   }
+// }
+
+// .wp-block-group.is-layout-constrained {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     grid-template-rows: repeat(5, 1fr);
+//     grid-column-gap: 15px;
+//     grid-row-gap: 15px;
+    
+//     .wp-block-media-text__media {
+//       img {
+//         @apply shadow-lg rounded-md max-w-full h-auto align-middle border-none;
+//       }
+//     }
+      
+// }
+
+// Cardapio blocks
+
+.cardapio {
+  @apply text-tijolop bg-tijologreentext;
+
+  .container {
+    .wp-block-group {
+      @apply grid grid-cols-1 lg:grid-cols-2 gap-20;
+
+      .wp-block-media-text {
+        @apply flex flex-col;
+
+        .wp-block-media-text__media img {
+          @apply h-96 lg:h-img-lg;
+        }
+      
+        .wp-block-media-text__content {
+          @apply self-start p-0 mt-6;
+
+          h3 {
+            @apply text-3xl;
+          }
+          p {
+            @apply text-lg;
+          }
+        }
+      }
+    }
+  }
 }
