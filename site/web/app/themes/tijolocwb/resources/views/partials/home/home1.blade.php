@@ -6,7 +6,7 @@
     </h1> --}}
     <div id="logo" class="container mx-auto">
       <div class="flex flex-col lg:flex-row gap-x-7 text-tijolo">
-        <div class="left flex flex-col w-full lg:w-1/2 justify-center lg:justify-start gap-y-8">
+        <div class="left flex flex-col w-full lg:w-1/2 justify-center text-center lg:text-left lg:justify-start gap-y-8">
           <div class="logohome text-7xl lg:text-9xl">
             <p class="">A gente cozinha</p>
             <p> pra todo mundo</p>
@@ -23,7 +23,7 @@
           <p class="text-2xl">
             Faça sua reserva abaixo!
           </p>
-          <div class="flex justify-start mt-8">
+          <div class="flex justify-center lg:justify-start mt-8">
             <button class="flex justify-center bg-tijolo hover:bg-tijolopink text-xl text-neutral-700 font-semibold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded">
               <a href="https://www.getinapp.com.br/curitiba/tijolo-cwb" target="_blank" class="">
                 Reservas
