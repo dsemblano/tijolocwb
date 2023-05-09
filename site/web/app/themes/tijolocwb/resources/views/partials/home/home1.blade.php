@@ -1,28 +1,48 @@
 @include('partials/snippets.appheightjs')
 
-<section id="tela1" class="home-section flex justify-center items-center bg-tijolo">
-  <div class="container">
+<section id="tela1" class="home-section bg-neutral-700 py-12 bg-no-repeat bg-bottom lg:bg-right-top">
     {{-- <h1 class="flex justify-center">
       <img id="tijolo_logo" width="376" height="262" src="@asset('images/logotijolo.png')" alt="Tijolo CWB"/>
     </h1> --}}
-    <div class="flex justify-center">
-        <h1 class="text-white text-logoh1 logohome relative">
-          Tijolo
-          <div class="text-logoh1desc absolute right-0 bottom-5">comidas e vinhos</div>
-        </h1>
+    <div id="logo" class="container mx-auto">
+      <div class="flex flex-col lg:flex-row gap-x-7 text-tijolo">
+        <div class="left flex flex-col w-full lg:w-1/2 justify-center lg:justify-start gap-y-8">
+          <div class="logohome text-7xl lg:text-9xl">
+            <p class="">A gente cozinha</p>
+            <p> pra todo mundo</p>
+            {{-- <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span> --}}
+          </div>
+          <p class="text-2xl">
+            A Tijolo CWB é um projeto de comida descomplicada. Com exceção dos pães e chocolate, nossos preparos são todos feitos
+            pela nossa equipe de cozinha: os leites vegetais, os molhos dos sanduíches, as bases de todos os pratos. Servimos
+            bocaditos, sanduíches, pastas e molhos especiais, produzidos com insumos não refinados e minimamente processados.
+            Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast
+            food e do cotidiano. Trabalhamos com a ideia de comida saudável e muito saborosa, oferecemos comida de verdade. Grande
+            parte do nosso cardápio é vegano, e nossa confeitaria preza por doces plant based.
+          </p>
+          <p class="text-2xl">
+            Faça sua reserva abaixo!
+          </p>
+          <div class="flex justify-start mt-8">
+            <button class="flex justify-center bg-tijolo hover:bg-tijolopink text-xl text-neutral-700 font-semibold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded">
+              <a href="https://www.getinapp.com.br/curitiba/tijolo-cwb" target="_blank" class="">
+                Reservas
+              </a>
+            </button>
+          </div>
+        </div>
+        <div class="right">
+          {{-- <img class="w-full" id="tijolo_logo"  src="@asset('images/pratos/pratohome1.webp')" alt="Tijolo CWB"/> --}}
+        </div>
+      </div>
+      
     </div>
-    <div class="flex justify-center mt-8">
-      <button class="flex justify-center hover:bg-tijolopink text-xl text-white font-semibold hover:text-white py-4 px-8 border border-white hover:border-transparent rounded">
-        <a href="https://www.getinapp.com.br/curitiba/tijolo-cwb" target="_blank" class="">
-          Reservas
-        </a>
-      </button>
-    </div>
-    <div class="flex flex-row justify-center social-icons my-10 gap-24">
-      <x-social-icons link="https://www.instagram.com/tijolocwb/" aria-label="Link para o Instagram da Tijolo CWB" title="Instagram Tijolo" path="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-      <x-social-icons link="https://api.whatsapp.com/send?phone=554188710497" aria-label="Link para Whatsapp da Tijolo CWB" title="Whatsapp Tijolo" path="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
-      <x-social-icons link="mailto:oi@tijolocwb.com.br?subject=Mensagem%20Site%20Tijolo&body=Digite%20sua%20mensagem%20para%20a%20Tijolo%20CWB!" aria-label="Link para email da Tijolo CWB" title="Email Tijolo" path="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
-      {{-- @include('partials/snippets.whatsapp') --}}
-    </div>
-  </div>
+
+    
 </section>
+
+<div class=" flex justify-center items-center bg-green-100 ">
+  <div class="flex flex-row justify-center social-icons my-10 gap-24 fill-white">
+    @include ('partials.socialicons')
+  </div>
+</div>

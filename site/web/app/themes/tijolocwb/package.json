@@ -25,6 +25,7 @@
     "@roots/sage": "6.4.5"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "flowbite": "^1.5.3"
   }
 }

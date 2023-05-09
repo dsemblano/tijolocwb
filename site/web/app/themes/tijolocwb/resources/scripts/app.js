@@ -1,6 +1,5 @@
 import {domReady} from '@roots/sage/client';
 import 'flowbite/dist/flowbite.js';
-import './arrowtop.js'
 
 /**
  * app.main

@@ -1168,6 +1168,16 @@
           "name": "Tijolopink",
           "slug": "tijolopink",
           "color": "#d68778"
+        },
+        {
+          "name": "Tijolop",
+          "slug": "tijolop",
+          "color": "#f9ffe0"
+        },
+        {
+          "name": "Top 85",
+          "slug": "top-85",
+          "color": "85%"
         }
       ]
     },
@@ -1275,18 +1285,13 @@
           "size": "8rem"
         },
         {
-          "name": "logoh1",
-          "slug": "logoh1",
-          "size": "30vh"
+          "name": "logohome",
+          "slug": "logohome",
+          "size": "20rem"
         },
         {
-          "name": "logoh2",
-          "slug": "logoh2",
-          "size": "15vh"
-        },
-        {
-          "name": "logoh1desc",
-          "slug": "logoh1desc",
+          "name": "logohomedesc",
+          "slug": "logohomedesc",
           "size": "5vh"
         }
       ]

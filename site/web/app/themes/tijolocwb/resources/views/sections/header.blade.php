@@ -1,15 +1,14 @@
 <header class="banner w-full z-50 bg-tijolo">
-  <nav class="nav-primary container py-2">
-    @if (! is_front_page())
+  <nav class="nav-primary container py-4">
     <div class="flex flex-wrap lg:flex-nowrap justify-between items-center mx-auto">
       <a class="brand" href="{{ home_url('/') }}">
-        {{-- {{ get_bloginfo('name', 'display') }} --}}
-        <img src="@asset('images/logotijolo.png')" width="61" height="43" alt="Tijolo Comidas e Vinhos"
-          class="w-16 py-2" />
+        <h1 id="logo" class="text-white logohome relative bottom-4 hover:scale-105 transition duration-300 ease-in-out">
+          <span class="text-8xl">Tijolo</span>
+          <span class="text-lg absolute top-[85%] right-0">comidas e vinhos</span>
+        </h1>
+        {{-- <img src="@asset('images/logotijolo.png')" width="61" height="43" alt="Tijolo Comidas e Vinhos"
+          class="w-16 py-2" /> --}}
       </a>
-      @else
-      <div class="flex flex-wrap lg:flex-nowrap justify-end items-center mx-auto">
-        @endif
         <div id="mobile-menu" class="flex lg:order-2 ml-8">
           {{-- <button type="button" data-collapse-toggle="mobile-menu-3" aria-controls="mobile-menu-3" aria-expanded="false"
             class="lg:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1">
