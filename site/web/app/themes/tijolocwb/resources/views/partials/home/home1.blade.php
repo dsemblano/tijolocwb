@@ -31,7 +31,7 @@
             </button>
           </div>
         </div>
-        <div class="right">
+        <div class="right mt-12 lg:mt-0">
           <img class="w-full" id="tijolo_logo"  src="@asset('images/pratos/pratohome1.jpg')" alt="Tijolo CWB"/>
         </div>
       </div>
