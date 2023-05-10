@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="right">
-          {{-- <img class="w-full" id="tijolo_logo"  src="@asset('images/pratos/pratohome1.webp')" alt="Tijolo CWB"/> --}}
+          <img class="w-full" id="tijolo_logo"  src="@asset('images/pratos/pratohome1.jpg')" alt="Tijolo CWB"/>
         </div>
       </div>
       
@@ -41,8 +41,8 @@
     
 </section>
 
-<div class=" flex justify-center items-center bg-green-100 ">
+{{-- <div class=" flex justify-center items-center bg-green-100 ">
   <div class="flex flex-row justify-center social-icons my-10 gap-24 fill-white">
     @include ('partials.socialicons')
   </div>
-</div>
+</div> --}}
