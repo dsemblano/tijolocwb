@@ -3,7 +3,7 @@
     <div class="up-footer flex flex-col lg:flex-row justify-between items-center mb-4">
       <div class="left-footer">
         <div class="flex mb-6">
-          <div class="logo-icons flex flex-col gap-y-10">
+          <div class="logo-icons flex flex-col gap-y-10 ">
             <a class="brand" href="{{ home_url('/') }}">
               <div id="logo" class="text-neutral-700 logohome relative hover:scale-105 transition duration-300 ease-in-out">
                 <div class="text-8xl">Tijolo</div>
@@ -16,9 +16,9 @@
           </div>
           
         </div>
-        {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'flex flex-col footer-nav gap-4 w-full
+        {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'flex footer-nav gap-4 w-full
         justify-center items-center lg:justify-start
-        lg:flex-row my-8 nav text-xl md:text-xl relative', 'echo' => false]) !!}
+        flex-row my-8 nav text-xl md:text-xl relative', 'echo' => false]) !!}
       </div>
 
       {{-- <div id="social-icons" class="right-footer flex flex-row justify-between fill-neutral-700 gap-x-24">
