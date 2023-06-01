@@ -1,6 +1,6 @@
 <footer class="content-info bg-tijolo text-neutral-700 py-4">
   <div class="container">
-    <div class="up-footer flex flex-col lg:flex-row justify-between items-center mb-4">
+    <div class="up-footer flex flex-col lg:flex-row justify-between items-center">
       <div class="left-footer">
           <div class="logo-icons flex flex-col items-center justify-between gap-y-10">
             <a class="brand" href="{{ home_url('/') }}">
@@ -25,31 +25,31 @@
     </div>
 
     <div
-      class="down-footer flex flex-col gap-y-6 text-center lg:flex-row justify-between w-full border-t border-solid border-neutral-500 pt-6">
+      class="down-footer flex flex-col text-center text-base gap-y-6 lg:flex-row justify-between w-full border-t border-solid border-neutral-500 pt-6">
 
       <div class="left-footer">
-        <section id="endereco" class="text-lg">
+        <section id="endereco" class="text-center">
           <p>R. São Francisco, 179, lojas 2 e 3 – centro histórico,
             Curitiba-PR</p>
-            <p>
+            {{-- <p>
             Estacionamento em frente (ter- sáb)
           </p>
           <p>
             Estacionamento conveniado R. Treze de maio 529 (ter- dom)
-          </p>
+          </p> --}}
         </section>
       </div>
 
       <div class="right-footer fill-neutral-700">
-        <section id="horario" class="text-lg">
-          <p>Horários:</p>
-          <p>
+        <section id="horario">
+          {{-- <p class="text-lg text-center">Horários:</p> --}}
+          <p class="text-base">
             Terça a Sexta: <time>11:15</time> a <time>22:00</time>
           </p>
-          <p>
+          <p class="text-base">
             Terça a Sexta (almoço) | <time>11:15</time> a <time>15:00</time>
           </p>
-          <p>
+          <p class="text-base">
             Sábado e feriado: <time>12:00</time> a <time>23:00</time>
             Domingo: <time>12:00</time> a <time>17:00</time>
           </p>
