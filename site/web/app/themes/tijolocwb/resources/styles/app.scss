@@ -177,7 +177,7 @@ picture {
     }
 
     .wp-block-group {
-      @apply grid grid-cols-1 lg:grid-cols-3 gap-20;
+      @apply grid grid-cols-1 md:grid-cols-3 gap-20;
 
       .wp-block-media-text {
         @apply flex flex-col w-full;
