@@ -32,7 +32,7 @@
           <p>R. São Francisco, 179, lojas 2 e 3 – centro histórico,
             Curitiba-PR</p>
             <p class="text-base">
-              <a href="/horarios">> Horários</a>
+              <a title="Clique para a página dos horários" href="/horarios">> Horários</a>
             </p>
             {{-- <p>
             Estacionamento em frente (ter- sáb)
