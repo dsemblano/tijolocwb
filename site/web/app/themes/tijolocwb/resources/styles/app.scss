@@ -183,7 +183,7 @@ picture {
         @apply flex flex-col w-full;
 
         figure.wp-block-media-text__media {
-          @apply rounded-lg w-full lg:h-96 overflow-hidden lg:w-10/12;
+          @apply rounded-lg w-full lg:h-96 overflow-hidden lg:w-10/12 self-start;
 
           img {
             @apply object-cover object-bottom lg:h-96;
