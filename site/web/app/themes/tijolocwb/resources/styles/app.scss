@@ -177,13 +177,28 @@ picture {
     }
 
     .wp-block-group {
-      @apply grid grid-cols-1 lg:grid-cols-2 gap-20;
+      @apply grid grid-cols-1 lg:grid-cols-3 gap-20;
 
       .wp-block-media-text {
         @apply flex flex-col w-full;
 
         figure.wp-block-media-text__media {
-          width: 100%;
+          @apply rounded-lg w-full lg:h-96 overflow-hidden lg:w-10/12;
+
+          img {
+            @apply object-cover object-center lg:h-96;
+            object-fit: cover;
+            object-position: bottom;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+
+            &:hover {
+              -webkit-transform: scale(1.3);
+              transform: scale(1.3);
+            }
+          }
           
           picture {
             overflow: hidden;
