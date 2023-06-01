@@ -186,7 +186,7 @@ picture {
           @apply rounded-lg w-full lg:h-96 overflow-hidden lg:w-10/12;
 
           img {
-            @apply object-cover object-center lg:h-96;
+            @apply object-cover object-bottom lg:h-96;
             object-fit: cover;
             object-position: bottom;
             -webkit-transform: scale(1);
