@@ -5,7 +5,7 @@
       <img id="tijolo_logo" width="376" height="262" src="@asset('images/logotijolo.png')" alt="Tijolo CWB"/>
     </h1> --}}
     <div id="logo" class="container mx-auto">
-      <div class="flex flex-col lg:flex-row gap-x-7 text-tijolo">
+      <div class="flex flex-col lg:flex-row gap-x-10 text-tijolo">
         <div class="left flex flex-col w-full lg:w-1/2 justify-center text-center lg:text-left lg:justify-start">
           <div class="logohome text-7xl lg:text-9xl mb-6">
             <p class="">A gente cozinha pra todo mundo</p>
@@ -37,8 +37,8 @@
             </button>
           </div>
         </div>
-        <div class="right mt-12 lg:mt-0">
-          <img class="w-full" id="tijolo_logo"  src="@asset('images/home-tijolo.jpg')" alt="Tijolo CWB"/>
+        <div class="right mt-8 lg:mt-0">
+          <img class="w-full" id="tijolo_logo"  src="@asset('images/home-tijolo.webp')" alt="Tijolo CWB"/>
         </div>
       </div>
       
