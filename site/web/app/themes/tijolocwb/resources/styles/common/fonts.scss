@@ -2,7 +2,7 @@
     font-family: 'acumin_pro_extracondensedIt';
     src: url('~@fonts/Acumin/acumin_pro_extracondensed-webfont.eot');
     src: url('~@fonts/Acumin/acumin_pro_extracondensed-webfont.eot?#iefix') format("embedded-opentype"), url('~@fonts/Acumin/acumin_pro_extracondensed-webfont.woff2') format("woff2"), url('~@fonts/Acumin/acumin_pro_extracondensed-webfont.woff') format("woff"), url('~@fonts/Acumin/acumin_pro_extracondensed-webfont.ttf') format("truetype");
-    font-display: swap;
+    font-display: optional;
     font-weight: normal;
     font-style: normal;
 }
@@ -11,7 +11,7 @@
     font-family: 'cuprumregular';
     src: url('~@fonts/Cuprum/Cuprum-Regular-webfont.eot');
     src: url('~@fonts/Cuprum/Cuprum-Regular-webfont.eot?#iefix') format("embedded-opentype"), url('~@fonts/Cuprum/Cuprum-Regular-webfont.woff') format("woff"), url('~@fonts/Cuprum/Cuprum-Regular-webfont.ttf') format("truetype");
-    font-display: swap;
+    font-display: optional;
     font-weight: normal;
     font-style: normal;
 }
