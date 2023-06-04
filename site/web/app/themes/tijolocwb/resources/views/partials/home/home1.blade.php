@@ -6,26 +6,29 @@
     </h1> --}}
     <div id="logo" class="container mx-auto">
       <div class="flex flex-col lg:flex-row gap-x-7 text-tijolo">
-        <div class="left flex flex-col w-full lg:w-1/2 justify-center text-center lg:text-left lg:justify-start gap-y-8">
-          <div class="logohome text-7xl lg:text-9xl">
-            <p class="">A gente cozinha</p>
-            <p> pra todo mundo</p>
+        <div class="left flex flex-col w-full lg:w-1/2 justify-center text-center lg:text-left lg:justify-start">
+          <div class="logohome text-7xl lg:text-9xl mb-6">
+            <p class="">A gente cozinha pra todo mundo</p>
             {{-- <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span> --}}
           </div>
-          
-          <p class="text-base lg:text-xl">
-            A Tijolo CWB é um projeto de comida descomplicada. Com exceção dos pães e chocolate, nossos preparos são todos feitos
-            pela nossa equipe de cozinha: os leites vegetais, os molhos dos sanduíches, as bases de todos os pratos. 
-          </p>
-          <p class="text-base lg:text-xl">
-            Servimos  bocaditos, sanduíches, pastas e molhos especiais, produzidos com insumos não refinados e minimamente processados.</p>  
-            <p class="text-base lg:text-xl">
-            Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast
+
+          <article class="text-base lg:text-2xl">
+            <p class="mb-5">
+              A Tijolo CWB é um projeto de comida descomplicada. Com exceção dos pães e chocolate, nossos preparos são todos feitos
+              pela nossa equipe de cozinha: os leites vegetais, os molhos dos sanduíches, as bases de todos os pratos.
+            </p>
+            <p class="mb-5">
+              Servimos bocaditos, sanduíches, pastas e molhos especiais, produzidos com insumos não refinados e minimamente
+              processados.</p>
+            <p class="mb-5">
+              Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast
               food e do cotidiano. Trabalhamos com a ideia de comida saudável e muito saborosa, oferecemos comida de verdade. Grande
               parte do nosso cardápio é vegano, e nossa confeitaria preza por doces plant based.</p>
-          <p class="text-2xl">
-            Faça sua reserva abaixo!
-          </p>
+            <p class="mb-5">
+              Faça sua reserva abaixo!
+            </p>
+          </article>
+          
           <div class="flex justify-center lg:justify-start mt-2">
             <button class="flex justify-center bg-tijolo hover:bg-tijolopink text-xl text-neutral-700 font-semibold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded">
               <a href="https://www.getinapp.com.br/curitiba/tijolo-cwb" target="_blank" class="">
