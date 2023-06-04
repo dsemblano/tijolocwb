@@ -1,30 +1,27 @@
 @include('partials/snippets.appheightjs')
 
-<section id="tela1" class="home-section bg-neutral-700 py-4 bg-no-repeat bg-bottom lg:bg-right-top">
-    {{-- <h1 class="flex justify-center">
-      <img id="tijolo_logo" width="376" height="262" src="@asset('images/logotijolo.png')" alt="Tijolo CWB"/>
-    </h1> --}}
+<section id="tela1" class="home-section bg-neutral-700 py-6 bg-no-repeat bg-bottom lg:bg-right-top">
     <div id="logo" class="container mx-auto">
       <div class="flex flex-col lg:flex-row gap-x-10 text-tijolo">
         <div class="left flex flex-col w-full lg:w-1/2 justify-center lg:justify-start">
-          <div class="logohome text-7xl lg:text-9xl mb-6">
+          <div class="logohome text-5xl xl:text-7xl mb-6">
             <p class="">A gente cozinha pra todo mundo</p>
             {{-- <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span> --}}
           </div>
 
-          <article class="text-base lg:text-2xl">
-            <p class="mb-5">
+          <article class="text-base xl:text-xl xl:mt-2">
+            <p class="mb-6">
               A Tijolo CWB é um projeto de comida descomplicada. Com exceção dos pães e chocolate, nossos preparos são todos feitos
               pela nossa equipe de cozinha: os leites vegetais, os molhos dos sanduíches, as bases de todos os pratos.
             </p>
-            <p class="mb-5">
+            <p class="mb-6">
               Servimos bocaditos, sanduíches, pastas e molhos especiais, produzidos com insumos não refinados e minimamente
               processados.</p>
-            <p class="mb-5">
+            <p class="mb-6">
               Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast
               food e do cotidiano. Trabalhamos com a ideia de comida saudável e muito saborosa, oferecemos comida de verdade. Grande
               parte do nosso cardápio é vegano, e nossa confeitaria preza por doces plant based.</p>
-            <p class="mb-5">
+            <p class="mb-6">
               Faça sua reserva abaixo!
             </p>
           </article>
@@ -38,7 +35,7 @@
           </div>
         </div>
         <div class="right mt-8 lg:mt-0">
-          <img class="w-full" id="tijolo_logo"  src="@asset('images/home-tijolo.webp')" alt="Tijolo CWB"/>
+          <img src="@asset('images/home-tijolo.webp')" alt="Tijolo CWB"/>
         </div>
       </div>
       
