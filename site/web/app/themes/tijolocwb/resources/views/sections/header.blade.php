@@ -6,8 +6,6 @@
           <span class="text-8xl">Tijolo</span>
           <span class="text-lg absolute top-[85%] right-0">comidas e vinhos</span>
         </h1>
-        {{-- <img src="@asset('images/logotijolo.png')" width="61" height="43" alt="Tijolo Comidas e Vinhos"
-          class="w-16 py-2" /> --}}
       </a>
         <div id="mobile-menu" class="flex lg:order-2 ml-8">
           {{-- <button type="button" data-collapse-toggle="mobile-menu-3" aria-controls="mobile-menu-3" aria-expanded="false"
