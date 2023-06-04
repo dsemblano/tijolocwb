@@ -1,6 +1,6 @@
 @include('partials/snippets.appheightjs')
 
-<section id="tela1" class="home-section bg-neutral-700 py-8 bg-no-repeat bg-bottom lg:bg-right-top">
+<section id="tela1" class="home-section bg-neutral-700 py-4 bg-no-repeat bg-bottom lg:bg-right-top">
     {{-- <h1 class="flex justify-center">
       <img id="tijolo_logo" width="376" height="262" src="@asset('images/logotijolo.png')" alt="Tijolo CWB"/>
     </h1> --}}
