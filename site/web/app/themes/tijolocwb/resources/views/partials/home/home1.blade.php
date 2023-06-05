@@ -4,7 +4,7 @@
     <div id="logo" class="container mx-auto">
       <div class="flex flex-col lg:flex-row gap-x-10 text-tijolo">
         <div class="left flex flex-col w-full lg:w-1/2 justify-center lg:justify-start">
-          <div class="logohome text-5xl xl:text-7xl mb-6">
+          <div class="logohome text-5xl text-center xl:text-7xl mb-6">
             <p class="">A gente cozinha pra todo mundo</p>
             {{-- <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span> --}}
           </div>
