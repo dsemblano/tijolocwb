@@ -215,3 +215,12 @@ picture {
     }
   }
 }
+
+.page {
+  h2 {
+    @apply text-3xl;
+  }
+  p {
+    @apply text-lg;
+  }
+}
