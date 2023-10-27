@@ -4,7 +4,7 @@
 @import 'common/fonts.scss';
 @import "./menu.scss";
 @import "./arrowcdtop.scss";
-@import "swiper/css/bundle";
+// @import "swiper/css/bundle";
 
 
 // @font-face {
@@ -314,11 +314,11 @@ picture {
 //   }
 // }
 
-.size-large {
-  @apply relative mx-auto overflow-hidden w-full h-auto;
+// .size-large {
+//   @apply relative mx-auto overflow-hidden w-full h-auto;
 
-  object-fit: cover;
-  border-radius: 50%;
-  aspect-ratio: 1/1;
+//   object-fit: cover;
+//   border-radius: 50%;
+//   aspect-ratio: 1/1;
 
-}
+// }
