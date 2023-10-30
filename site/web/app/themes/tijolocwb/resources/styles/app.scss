@@ -222,10 +222,10 @@ picture {
 
 .page-template-default {
   h2 {
-    @apply text-3xl mt-4;
+    @apply text-3xl my-4;
   }
   p {
-    @apply text-lg my-4;
+    @apply text-3xl my-5;
   }
 }
 
