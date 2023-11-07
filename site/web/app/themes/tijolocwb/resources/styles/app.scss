@@ -228,15 +228,15 @@ picture {
 
 // menu, páginas etc
 
-.wp-block-heading {
-  @apply text-5xl my-4;
-  
-  strong {
-    font-weight: normal;
+.wp-block-media-text__content {
+  .wp-block-heading {
+    @apply text-5xl lg:text-6xl my-4;
+    
+    strong {
+      font-weight: normal;
+    }
   }
-}
-
-.page-template-default {
+  
   p {
     @apply text-2xl mb-6;
   }
