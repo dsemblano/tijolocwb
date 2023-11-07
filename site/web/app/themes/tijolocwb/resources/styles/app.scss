@@ -25,15 +25,21 @@ body {
     font-family: 'acumin_pro_extracondensedIt', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'acumin_pro_extracondensedIt', sans-serif;
+}
+
 h2 {
-  @apply text-3xl;
+  @apply text-4xl;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  @apply text-2xl;
+  @apply text-3xl;
 }
 
 // p {
@@ -220,13 +226,24 @@ picture {
 //   }
 // }
 
+// menu, páginas etc
+
+.wp-block-heading {
+  @apply text-5xl my-4;
+  
+  strong {
+    font-weight: normal;
+  }
+}
+
 .page-template-default {
-  h2 {
-    @apply text-3xl my-4;
-  }
   p {
-    @apply text-3xl my-5;
+    @apply text-2xl mb-6;
   }
+}
+
+.wp-block-media-text.alignwide.is-stacked-on-mobile {
+  margin-bottom: 3rem;
 }
 
 //Swipe
