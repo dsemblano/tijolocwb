@@ -236,10 +236,10 @@ picture {
       font-weight: normal;
     }
   }
-  
-  p {
-    @apply text-2xl mb-6;
-  }
+}
+
+.page main p {
+  @apply text-2xl mb-6;
 }
 
 .wp-block-media-text.alignwide.is-stacked-on-mobile {
