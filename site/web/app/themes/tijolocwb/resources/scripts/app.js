@@ -1,6 +1,7 @@
 import {domReady} from '@roots/sage/client';
 import 'flowbite/dist/flowbite.js';
-import Swiper from 'swiper/bundle';
+// import Swiper from 'swiper/bundle';
+import './arrowtop.js'
 
 
 // const swiper = new Swiper(".mySwiper", {
