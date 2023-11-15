@@ -2,10 +2,13 @@
   <nav class="nav-primary container py-4">
     <div class="flex flex-wrap lg:flex-nowrap justify-between items-center mx-auto">
       <a class="brand" href="{{ home_url('/') }}">
-        <h1 id="logo" class="text-white logohome relative bottom-4 hover:scale-105 transition duration-300 ease-in-out">
+        @php
+            $current = (! is_front_page() ? "span" : 'h1');
+        @endphp
+        <{{$current}} id="logo" class="text-white logohome relative bottom-4 hover:scale-105 transition duration-300 ease-in-out">
           <span class="text-8xl">Tijolo</span>
           <span class="text-lg absolute top-[85%] right-0">comidas e vinhos</span>
-        </h1>
+        </{{$current}}>
       </a>
         <div id="mobile-menu" class="flex lg:order-2 ml-8">
           {{-- <button type="button" data-collapse-toggle="mobile-menu-3" aria-controls="mobile-menu-3" aria-expanded="false"

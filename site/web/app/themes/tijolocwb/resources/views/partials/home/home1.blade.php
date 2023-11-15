@@ -1,7 +1,7 @@
 @include('partials/snippets.appheightjs')
 
 <section id="tela1" class="home-section bg-neutral-700 py-6 bg-no-repeat bg-bottom lg:bg-right-top">
-    <div id="logo" class="container mx-auto">
+    <div class="container mx-auto">
       <div class="flex flex-col lg:flex-row gap-x-10 text-tijolo">
         <div class="left flex flex-col w-full lg:w-1/2 justify-center lg:justify-start">
           <div class="logohome text-5xl text-center xl:text-7xl mb-6">

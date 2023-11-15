@@ -1147,7 +1147,7 @@
         {
           "name": "Tijologreentext",
           "slug": "tijologreentext",
-          "color": "#1c1c1c"
+          "color": "#666a55"
         },
         {
           "name": "Tijoloyellow",
@@ -1173,6 +1173,11 @@
           "name": "Tijolop",
           "slug": "tijolop",
           "color": "#f9ffe0"
+        },
+        {
+          "name": "Tijologray",
+          "slug": "tijologray",
+          "color": "#2b2b2b"
         },
         {
           "name": "Top 85",

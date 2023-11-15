@@ -4,7 +4,7 @@
       <div class="left-footer">
           <div class="logo-icons flex flex-col items-center justify-between gap-y-10">
             <a class="brand" href="{{ home_url('/') }}">
-              <div id="logo" class="text-neutral-700 logohome relative hover:scale-105 transition duration-300 ease-in-out">
+              <div class="text-neutral-700 logohome relative hover:scale-105 transition duration-300 ease-in-out">
                 <div class="text-8xl">Tijolo</div>
                 <div class="text-lg absolute top-[85%] right-0">comidas e vinhos</div>
               </div>
