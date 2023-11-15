@@ -4,12 +4,12 @@
     <div class="container mx-auto">
       <div class="flex flex-col lg:flex-row gap-x-10 text-tijolo">
         <div class="left flex flex-col w-full lg:w-1/2 justify-center lg:justify-start">
-          <div class="logohome text-5xl text-center xl:text-7xl mb-6">
-            {{-- <h2 class="text-5xl">A gente cozinha pra todo mundo</h2> --}}
-            {{-- <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span> --}}
-          </div>
+          {{-- <div class="logohome text-5xl text-center xl:text-7xl mb-6">
+            <h2 class="text-5xl">A gente cozinha pra todo mundo</h2>
+            <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span>
+          </div> --}}
 
-          <article class="xl:mt-2">
+          <article class="text-center lg:text-left xl:mt-2">
             <p class="mb-6">
               A Tijolo CWB é um projeto de comida descomplicada. Com exceção dos pães e chocolate, nossos preparos são todos feitos
               pela nossa equipe de cozinha: os leites vegetais, os molhos dos sanduíches, as bases de todos os pratos.
