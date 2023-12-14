@@ -1,3 +1,43 @@
+### 1.21.0: April 5th, 2023
+* Add optional PHP 8.2 support [#1485](https://github.com/roots/trellis/pull/1485)
+* Default to PHP 8.1 [#1484](https://github.com/roots/trellis/pull/1484)
+* Use appropriate mount_option for 'parallels' provider [#1481](https://github.com/roots/trellis/pull/1481)
+
+**Full Changelog**: https://github.com/roots/trellis/compare/v1.20.1...v1.21.0
+
+### 1.20.1: March 7th, 2023
+* Fix invalid arg error in ferm task [#1480](https://github.com/roots/trellis/pull/1480)
+* Fix `ansible_user` references for local provisioning [#1479](https://github.com/roots/trellis/pull/1479)
+* Fix HSTS header by trimming whitespace [#1478](https://github.com/roots/trellis/pull/1478)
+* Replace MailHog with Mailpit [#1474](https://github.com/roots/trellis/pull/1474)
+
+**Full Changelog**: https://github.com/roots/trellis/compare/v1.20.0...v1.20.1
+
+### 1.20.0: February 12th, 2023
+* Set development web_user to ansible_user [#1464](https://github.com/roots/trellis/pull/1464)
+* Update boxes to Ubuntu 22.04 [#1461](https://github.com/roots/trellis/pull/1461)
+* Composer Authentications: Fix `loop_var` already in use issue [#1469](https://github.com/roots/trellis/pull/1469)
+* Install wp as the default user [#1470](https://github.com/roots/trellis/pull/1470)
+* Allow non-default upload_path [#1471](https://github.com/roots/trellis/pull/1471)
+* Vagrant: disable NFS udp by default [#1472](https://github.com/roots/trellis/pull/1472)
+* Run SSH key generate task for local provision only [#1473](https://github.com/roots/trellis/pull/1473)
+* Disable xmlrpc by default [#1467](https://github.com/roots/trellis/pull/1467)
+
+**Full Changelog**: https://github.com/roots/trellis/compare/v1.19.0...v1.20.0
+
+### 1.19.0: January 2nd, 2023
+* Composer Authentication: Add support for `bearer`, `gitlab-oauth`, `gitlab-token`, `github-oauth` and `bitbucket-oauth` principles [#1413](https://github.com/roots/trellis/pull/1413)
+* Prevent ansible-core 2.13.6 [#1448](https://github.com/roots/trellis/pull/1448)
+* Enable PHP opcache in development [#1447](https://github.com/roots/trellis/pull/1447)
+* Remove deprecated warn usage [#1450](https://github.com/roots/trellis/pull/1450)
+* Composer Authentication: Add support for `bearer`, `gitlab-oauth`, `gitlab-token`, `github-oauth` and `bitbucket-oauth` principles [#1413](https://github.com/roots/trellis/pull/1413)
+* Update `wp_cli_version` to 2.7.1 [#1451](https://github.com/roots/trellis/pull/1451)
+* Disable chown site directory task by default [#1452](https://github.com/roots/trellis/pull/1452)
+* Update oefenweb.swapfile role [#1455](https://github.com/roots/trellis/pull/1455)
+* Allow remote and local databases for a site [#1457](https://github.com/roots/trellis/pull/1457)
+* Fix standard output for multisite cron job [#1458](https://github.com/roots/trellis/pull/1458)
+* Fix sshd config - set AcceptEnv conditionally [#1453](https://github.com/roots/trellis/pull/1453)
+
 ### 1.18.0: November 8th, 2022
 * Fix xdebug role by including PHP vars ([#1429](https://github.com/roots/trellis/pull/1429))
 * Automate ARM64 Vagrant box support for Apple Silicon ([#1431](https://github.com/roots/trellis/pull/1431))

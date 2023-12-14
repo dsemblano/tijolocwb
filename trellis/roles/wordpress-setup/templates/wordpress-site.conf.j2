@@ -84,7 +84,7 @@ server {
   ssl_buffer_size 1400; # 1400 bytes to fit in one MTU
 
   {% if item.value.ssl.provider | default('manual') != 'self-signed' -%}
-  add_header Strict-Transport-Security "max-age={{ [hsts_max_age, hsts_include_subdomains, hsts_preload] | reject('none') | join('; ') }}";
+  add_header Strict-Transport-Security "max-age={{ [hsts_max_age, hsts_include_subdomains, hsts_preload] | reject('none') | join('; ') | trim }}";
   {% endif -%}
 
   {% if item.value.ssl.client_cert_url is defined -%}
@@ -122,7 +122,7 @@ server {
 
   {% block location_uploads_php -%}
   # Prevent PHP scripts from being executed inside the uploads folder.
-  location ~* /app/uploads/.*\.php$ {
+  location ~* /{{ item.value.upload_path | default('app/uploads') }}/.*\.php$ {
     deny all;
   }
   {% endblock %}
@@ -172,6 +172,14 @@ server {
   location / {
     try_files $uri $uri/ /index.php?$args;
   }
+  {% endblock %}
+
+  {% block disable_xmlrpc -%}
+    {% if item.value.xmlrpc.enabled is defined and item.value.xmlrpc.enabled == false %}
+      location ~* xmlrpc\.php$ {
+        return 444;
+      }
+    {% endif %}
   {% endblock %}
 
   {% block h5bp -%}
