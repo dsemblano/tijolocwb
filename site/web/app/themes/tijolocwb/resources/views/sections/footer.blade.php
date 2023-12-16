@@ -29,7 +29,7 @@
 
       <div class="left-footer">
         <section id="endereco" class="text-center">
-          <p>R. São Francisco, 179, lojas 2 e 3 – dentro da <a class="hover:underline" href="https://sfco179.com.br/" target="_blank">SFCO 179</a> <br> centro histórico, Curitiba - PR</p>
+          <p>R. São Francisco, 179, lojas 2 e 3 – dentro da <a class="hover:underline" href="https://sfco179.com.br/" target="_blank">SFCO 179</a> <br> Centro Histórico, Curitiba - PR</p>
             <p class="text-base">
               <a title="Clique para a página dos horários" href="/horarios">> Horários</a>
             </p>
