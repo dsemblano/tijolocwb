@@ -10,9 +10,8 @@
     }
 
     .sub-menu {
-      @apply bg-tijolo;
+      @apply bg-tijolo pl-2 py-4;
 
-      margin-left: 1rem;
     }
 
     li>a:not(:last-child)::after {
@@ -56,7 +55,7 @@
         padding: 0.5rem 1rem 1rem 1rem;
 
         li {
-          margin-bottom: 0.5rem;
+          @apply py-2;
         }
       }
 
