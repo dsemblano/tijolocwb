@@ -9,7 +9,7 @@
             <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span>
           </div> --}}
 
-          <article class="text-center lg:text-left xl:mt-2">
+          <article class="text-center lg:text-left">
             <p class="mb-6">
               A Tijolo CWB é um projeto de comida descomplicada. Com exceção dos pães e chocolate, nossos preparos são todos feitos
               pela nossa equipe de cozinha: os leites vegetais, os molhos dos sanduíches, as bases de todos os pratos.
