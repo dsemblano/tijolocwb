@@ -1,4 +1,4 @@
-<header class="banner w-full z-50 bg-tijolo">
+<header id="header" class="banner w-full z-50 bg-tijolo sticky top-0 left-0">
   <nav class="nav-primary container py-1">
     <div class="flex flex-wrap lg:flex-nowrap justify-between items-center mx-auto">
       <a class="brand" href="{{ home_url('/') }}">
@@ -6,7 +6,7 @@
             $current = (! is_front_page() ? "div" : 'h1');
         @endphp
         <{{$current}} id="logo" class="text-white logohome relative bottom-4 hover:scale-105 transition duration-300 ease-in-out">
-          <span class="text-8xl relative">Tijolo</span>
+          <span id="logoname" class="text-8xl relative">Tijolo</span>
           <span class="text-lg absolute top-[85%] right-0">comidas e vinhos</span>
         </{{$current}}>
       </a>

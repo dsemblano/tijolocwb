@@ -18,3 +18,13 @@ document.addEventListener("DOMContentLoaded", function() {
         window.scrollTo({top: 0, behavior: 'smooth'});
     });
 });
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("logoname").classList.add("shrink");
+    } else {
+        document.getElementById("logoname").classList.remove("shrink");
+    }
+}

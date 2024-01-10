@@ -1,3 +1,15 @@
+#logoname {
+  transition: all .2s;
+  transform: translate(0, 0);
+
+}
+
+#logoname.shrink {
+  font-size: 60px;
+  // padding: 10px 10px; /* Smaller padding */
+  transform: translate(0, -20px); /* Add a transform effect */
+}
+
 .menu-menu-principal-container {
   @apply bg-tijolo w-full;
 
