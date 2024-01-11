@@ -4,11 +4,16 @@
       <a class="brand" href="{{ home_url('/') }}">
         @php
             $current = (! is_front_page() ? "div" : 'h1');
+            $current_page = basename(get_permalink());
         @endphp
         <{{$current}} id="logo" class="text-white logohome relative bottom-4 hover:scale-105 transition duration-300 ease-in-out">
           {{-- <span id="logoname" class="text-8xl relative">Tijolo</span> --}}
           <div id="logoname">Tijolo</div>
           <span id="logosurname" class="text-lg absolute top-[85%] right-0">comidas e vinhos</span>
+
+          @if (! is_front_page())
+          <span id="logosurnamepage" class="text-lg absolute top-[85%] right-0 hidden">{{$current_page}}</span>
+          @endif
         </{{$current}}>
       </a>
         <div id="mobile-menu" class="flex lg:order-2 ml-8">

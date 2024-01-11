@@ -12,19 +12,25 @@
 //   transform: translate(0, -20px); /* Add a transform effect */
 // }
 
-#logoname {
+#logo #logoname {
   @apply text-8xl relative;
   
   transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
   transform: translate(0, 0); /* Add a transform effect */
 }
 
-#logoname.shrink {
-  @apply text-5xl top-8 relative;
+#logo.shrink {
+  #logoname {
+    @apply text-5xl top-8 relative py-2;
+  
+    // background-color: green;
+    transform: translate(0, -20px); /* Add a transform effect */
+    transition: 0.2s;
+  }
 
-  // background-color: green;
-  transform: translate(0, -20px); /* Add a transform effect */
-  transition: 0.2s;
+  #logosurnamepage {
+    @apply top-14;
+  }
 }
 
 .menu-menu-principal-container {
