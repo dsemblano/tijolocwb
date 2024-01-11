@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "33de79c795827fd62df4a23edd59aa26",
+    "content-hash": "a0538d921d01a416bf90134aefba4439",
     "packages": [
         {
             "name": "brick/math",
@@ -4906,15 +4906,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "7.2.2",
+            "version": "7.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/7.2.2"
+                "reference": "tags/7.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.7.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.7.2.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4924,15 +4924,15 @@
         },
         {
             "name": "wpackagist-plugin/getwid",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/getwid/",
-                "reference": "tags/2.0.3"
+                "reference": "tags/2.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/getwid.2.0.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/getwid.2.0.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4959,16 +4959,34 @@
             "homepage": "https://wordpress.org/plugins/loco-translate/"
         },
         {
-            "name": "wpackagist-plugin/redirection",
-            "version": "5.5",
+            "name": "wpackagist-plugin/menu-ordering-reservations",
+            "version": "2.3.8",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.5"
+                "url": "https://plugins.svn.wordpress.org/menu-ordering-reservations/",
+                "reference": "tags/2.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/menu-ordering-reservations.2.3.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/menu-ordering-reservations/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "5.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/5.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.4.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5050,7 +5068,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-swiper",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-swiper/",
@@ -5058,7 +5076,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-swiper.zip?timestamp=1704347435"
+                "url": "https://downloads.wordpress.org/plugin/wp-swiper.zip?timestamp=1704593905"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5068,15 +5086,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.9.10",
+            "version": "1.9.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.9.10"
+                "reference": "tags/1.9.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.9.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.9.11.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5110,12 +5128,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "00064dce85a7f693af908e4200a69554528e1ac7"
+                "reference": "8883e39ebd80b4f8012431137ef48d928f3e954d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/00064dce85a7f693af908e4200a69554528e1ac7",
-                "reference": "00064dce85a7f693af908e4200a69554528e1ac7",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/8883e39ebd80b4f8012431137ef48d928f3e954d",
+                "reference": "8883e39ebd80b4f8012431137ef48d928f3e954d",
                 "shasum": ""
             },
             "conflict": {
@@ -5277,8 +5295,8 @@
                 "firebase/php-jwt": "<6",
                 "fixpunkt/fp-masterquiz": "<2.2.1|>=3,<3.5.2",
                 "fixpunkt/fp-newsletter": "<1.1.1|>=2,<2.1.2|>=2.2,<3.2.6",
-                "flarum/core": "<1.8",
-                "flarum/framework": "<1.8",
+                "flarum/core": "<1.8.5",
+                "flarum/framework": "<1.8.5",
                 "flarum/mentions": "<1.6.3",
                 "flarum/sticky": ">=0.1.0.0-beta14,<=0.1.0.0-beta15",
                 "flarum/tags": "<=0.1.0.0-beta13",
@@ -5316,7 +5334,7 @@
                 "gos/web-socket-bundle": "<1.10.4|>=2,<2.6.1|>=3,<3.3",
                 "gree/jose": "<2.2.1",
                 "gregwar/rst": "<1.0.3",
-                "grumpydictator/firefly-iii": "<6",
+                "grumpydictator/firefly-iii": "<6.1.1",
                 "gugoan/economizzer": "<=0.9.0.0-beta1",
                 "guzzlehttp/guzzle": "<6.5.8|>=7,<7.4.5",
                 "guzzlehttp/psr7": "<1.9.1|>=2,<2.4.5",
@@ -5367,6 +5385,7 @@
                 "joyqi/hyper-down": "<=2.4.27",
                 "jsdecena/laracom": "<2.0.9",
                 "jsmitty12/phpwhois": "<5.1",
+                "juzaweb/cms": "<=3.4",
                 "kazist/phpwhois": "<=4.2.6",
                 "kelvinmo/simplexrd": "<3.1.1",
                 "kevinpapst/kimai2": "<1.16.7",
@@ -5400,7 +5419,8 @@
                 "lms/routes": "<2.1.1",
                 "localizationteam/l10nmgr": "<7.4|>=8,<8.7|>=9,<9.2",
                 "luyadev/yii-helpers": "<1.2.1",
-                "magento/community-edition": "<=2.4",
+                "magento/community-edition": "<2.4.2.0-patch1",
+                "magento/core": "<1.9.4.3-dev",
                 "magento/magento1ce": "<1.9.4.3-dev",
                 "magento/magento1ee": ">=1,<1.14.4.3-dev",
                 "magento/product-community-edition": ">=2,<2.2.10|>=2.3,<2.3.2.0-patch2",
@@ -5509,9 +5529,10 @@
                 "phpxmlrpc/phpxmlrpc": "<4.9.2",
                 "pi/pi": "<=2.5",
                 "pimcore/admin-ui-classic-bundle": "<1.2.2",
-                "pimcore/customer-management-framework-bundle": "<3.4.2",
+                "pimcore/customer-management-framework-bundle": "<4.0.6",
                 "pimcore/data-hub": "<1.2.4",
                 "pimcore/demo": "<10.3",
+                "pimcore/ecommerce-framework-bundle": "<1.0.10",
                 "pimcore/perspective-editor": "<1.5.1",
                 "pimcore/pimcore": "<11.1.1",
                 "pixelfed/pixelfed": "<=0.11.4",
@@ -5709,7 +5730,7 @@
                 "usmanhalalit/pixie": "<1.0.3|>=2,<2.0.2",
                 "uvdesk/community-skeleton": "<=1.1.1",
                 "vanilla/safecurl": "<0.9.2",
-                "verot/class.upload.php": "<=1.0.3|>=2,<=2.0.4",
+                "verot/class.upload.php": "<=2.1.6",
                 "vova07/yii2-fileapi-widget": "<0.1.9",
                 "vrana/adminer": "<4.8.1",
                 "waldhacker/hcaptcha": "<2.1.2",
@@ -5826,7 +5847,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-04T18:04:30+00:00"
+            "time": "2024-01-10T22:04:04+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
