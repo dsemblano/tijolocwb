@@ -4,7 +4,8 @@
       <a class="brand" href="{{ home_url('/') }}">
         @php
             $current = (! is_front_page() ? "div" : 'h1');
-            $current_page = basename(get_permalink());
+            // $current_page = basename(get_permalink());
+            $current_page = get_the_title();
         @endphp
         <{{$current}} id="logo" class="text-white logohome relative bottom-4 hover:scale-105 transition duration-300 ease-in-out">
           {{-- <span id="logoname" class="text-8xl relative">Tijolo</span> --}}

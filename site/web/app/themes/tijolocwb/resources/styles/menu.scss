@@ -21,7 +21,7 @@
 
 #logo.shrink {
   #logoname {
-    @apply text-5xl top-8 relative py-2;
+    @apply text-5xl top-8 relative pt-2 pb-4;
   
     // background-color: green;
     transform: translate(0, -20px); /* Add a transform effect */
@@ -30,6 +30,10 @@
 
   #logosurnamepage {
     @apply top-14;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2.5rem;
   }
 }
 
