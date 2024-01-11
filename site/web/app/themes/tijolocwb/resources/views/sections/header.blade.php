@@ -6,8 +6,9 @@
             $current = (! is_front_page() ? "div" : 'h1');
         @endphp
         <{{$current}} id="logo" class="text-white logohome relative bottom-4 hover:scale-105 transition duration-300 ease-in-out">
-          <span id="logoname" class="text-8xl relative">Tijolo</span>
-          <span class="text-lg absolute top-[85%] right-0">comidas e vinhos</span>
+          {{-- <span id="logoname" class="text-8xl relative">Tijolo</span> --}}
+          <div id="logoname">Tijolo</div>
+          <span id="logosurname" class="text-lg absolute top-[85%] right-0">comidas e vinhos</span>
         </{{$current}}>
       </a>
         <div id="mobile-menu" class="flex lg:order-2 ml-8">

@@ -32,6 +32,7 @@
                 Reservas
               </a>
             </button>
+            {{-- @include('partials/snippets/reservation') --}}
           </div>
         </div>
         <div class="right mt-8 lg:mt-0">

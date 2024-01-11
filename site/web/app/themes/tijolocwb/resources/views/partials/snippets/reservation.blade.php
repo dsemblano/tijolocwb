@@ -1,0 +1,1 @@
+{!! do_shortcode('[restaurant-reservations ruid="82687ddb-4205-4317-8880-256ea4c44ea0"]') !!}

@@ -1,13 +1,30 @@
-#logoname {
-  transition: all .2s;
-  transform: translate(0, 0);
+// #logoname {
+//   background-color: red;
+//   transition: all .2s;
+//   transform: translate(0, 0);
 
+// }
+
+// .shrink {
+//   background-color: green;
+//   font-size: 50px;
+//   // padding: 10px 10px; /* Smaller padding */
+//   transform: translate(0, -20px); /* Add a transform effect */
+// }
+
+#logoname {
+  @apply text-8xl relative;
+  
+  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  transform: translate(0, 0); /* Add a transform effect */
 }
 
 #logoname.shrink {
-  font-size: 60px;
-  // padding: 10px 10px; /* Smaller padding */
+  @apply text-5xl top-8 relative;
+
+  // background-color: green;
   transform: translate(0, -20px); /* Add a transform effect */
+  transition: 0.2s;
 }
 
 .menu-menu-principal-container {

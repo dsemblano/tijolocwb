@@ -10,6 +10,14 @@ document.addEventListener("DOMContentLoaded", function() {
         if (window.pageYOffset > 1200) {
             document.querySelector('.cd-top').classList.add('cd-fade-out');
         }
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("logoname").classList.add("shrink");
+            document.getElementById("logosurname").classList.add("hidden");
+            
+        } else {
+            document.getElementById("logoname").classList.remove("shrink");
+            document.getElementById("logosurname").classList.remove("hidden");
+        }
     };
 
     //smooth scroll to top
@@ -18,13 +26,3 @@ document.addEventListener("DOMContentLoaded", function() {
         window.scrollTo({top: 0, behavior: 'smooth'});
     });
 });
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("logoname").classList.add("shrink");
-    } else {
-        document.getElementById("logoname").classList.remove("shrink");
-    }
-}
