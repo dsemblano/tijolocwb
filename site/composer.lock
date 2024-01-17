@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed791c871e112fcf525b7329e9a7117e",
+    "content-hash": "14f2e1bc9c574eda9cac36c8f0085ade",
     "packages": [
         {
             "name": "brick/math",
@@ -4833,24 +4833,6 @@
             "time": "2022-01-24T18:55:24+00:00"
         },
         {
-            "name": "wpackagist-plugin/alex-reservations",
-            "version": "1.7.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/alex-reservations/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/alex-reservations.zip?timestamp=1704876640"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/alex-reservations/"
-        },
-        {
             "name": "wpackagist-plugin/autodescription",
             "version": "5.0.2",
             "source": {
@@ -4978,15 +4960,15 @@
         },
         {
             "name": "wpackagist-plugin/getwid",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/getwid/",
-                "reference": "tags/2.0.4"
+                "reference": "tags/2.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/getwid.2.0.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/getwid.2.0.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
