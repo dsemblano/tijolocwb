@@ -68,6 +68,7 @@
     "wpackagist-plugin/quick-restaurant-reservations": ">=1.6.7",
     "wpackagist-plugin/restaurant-reservations": ">=2.6.16",
     "wpackagist-plugin/bookly-responsive-appointment-booking-tool": ">=22.8",
+    "wpackagist-plugin/wp-mail-smtp": ">=3.10.0",
     "roots/acorn": "^2.0"
   },
   "require-dev": {
