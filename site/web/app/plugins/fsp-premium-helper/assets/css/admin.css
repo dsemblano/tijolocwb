@@ -1,0 +1,172 @@
+.fsp-premium-helper-dashboard-new-widget-box {
+    position: relative;
+    float: left;
+    background: #fff;
+    box-shadow: -2px 2px 6px #ccc;
+    margin-bottom: 16px;
+  }
+  .fsp-premium-helper-dashboard-new-widget-box.fsp-widget-box-full {
+    width: 100%;
+  }
+  .fsp-premium-helper-dashboard-new-widget-box.fsp-widget-box-two-thirds {
+    width: 66%;
+  }
+  .fsp-premium-helper-dashboard-new-widget-box.fsp-widget-box-one-third {
+    width: 32%;
+    margin-left: 2%;
+  }
+  .fsp-premium-helper-dashboard-new-widget-box-top, .fsp-premium-helper-dashboard-new-widget-box-bottom {
+    position: relative;
+    float: left;
+    width: calc(100% - 32px);
+    padding: 8px 16px;
+    color: #777;
+  }
+  .fsp-premium-helper-dashboard-new-widget-box-top {
+    padding: 12px 16px;
+    font-weight: bold;
+    color: #444;
+  }
+  .fsp-premium-helper-dashboard-new-widget-box-bottom {
+    border-top: 1px solid #e2e2e2;
+  }
+  
+  .fsp-premium-helper-dashboard-key-widget {
+    position: relative; 
+    float: left;
+    width: calc(100% - 144px);
+    min-height: 30px;
+    margin: 24px 24px 8px;
+    padding: 0 0 0 96px;
+    background-image: url(../img/dash-asset-key.png);
+    background-position: left top;
+    background-size: 64px 30px;
+    background-repeat: no-repeat;
+  }
+  .fsp-premium-helper-dashboard-key-widget-input {
+    position: relative;
+    float: left;
+    width: calc(65% - 2px);
+    height: 30px;
+    padding: 4px 8px !important;
+    background: none;
+    border: 1px solid #e2e2e2 !important;
+    margin: 0 !important;
+  }
+  .fsp-premium-helper-dashboard-key-widget-input::placeholder {
+    color: #bbb;
+  }
+  .fsp-premium-helper-dashboard-key-widget-submit {
+    position: relative;
+    float: left;
+    width: 35%;
+    height: 30px;
+    font-size: 14px;
+    background: #f2b52f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 !important;
+  }
+  .fsp-premium-helper-dashboard-key-widget-submit:hover {
+    background: #F2BD49;
+  }
+  .fsp-premium-helper-dashboard-key-widget-text {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 11px;
+    color: #888;
+    font-style: italic;
+    font-weight: normal;
+  }
+  .fsp-premium-helper-dashboard-key-widget-text a {
+    color: #7CA3BF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .fsp-premium-helper-dashboard-key-widget-text a:hover {
+    color: #7CA3BF;
+    text-decoration: none;
+  }
+  
+
+
+  .fsp-premium-helper-dashboard-get-premium-widget-trial-time {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    background: #1b335f;
+  }
+  .fsp-premium-helper-dashboard-get-premium-widget-trial-days, .fsp-premium-helper-dashboard-get-premium-widget-trial-hours {
+    position: relative;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 43px;
+    line-height: 35px;
+    padding: 24px 0 8px;
+    font-weight: bold;
+  }
+  .fsp-premium-helper-dashboard-get-premium-widget-trial-days span, .fsp-premium-helper-dashboard-get-premium-widget-trial-hours span {
+    position: relative;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;  
+  }
+  .fsp-premium-helper-dashboard-get-premium-widget-trial-days {
+    width: calc(50% - 7px);
+    border-right: 7px solid #fff;
+  }
+  .fsp-premium-helper-dashboard-get-premium-widget-trial-hours {
+    width: 50%;
+  }
+  .fsp-premium-helper-dashboard-get-premium-widget-trial-time-left {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 28px 0 24px;
+    color: #1b335f;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .fsp-premium-helper-dashboard-get-premium-widget-button  {
+    clear: both;
+    position: relative;
+    float: left;
+    width: calc(100% - 20px);
+    margin: 16px 8px 10px;
+    border: 2px solid #7CA3BF;
+    background-color: #7CA3BF;
+    color: #fff;
+    padding: 6px 0;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+  .fsp-premium-helper-dashboard-get-premium-widget-button:hover  {
+    background-color: #7CA3BF;
+    border-color: #7CA3BF;
+    color: #fff;
+  }
+  .fsp-premium-helper-dashboard-get-premium-widget-button.fsp-premium-helper-dashboard-new-trial-button  {
+    background-color: transparent;
+    color: #7CA3BF;
+    font-size: 11px;
+    cursor: pointer;
+    width: calc(100% - 16px);
+    margin: 0 8px 16px; 
+  }
+  .fsp-premium-helper-dashboard-get-premium-widget-button.fsp-premium-helper-dashboard-new-trial-button:hover  {
+    background-color: #7CA3BF;
+    border-color: #7CA3BF;
+    color: #fff;
+  }
+  
