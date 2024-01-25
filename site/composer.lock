@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a60b2e77ada1687a28e1554c19f0cd3",
+    "content-hash": "8861a8573cdad8b45ab379685513b78d",
     "packages": [
         {
             "name": "brick/math",
@@ -1552,16 +1552,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.72.1",
+            "version": "2.72.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "2b3b3db0a2d0556a177392ff1a3bf5608fa09f78"
+                "reference": "3e7edc41b58d65509baeb0d4a14c8fa41d627130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/2b3b3db0a2d0556a177392ff1a3bf5608fa09f78",
-                "reference": "2b3b3db0a2d0556a177392ff1a3bf5608fa09f78",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/3e7edc41b58d65509baeb0d4a14c8fa41d627130",
+                "reference": "3e7edc41b58d65509baeb0d4a14c8fa41d627130",
                 "shasum": ""
             },
             "require": {
@@ -1655,7 +1655,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-08T23:47:49+00:00"
+            "time": "2024-01-19T00:21:53+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -2310,6 +2310,73 @@
                 }
             ],
             "time": "2023-09-18T08:15:47+00:00"
+        },
+        {
+            "name": "roots/acorn-prettify",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/acorn-prettify.git",
+                "reference": "405aa44ef8b62dbf99d72803ef3a94e15baa0663"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roots/acorn-prettify/zipball/405aa44ef8b62dbf99d72803ef3a94e15baa0663",
+                "reference": "405aa44ef8b62dbf99d72803ef3a94e15baa0663",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.13"
+            },
+            "type": "package",
+            "extra": {
+                "acorn": {
+                    "providers": [
+                        "Roots\\AcornPrettify\\AcornPrettifyServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Roots\\AcornPrettify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brandon Nifong",
+                    "email": "brandon@tendency.me",
+                    "homepage": "https://github.com/log1x"
+                },
+                {
+                    "name": "Ben Word",
+                    "email": "ben@benword.com",
+                    "homepage": "https://github.com/retlehs"
+                },
+                {
+                    "name": "QWp6t",
+                    "email": "craig@roots.io",
+                    "homepage": "https://github.com/qwp6t"
+                }
+            ],
+            "description": "Theme-agnostic front-end modifications for WordPress",
+            "support": {
+                "issues": "https://github.com/roots/acorn-prettify/issues",
+                "source": "https://github.com/roots/acorn-prettify/tree/v1.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/roots",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-01-23T11:46:06+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
@@ -4923,24 +4990,6 @@
             "homepage": "https://wordpress.org/plugins/booking/"
         },
         {
-            "name": "wpackagist-plugin/bookly-responsive-appointment-booking-tool",
-            "version": "22.8",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/bookly-responsive-appointment-booking-tool/",
-                "reference": "tags/22.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bookly-responsive-appointment-booking-tool.22.8.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/"
-        },
-        {
             "name": "wpackagist-plugin/ewww-image-optimizer",
             "version": "7.2.3",
             "source": {
@@ -4993,24 +5042,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/loco-translate/"
-        },
-        {
-            "name": "wpackagist-plugin/menu-ordering-reservations",
-            "version": "2.4.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/menu-ordering-reservations/",
-                "reference": "tags/2.4.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/menu-ordering-reservations.2.4.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/menu-ordering-reservations/"
         },
         {
             "name": "wpackagist-plugin/quick-restaurant-reservations",
@@ -5085,24 +5116,6 @@
             "homepage": "https://wordpress.org/plugins/responsive-lightbox/"
         },
         {
-            "name": "wpackagist-plugin/restaurant-reservations",
-            "version": "2.6.16",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/restaurant-reservations/",
-                "reference": "tags/2.6.16"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/restaurant-reservations.2.6.16.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/restaurant-reservations/"
-        },
-        {
             "name": "wpackagist-plugin/wayfinder",
             "version": "1.1.6",
             "source": {
@@ -5140,15 +5153,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "3.11.0",
+            "version": "3.11.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/3.11.0"
+                "reference": "tags/3.11.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.3.11.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.3.11.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5176,15 +5189,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.9.13",
+            "version": "1.9.13.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.9.13"
+                "reference": "tags/1.9.13.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.9.13.zip"
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.9.13.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5218,12 +5231,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "b7a13fc786f4fc7204a1b302e29a44bc6542bdd0"
+                "reference": "cea5a32b418b44dc5a480049f531f53563c26210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/b7a13fc786f4fc7204a1b302e29a44bc6542bdd0",
-                "reference": "b7a13fc786f4fc7204a1b302e29a44bc6542bdd0",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/cea5a32b418b44dc5a480049f531f53563c26210",
+                "reference": "cea5a32b418b44dc5a480049f531f53563c26210",
                 "shasum": ""
             },
             "conflict": {
@@ -5263,7 +5276,7 @@
                 "backpack/crud": "<3.4.9",
                 "bacula-web/bacula-web": "<8.0.0.0-RC2-dev",
                 "badaso/core": "<2.7",
-                "bagisto/bagisto": "<0.1.5",
+                "bagisto/bagisto": "<1.3.2",
                 "barrelstrength/sprout-base-email": "<1.2.7",
                 "barrelstrength/sprout-forms": "<3.9",
                 "barryvdh/laravel-translation-manager": "<0.6.2",
@@ -5622,7 +5635,7 @@
                 "phpxmlrpc/extras": "<0.6.1",
                 "phpxmlrpc/phpxmlrpc": "<4.9.2",
                 "pi/pi": "<=2.5",
-                "pimcore/admin-ui-classic-bundle": "<1.2.2",
+                "pimcore/admin-ui-classic-bundle": "<1.3.2",
                 "pimcore/customer-management-framework-bundle": "<4.0.6",
                 "pimcore/data-hub": "<1.2.4",
                 "pimcore/demo": "<10.3",
@@ -5646,7 +5659,7 @@
                 "prestashop/ps_facetedsearch": "<3.4.1",
                 "prestashop/ps_linklist": "<3.1",
                 "privatebin/privatebin": "<1.4",
-                "processwire/processwire": "<=3.0.200",
+                "processwire/processwire": "<=3.0.210",
                 "propel/propel": ">=2.0.0.0-alpha1,<=2.0.0.0-alpha7",
                 "propel/propel1": ">=1,<=1.7.1",
                 "pterodactyl/panel": "<1.7",
@@ -5679,21 +5692,21 @@
                 "serluck/phpwhois": "<=4.2.6",
                 "sfroemken/url_redirect": "<=1.2.1",
                 "sheng/yiicms": "<=1.2",
-                "shopware/core": "<=6.4.20",
-                "shopware/platform": "<=6.4.20",
+                "shopware/core": "<=6.5.7.3",
+                "shopware/platform": "<=6.5.7.3",
                 "shopware/production": "<=6.3.5.2",
                 "shopware/shopware": "<=5.7.17",
                 "shopware/storefront": "<=6.4.8.1",
                 "shopxo/shopxo": "<2.2.6",
                 "showdoc/showdoc": "<2.10.4",
                 "silverstripe-australia/advancedreports": ">=1,<=2",
-                "silverstripe/admin": "<1.13.6",
+                "silverstripe/admin": "<1.13.19|>=2,<2.1.8",
                 "silverstripe/assets": ">=1,<1.11.1",
                 "silverstripe/cms": "<4.11.3",
                 "silverstripe/comments": ">=1.3,<1.9.99|>=2,<2.9.99|>=3,<3.1.1",
                 "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
-                "silverstripe/framework": "<4.13.14|>=5,<5.0.13",
-                "silverstripe/graphql": "<3.8.2|>=4,<4.1.3|>=4.2,<4.2.5|>=4.3,<4.3.4|>=5,<5.0.3",
+                "silverstripe/framework": "<4.13.39|>=5,<5.1.11",
+                "silverstripe/graphql": "<3.8.2|>=4,<4.3.7|>=5,<5.1.3",
                 "silverstripe/hybridsessions": ">=1,<2.4.1|>=2.5,<2.5.1",
                 "silverstripe/recipe-cms": ">=4.5,<4.5.3",
                 "silverstripe/registry": ">=2.1,<2.1.2|>=2.2,<2.2.1",
@@ -5941,7 +5954,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-16T18:04:59+00:00"
+            "time": "2024-01-24T22:04:16+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
