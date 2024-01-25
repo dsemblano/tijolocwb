@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8861a8573cdad8b45ab379685513b78d",
+    "content-hash": "bb9d7bd7956c1ef1f8be4071e2460db4",
     "packages": [
         {
             "name": "brick/math",
@@ -4990,6 +4990,24 @@
             "homepage": "https://wordpress.org/plugins/booking/"
         },
         {
+            "name": "wpackagist-plugin/easync-booking",
+            "version": "1.3.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/easync-booking/",
+                "reference": "tags/1.3.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/easync-booking.1.3.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/easync-booking/"
+        },
+        {
             "name": "wpackagist-plugin/ewww-image-optimizer",
             "version": "7.2.3",
             "source": {
@@ -5042,24 +5060,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/loco-translate/"
-        },
-        {
-            "name": "wpackagist-plugin/quick-restaurant-reservations",
-            "version": "1.6.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/quick-restaurant-reservations/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/quick-restaurant-reservations.zip?timestamp=1681463614"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/quick-restaurant-reservations/"
         },
         {
             "name": "wpackagist-plugin/redirection",
