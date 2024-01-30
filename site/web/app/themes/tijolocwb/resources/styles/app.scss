@@ -345,6 +345,8 @@ picture {
 
 // Reservas page
 .wp-block-booking-booking {
+  @apply text-center;
+  
   .resource_selection_div {
     @apply text-2xl;
 
