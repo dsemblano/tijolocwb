@@ -5,7 +5,7 @@
 @include('sections.header')
 @php $current_page = basename(get_permalink()) @endphp
 <main id="main" class="main{{ ! is_front_page() ? " $current_page pb-12" : '' }}">
-  @if (! is_front_page() && ! is_page('reservas') )
+  @if (! is_front_page())
   <div class="container">
     @yield('content')
   </div>
