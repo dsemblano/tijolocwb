@@ -241,8 +241,11 @@ picture {
   }
 }
 
-.page main p {
-  @apply text-lg xl:text-3xl mb-6;
+.home,
+.cardapio {
+  p {
+    @apply text-lg xl:text-3xl mb-6;
+  }
 }
 
 .wp-block-media-text.alignwide.is-stacked-on-mobile {
