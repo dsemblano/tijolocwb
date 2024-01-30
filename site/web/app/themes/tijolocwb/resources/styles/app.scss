@@ -342,3 +342,13 @@ picture {
 //   aspect-ratio: 1/1;
 
 // }
+
+// Reservas page
+.wp-block-booking-booking {
+  @apply text-base;
+
+  .resource_selection_div select, .wpbc_container.wpbc_container_booking_form select {
+    @apply text-2xl;
+
+  }
+}
