@@ -28,7 +28,7 @@
           
           <div class="flex justify-center lg:justify-start mt-2">
             <button class="flex justify-center bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded w-full lg:w-auto">
-              <a href="https://www.getinapp.com.br/curitiba/tijolo-cwb" target="_blank" class="">
+              <a href="/reservas">
                 Reservas
               </a>
             </button>
