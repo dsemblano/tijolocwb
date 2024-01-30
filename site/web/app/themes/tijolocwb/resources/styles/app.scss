@@ -344,8 +344,12 @@ picture {
 // }
 
 // Reservas page
-  .resource_selection_div,
-  .resource_selection_div select, .wpbc_container.wpbc_container_booking_form select {
-    @apply text-2x;
+.wp-block-booking-booking {
+  .resource_selection_div {
+    @apply text-2xl;
 
+    .active_booking_form {
+      @apply text-2xl;
+    }
   }
+}
