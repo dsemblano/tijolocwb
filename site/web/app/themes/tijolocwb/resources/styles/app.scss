@@ -360,5 +360,5 @@ picture {
 }
 
 figure.wp-block-image {
-  margin: 1rem 0 2rem 0;
+  @apply my-4;
 }
