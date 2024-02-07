@@ -370,12 +370,8 @@ figure.wp-block-image {
   grid-row-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
 
-  .wp-block-responsive-block-editor-addons-column {
-    width: auto !important;
-  }
 }
 
-figure.wp-block-image img {
-  height: 365px;
-  width: 100%;
+select.active_booking_form {
+  border-radius: 0.25rem;
 }
