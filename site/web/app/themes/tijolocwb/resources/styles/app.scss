@@ -363,14 +363,17 @@ figure.wp-block-image {
   @apply my-4;
 }
 
-.responsive-columns-inner-wrap {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+// .responsive-columns-inner-wrap {
+//   display: grid;
+//   grid-template-rows: 1fr;
+//   grid-column-gap: 20px;
+//   grid-row-gap: 20px;
+//   grid-template-columns: repeat(3, 1fr);
 
-}
+//   .wp-block-responsive-block-editor-addons-column {
+//     width: auto !important;
+//   }
+// }
 
 select.active_booking_form {
   border-radius: 0.25rem;
