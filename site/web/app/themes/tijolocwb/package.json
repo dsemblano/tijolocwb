@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
-    "flowbite": "^1.5.3",
-    "swiper": "^10.2.0"
+    "flowbite": "^1.5.3"
   }
 }
