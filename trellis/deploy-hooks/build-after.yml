@@ -2,7 +2,7 @@
 #
 # ⚠️ This example assumes your theme is using Sage 10
 #
-# Uncomment the lines below if you are using Sage 10
+# # Uncomment the lines below if you are using Sage 10
 
 ---
 - name: Run Acorn optimize
