@@ -1,27 +1,9 @@
-import {domReady} from '@roots/sage/client';
-import {registerBlockStyle, unregisterBlockStyle} from '@wordpress/blocks';
+/**
+ * @see {@link https://bud.js.org/extensions/bud-preset-wordpress/editor-integration/filters}
+ */
+roots.register.filters('@scripts/filters');
 
 /**
- * editor.main
+ * @see {@link https://webpack.js.org/api/hot-module-replacement/}
  */
-const main = (err) => {
-  if (err) {
-    // handle hmr errors
-    console.error(err);
-  }
-
-  unregisterBlockStyle('core/button', 'outline');
-
-  registerBlockStyle('core/button', {
-    name: 'outline',
-    label: 'Outline',
-  });
-};
-
-/**
- * Initialize
- *
- * @see https://webpack.js.org/api/hot-module-replacement
- */
-domReady(main);
-import.meta.webpackHot?.accept(main);
+if (import.meta.webpackHot) import.meta.webpackHot.accept(console.error);

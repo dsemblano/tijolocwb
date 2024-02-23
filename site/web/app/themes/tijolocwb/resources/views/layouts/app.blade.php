@@ -1,24 +1,50 @@
-<a class="sr-only focus:not-sr-only" href="#main">
-  {{ __('Skip to content') }}
-</a>
+<!doctype html>
+<html @php(language_attributes())>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    @php(do_action('get_header'))
+    @php(wp_head())
+  <?php //echo \Roots\view('layouts/head/preload')->render(); ?>
+  <?php echo \Roots\view('layouts/head/favicon')->render(); ?>
+  <?php echo \Roots\view('layouts/head/gconsole')->render(); ?>
+  <?php echo \Roots\view('layouts/head/gtaghead')->render(); ?>
+  <?php echo \Roots\view('partials/snippets/schema')->render(); ?>
+  </head>
 
-@include('sections.header')
-@php $current_page = basename(get_permalink()) @endphp
-<main id="main" class="main{{ ! is_front_page() ? " $current_page pb-12" : '' }}">
-  @if (! is_front_page() && ! is_page('reservas') )
-  <div class="container">
-    @yield('content')
-  </div>
-  @else
-  @yield('content')
-  @endif
-</main>
+  <body @php(body_class())>
+    @php(wp_body_open())
+  <?php echo \Roots\view('partials/snippets/gtagbody')->render(); ?>
 
-@hasSection('sidebar')
-<aside class="sidebar">
-  @yield('sidebar')
-</aside>
-@endif
+    <div id="app">
+      <a class="sr-only focus:not-sr-only" href="#main">
+        {{ __('Skip to content') }}
+      </a>
 
-@include('sections.footer')
+      @include('sections.header')
+
+      <main id="main" class="main{{ ! is_front_page() ? " pb-12" : '' }}">
+
+        @if (! is_front_page() && ! is_page('reservas') )
+	  <div class="container">
+	    @yield('content')
+	  </div>
+	  @else
+	  @yield('content')
+	  @endif
+      </main>
+
+      @hasSection('sidebar')
+        <aside class="sidebar">
+          @yield('sidebar')
+        </aside>
+      @endif
+
+      @include('sections.footer')
 @include('partials/arrowcdtop')
+    </div>
+
+    @php(do_action('get_footer'))
+    @php(wp_footer())
+  </body>
+</html>
