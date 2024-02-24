@@ -13,7 +13,7 @@
           <span id="logosurname" class="text-lg absolute top-[85%] right-0">comidas e vinhos</span>
 
           @if (! is_front_page())
-          <span id="logosurnamepage" class="text-lg absolute top-[85%] right-0 hidden">{{$current_page}}</span>
+          <span id="logosurnamepage" class="text-lg absolute top-[85%] left-0 hidden">{{$current_page}}</span>
           @endif
         </{{$current}}>
       </a>

@@ -6218,7 +6218,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-swiper",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-swiper/",
@@ -6226,7 +6226,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-swiper.zip?timestamp=1708639804"
+                "url": "https://downloads.wordpress.org/plugin/wp-swiper.zip?timestamp=1708732909"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
