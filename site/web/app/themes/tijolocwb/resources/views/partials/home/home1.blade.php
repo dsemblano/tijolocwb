@@ -11,15 +11,15 @@
 
           <article class="text-center lg:text-left">
             <p class="mb-6 animate__animated animate__fadeInUp">
-              A Tijolo CWB é um projeto de comida descomplicada. Com exceção dos pães e chocolate, nossos preparos são todos feitos
-              pela nossa equipe de cozinha: os leites vegetais, os molhos dos sanduíches, as bases de todos os pratos.
+              A Tijolo CWB é um projeto de comida descomplicada. Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast
+              food e do cotidiano. Com exceção dos pães e chocolate, nossos preparos são todos feitos
+              pela nossa equipe de cozinha.
             </p>
             <p class="mb-6 animate__animated animate__fadeInUp animate__delay-1s">
               Servimos bocaditos, sanduíches, pastas e molhos especiais, produzidos com insumos não refinados e minimamente
               processados.</p>
             <p class="mb-6 animate__animated animate__fadeInUp animate__delay-2s">
-              Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast
-              food e do cotidiano. Trabalhamos com a ideia de comida saudável e muito saborosa, oferecemos comida de verdade. Grande
+              Trabalhamos com a ideia de comida saudável e saborosa, oferecemos comida de verdade. Grande
               parte do nosso cardápio é vegano, e nossa confeitaria preza por doces plant based.</p>
             <p class="mb-6 animate__animated animate__fadeInUp animate__delay-3s">
               Faça sua reserva abaixo!
