@@ -87,7 +87,6 @@
         // min-width: 15rem;
         // max-width: 25rem;
         width: 30rem;
-        transition: all 0.5s ease;
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
         padding: 0.5rem 1rem 1rem 1rem;
 
@@ -100,12 +99,17 @@
       li:focus-within>ul,
       li ul:hover,
       li ul:focus {
+        animation: slide-down .3s ease-out;
         display: block;
         visibility: visible;
         opacity: 1;
       }
     }
-
+    
+    @keyframes slide-down {
+      0% { opacity: 0; -webkit-transform: translateY(-5%); }   
+    100% { opacity: 1; -webkit-transform: translateY(0); }
+}
     li {
       position: relative;
       // transition-duration: 0.5s;
