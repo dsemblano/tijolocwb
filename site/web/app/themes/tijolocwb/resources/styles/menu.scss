@@ -41,7 +41,8 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 
   ul#menu-menu-principal {
-
+    animation: slide-down .3s ease-out;
+    
     li {
       margin-bottom: 1rem;
     }
@@ -105,11 +106,7 @@
         opacity: 1;
       }
     }
-    
-    @keyframes slide-down {
-      0% { opacity: 0; -webkit-transform: translateY(-5%); }   
-    100% { opacity: 1; -webkit-transform: translateY(0); }
-}
+
     li {
       position: relative;
       // transition-duration: 0.5s;
@@ -129,4 +126,9 @@
       }
     }
   }
+}
+
+@keyframes slide-down {
+  0% { opacity: 0; -webkit-transform: translateY(-5%); }   
+100% { opacity: 1; -webkit-transform: translateY(0); }
 }
