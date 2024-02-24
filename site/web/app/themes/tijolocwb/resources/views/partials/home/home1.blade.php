@@ -10,24 +10,24 @@
           </div> --}}
 
           <article class="text-center lg:text-left">
-            <p class="mb-6">
+            <p class="mb-6 animate__animated animate__fadeInUp">
               A Tijolo CWB é um projeto de comida descomplicada. Com exceção dos pães e chocolate, nossos preparos são todos feitos
               pela nossa equipe de cozinha: os leites vegetais, os molhos dos sanduíches, as bases de todos os pratos.
             </p>
-            <p class="mb-6">
+            <p class="mb-6 animate__animated animate__fadeInUp animate__delay-1s">
               Servimos bocaditos, sanduíches, pastas e molhos especiais, produzidos com insumos não refinados e minimamente
               processados.</p>
-            <p class="mb-6">
+            <p class="mb-6 animate__animated animate__fadeInUp animate__delay-2s">
               Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast
               food e do cotidiano. Trabalhamos com a ideia de comida saudável e muito saborosa, oferecemos comida de verdade. Grande
               parte do nosso cardápio é vegano, e nossa confeitaria preza por doces plant based.</p>
-            <p class="mb-6">
+            <p class="mb-6 animate__animated animate__fadeInUp animate__delay-3s">
               Faça sua reserva abaixo!
             </p>
           </article>
           
-          <div class="flex justify-center lg:justify-start mt-2">
-            <button class="flex justify-center bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded w-full lg:w-auto">
+          <div class="flex justify-center lg:justify-start mt-2 animate__animated">
+            <button class="animate__animated animate__fadeInUp animate__delay-3s flex justify-center bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded w-full lg:w-auto">
               <a href="/reservas">
                 Reservas
               </a>
@@ -35,7 +35,7 @@
             {{-- @include('partials/snippets/reservation') --}}
           </div>
         </div>
-        <div class="right mt-8 lg:mt-0">
+        <div class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp">
           <img src="@asset('images/home-tijolo.webp')" alt="Tijolo CWB"/>
         </div>
       </div>
