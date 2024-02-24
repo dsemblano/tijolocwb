@@ -134,8 +134,8 @@ add_action('widgets_init', function () {
 });
 
 // Remove dashicons in frontend for unauthenticated users
-add_action( 'wp_enqueue_scripts', function () {
-    if ( ! is_user_logged_in() ) {
-        wp_deregister_style( 'dashicons' );
-    }
-});
+// add_action( 'wp_enqueue_scripts', function () {
+//     if ( ! is_user_logged_in() ) {
+//         wp_deregister_style( 'dashicons' );
+//     }
+// });
