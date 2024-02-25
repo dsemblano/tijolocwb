@@ -21,7 +21,7 @@
             <p class="mb-6 animate__animated animate__fadeInUp animate__delay-2s">
               Trabalhamos com a ideia de comida saudável e saborosa, oferecemos comida de verdade. Grande
               parte do nosso cardápio é vegano, e nossa confeitaria preza por doces plant based.</p>
-            <p class="mb-6 animate__animated animate__fadeInUp animate__delay-3s">
+            <p class="animate__animated animate__fadeInUp animate__delay-3s">
               Faça sua reserva abaixo!
             </p>
           </article>

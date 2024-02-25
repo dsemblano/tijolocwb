@@ -260,10 +260,9 @@ picture {
   }
 }
 
-.home,
-.cardapio {
+.home {
   article p {
-    @apply text-lg lg:text-3xl mb-6;
+    @apply text-lg lg:text-3xl;
   }
 }
 
