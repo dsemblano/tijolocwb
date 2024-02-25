@@ -23,7 +23,7 @@
 
       @include('sections.header')
 
-      <main id="main" class="main{{ ! is_front_page() ? " pb-12" : '' }}">
+      <main id="main" class="main">
 
         @if (! is_front_page() && ! is_page('reservas') )
 	  <div class="container">

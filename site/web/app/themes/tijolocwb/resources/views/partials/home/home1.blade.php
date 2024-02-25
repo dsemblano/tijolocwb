@@ -2,8 +2,8 @@
 
 <section id="tela1" class="home-section bg-neutral-700 py-4 bg-no-repeat bg-bottom lg:bg-right-top">
     <div class="container mx-auto">
-      <div class="flex flex-col lg:flex-row gap-x-10 text-tijolo">
-        <div class="left flex flex-col w-full lg:w-1/2 justify-center lg:justify-start">
+      <div class="flex flex-col lg:flex-row gap-x-10 text-tijolo items-center">
+        <div class="left flex flex-col w-full lg:w-1/2">
           {{-- <div class="logohome text-5xl text-center xl:text-7xl mb-6">
             <h2 class="text-5xl">A gente cozinha pra todo mundo</h2>
             <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span>
