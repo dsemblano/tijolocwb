@@ -1,5 +1,6 @@
 import domReady from '@roots/sage/client/dom-ready';
 import flowbite from 'flowbite';
+// import './logoscroll.js';
 import './arrowtop.js'
 
 /**
