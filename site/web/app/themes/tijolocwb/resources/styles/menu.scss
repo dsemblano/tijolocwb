@@ -41,14 +41,14 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 
   ul#menu-menu-principal {
-    // animation: slide-down .3s ease-out;
+    animation: slide-down .3s ease-out;
     
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
 
     .sub-menu {
-      @apply bg-tijolo pl-2 py-4;
+      @apply bg-tijolo pl-2;
 
     }
 
@@ -109,7 +109,7 @@
 
     li {
       position: relative;
-      // transition-duration: 0.5s;
+      transition-duration: 0.5s;
 
       ul li {
         clear: both;
