@@ -25,6 +25,10 @@ body,
     font-family: 'cuprumregular', sans-serif;
 }
 
+img {
+  @apply rounded-md;
+}
+
 .logohome {
     font-family: 'acumin_pro_extracondensedIt', sans-serif;
 }

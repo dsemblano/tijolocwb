@@ -35,7 +35,7 @@
             {{-- @include('partials/snippets/reservation') --}}
           </div>
         </div>
-        <div class="right mt-8 lg:mt-0 animate__animated animate__fadeInRight animate__slow">
+        <div class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow">
           <img src="@asset('images/home-tijolo.webp')" alt="Tijolo CWB"/>
         </div>
       </div>
