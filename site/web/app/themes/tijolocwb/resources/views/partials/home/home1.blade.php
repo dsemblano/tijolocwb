@@ -27,8 +27,8 @@
           </article>
           
           <div class="flex justify-center lg:justify-start mt-2">
-              <a href="/reservas">
-                <button class="animate__animated animate__fadeInUp animate__delay-3s flex justify-center bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded w-full lg:w-auto">
+              <a href="/reservas" class="w-full flex">
+                <button class=" animate__fadeInUp animate__delay-3s bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded lg:w-auto w-full">
                   Reservas
                 </button>
               </a>
