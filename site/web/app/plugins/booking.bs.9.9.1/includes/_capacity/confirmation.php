@@ -95,12 +95,14 @@ function wpbc_booking_confirmation( $params_arr ){
 	// =================================================================================================================
 
 	$confirmation['ty_message'] = stripslashes( esc_js( apply_bk_filter( 'wpdev_check_for_active_language', get_bk_option( 'booking_title_after_reservation' ) ) ) );   // 'Thank you for booking!'
-	$confirmation['ty_message_booking_id'] = sprintf( __( 'Your booking id: %s', 'booking' ), "<strong>{$params_arr['booking_id']}</strong>" );
+	//$confirmation['ty_message_booking_id'] = sprintf( __( 'Your booking id: %s', 'booking' ), "<strong>{$params_arr['booking_id']}</strong>" );
+	$confirmation['ty_message_booking_id'] = sprintf( __( 'Booking id número: %s', 'booking' ), "<strong>{$params_arr['booking_id']}</strong>" );
 
 	// -- Customer details --
 	$plain_form_data_show = wpbc_get__booking_form_data__show( $params_arr['form_data'], $params_arr['resource_id'], array( 'unknown_shortcodes_replace_by' => ' ... ' ) );
 
-	$confirmation['ty_customer_details']  = '<div class="wpbc_ty__section_header">' . __( 'Personal information', 'booking' ) . '</div>';
+	//$confirmation['ty_customer_details']  = '<div class="wpbc_ty__section_header">' . __( 'Personal information', 'booking' ) . '</div>';
+	$confirmation['ty_customer_details']  = '<div class="wpbc_ty__section_header">' . __( 'Informações Pessoais', 'booking' ) . '</div>';
 	$confirmation['ty_customer_details'] .= $plain_form_data_show;
 
 	// -- Booking details --
