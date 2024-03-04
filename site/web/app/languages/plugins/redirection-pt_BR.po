@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - Redirection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-18 11:16:39+0000\n"
+"PO-Revision-Date: 2024-01-26 13:44:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Plugins - Redirection - Stable (latest release)\n"
 
@@ -1602,7 +1602,7 @@ msgstr "Monitorar alterações em %(type)s"
 msgid "IP Logging"
 msgstr "Registro de IP"
 
-#: redirection-strings.php:549 redirection.js:2
+#: redirection-strings.php:549
 msgid "Geo Info"
 msgstr "Informações geográficas"
 
@@ -1914,11 +1914,11 @@ msgstr "Posição"
 msgid "Used to auto-generate a URL if no URL is given. Use the special tags {{code}}$dec${{/code}} or {{code}}$hex${{/code}} to insert a unique ID instead"
 msgstr "Usado na auto-geração do URL se nenhum URL for dado. Use as tags especiais {{code}}$dec${{/code}} ou {{code}}$hex${{/code}} para em vez disso inserir um ID único"
 
-#: redirection-strings.php:448 redirection.js:2
+#: redirection-strings.php:448
 msgid "I'd like to support some more."
 msgstr "Eu gostaria de ajudar mais um pouco."
 
-#: redirection-strings.php:451 redirection.js:2
+#: redirection-strings.php:451
 msgid "Support 💰"
 msgstr "Doação 💰"
 
@@ -2176,11 +2176,11 @@ msgstr "Inscreva-se no boletim do Redirection. O boletim tem baixo volume de men
 msgid "Your email address:"
 msgstr "Seu endereço de e-mail:"
 
-#: redirection-strings.php:447 redirection.js:2
+#: redirection-strings.php:447
 msgid "You've supported this plugin - thank you!"
 msgstr "Você apoiou este plugin - obrigado!"
 
-#: redirection-strings.php:450 redirection.js:2
+#: redirection-strings.php:450
 msgid "You get useful software and I get to carry on making it better."
 msgstr "Você obtém softwares úteis e eu continuo fazendo isso melhor."
 
@@ -2216,7 +2216,7 @@ msgstr "John Godley"
 msgid "Manage all your 301 redirects and monitor 404 errors"
 msgstr "Gerencie todos os seus redirecionamentos 301 e monitore erros 404"
 
-#: redirection-strings.php:449 redirection.js:2
+#: redirection-strings.php:449
 msgid "Redirection is free to use - life is wonderful and lovely! It has required a great deal of time and effort to develop and you can help support this development by {{strong}}making a small donation{{/strong}}."
 msgstr "O Redirection é livre para usar - a vida é maravilhosa e adorável! Foi necessário muito tempo e esforço para desenvolver e você pode ajudar a apoiar esse desenvolvimento {{strong}}fazendo uma pequena doação{{/strong}}."
 
@@ -2280,11 +2280,11 @@ msgstr "(tempo para manter os registros)"
 msgid "Redirect Logs"
 msgstr "Registros de redirecionamento"
 
-#: redirection-strings.php:614 redirection.js:2
+#: redirection-strings.php:614
 msgid "I'm a nice person and I have helped support the author of this plugin"
 msgstr "Eu sou uma pessoa legal e ajudei a apoiar o autor deste plugin"
 
-#: redirection-strings.php:452 redirection.js:2
+#: redirection-strings.php:452
 msgid "Plugin Support"
 msgstr "Suporte do plugin"
 

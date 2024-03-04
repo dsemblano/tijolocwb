@@ -2,14 +2,19 @@
 # This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-08 18:41:31+0000\n"
+"PO-Revision-Date: 2024-02-14 13:42:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"X-Generator: GlotPress/4.0.0-beta.3\n"
 "Language: el_GR\n"
 "Project-Id-Version: Plugins - WP Booking Calendar - Stable (latest release)\n"
+
+#: core/lang/wpbc_all_translations2.php:25
+#: includes/page-bookings/bookings__listing.php:297
+msgid "Source"
+msgstr "Πηγή "
 
 #: core/admin/page-settings.php:576 core/lang/wpbc_all_translations.php:474
 #: includes/page-resource-free/page-resource-free.php:377

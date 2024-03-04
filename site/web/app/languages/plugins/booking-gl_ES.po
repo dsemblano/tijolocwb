@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-08 02:22:35+0000\n"
+"PO-Revision-Date: 2024-02-07 14:49:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: gl_ES\n"
 "Project-Id-Version: Plugins - WP Booking Calendar - Stable (latest release)\n"
 
@@ -2212,6 +2212,10 @@ msgstr "Invitados"
 msgid "Thanks :)"
 msgstr "Grazas :)"
 
+#: core/lang/wpbc_all_translations1.php:670
+msgid "Customization of Payment"
+msgstr "Personalización do pago"
+
 #: core/lang/wpbc_all_translations1.php:323
 msgid "where %s – default calendar %s (you can select desired resource of calendar by inserting shortcode into page)%s"
 msgstr "onde %s - calendario por defecto %s (pode seleccionar o recurso que desexe do calendario inserindo código dentro da páxina) %s"
@@ -2508,6 +2512,11 @@ msgstr "Contido de Campos da Reserva"
 #: core/lang/wpbc_all_translations1.php:262
 msgid "Form fields"
 msgstr "Campos de formulario"
+
+#: core/lang/wpbc_all_translations2.php:53
+#: includes/page-resource-free/page-resource-free.php:35
+msgid "Customization of booking resource"
+msgstr "Personalización do recurso da reserva"
 
 #: core/lang/wpbc_all_translations1.php:256
 msgid "Modified"
@@ -3745,6 +3754,10 @@ msgstr "O cambio de estado de pago fallou"
 #: core/admin/page-settings.php:291 core/lang/wpbc_all_translations.php:457
 msgid "Admin Panel"
 msgstr "Panel de administración"
+
+#: core/lang/wpbc_all_translations1.php:51
+msgid "Customization of Season Filters"
+msgstr "Personalización dos filtros de temporada"
 
 #: core/admin/page-ics-export.php:166 core/admin/page-ics-import.php:164
 #: core/lang/wpbc_all_translations.php:326

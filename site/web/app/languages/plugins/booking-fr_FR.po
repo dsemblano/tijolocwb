@@ -2,14 +2,265 @@
 # This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 14:33:20+0000\n"
+"PO-Revision-Date: 2024-02-07 21:31:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - WP Booking Calendar - Stable (latest release)\n"
+
+#: core/lang/wpbc_all_translations1.php:259
+msgid "Customization of booking resources"
+msgstr "Personnalisation des ressources de réservation"
+
+#: core/lang/wpbc_all_translations2.php:75
+#: includes/publish/wpbc-publish-shortcode.php:292
+msgid "Go Back"
+msgstr "Revenir en arrière"
+
+#: core/lang/wpbc_all_translations2.php:74
+#: includes/publish/wpbc-publish-shortcode.php:277
+msgid "Create Page"
+msgstr "Créer une page"
+
+#: core/lang/wpbc_all_translations2.php:73
+#: includes/publish/wpbc-publish-shortcode.php:274
+msgid "Enter Page Name"
+msgstr "Saisir le nom de la page"
+
+#: core/lang/wpbc_all_translations2.php:72
+#: includes/publish/wpbc-publish-shortcode.php:271
+msgid "Provide a name for your new page."
+msgstr "Donnez un nom à votre nouvelle page."
+
+#: core/lang/wpbc_all_translations2.php:71
+#: includes/publish/wpbc-publish-shortcode.php:266
+msgid "Use This Page"
+msgstr "Utiliser cette page"
+
+#: core/lang/wpbc_all_translations2.php:68
+#: includes/publish/wpbc-publish-shortcode.php:250
+msgid "Create New Page"
+msgstr "Créer une nouvelle page"
+
+#: core/lang/wpbc_all_translations2.php:55
+#: includes/publish/wpbc-create-pages.php:219
+msgid "A new page has been created."
+msgstr "Une nouvelle page a été créée."
+
+#: core/lang/wpbc_all_translations1.php:783
+msgid "Payment button height"
+msgstr "Hauteur du bouton de paiement"
+
+#: core/lang/wpbc_all_translations1.php:782
+msgid "Payment button type"
+msgstr "Type de bouton de paiement"
+
+#: core/lang/wpbc_all_translations1.php:779
+msgid "Client ID"
+msgstr "ID client"
+
+#: core/lang/wpbc_all_translations1.php:261
+#: includes/page-resource-free/page-resource-free.php:362
+msgid "Publish"
+msgstr "Publier"
+
+#: core/lang/wpbc_all_translations1.php:260
+#: includes/page-resource-free/page-resource-free.php:315
+msgid "Shortcode for page"
+msgstr "Code court pour la page"
+
+#: core/lang/wpbc_all_translations1.php:72
+msgid "Reset All"
+msgstr "Tout réinitialiser"
+
+#: core/lang/wpbc_all_translations1.php:17
+msgid "Seasonal Pricing"
+msgstr "Tarif saisonnier"
+
+#: core/lang/wpbc_all_translations.php:996
+msgid "Partial Payments"
+msgstr "Paiements partiels"
+
+#: core/lang/wpbc_all_translations.php:783 core/wpbc_functions.php:2463
+#: includes/page-availability/availability__page.php:331
+#: includes/page-availability/availability__page.php:333
+msgid "General Availability"
+msgstr "Disponibilité générale"
+
+#: core/lang/wpbc_all_translations.php:782 core/wpbc_functions.php:2454
+#: core/wpbc_functions.php:2509
+msgid "Seasons"
+msgstr "Saisons"
+
+#: core/lang/wpbc_all_translations.php:780 core/wpbc_functions.php:2436
+#: includes/page-availability/availability__page.php:42
+msgid "Days Availability"
+msgstr "Jours disponibles"
+
+#: core/admin/wpbc-toolbar-tiny.php:2520
+#: core/lang/wpbc_all_translations.php:586
+msgid "Insert WP Booking Calendar"
+msgstr "Insérer WP Booking Calendar"
+
+#: core/admin/wpbc-toolbar-tiny.php:311 core/lang/wpbc_all_translations.php:510
+msgid "Insert"
+msgstr "Insérer"
+
+#: core/admin/api-settings.php:1320 core/lang/wpbc_all_translations.php:157
+#: core/wpbc.php:221 core/wpbc.php:223 core/wpbc_functions.php:2475
+msgid "Prices"
+msgstr "Prix"
+
+#: includes/page-resource-free/page-resource-free.php:361
+msgid "Embed your booking form into the page"
+msgstr "Embarquer votre formulaire de réservation dans la page"
+
+#: includes/page-resource-free/page-resource-free.php:348
+msgid "Customize Booking Calendar shortcode"
+msgstr "Personnaliser le code court Booking Calendar"
+
+#: core/lang/wpbc_all_translations2.php:70
+#: includes/publish/wpbc-publish-shortcode.php:260
+msgid "&mdash; Select &mdash;"
+msgstr "— Sélectionner —"
+
+#: core/lang/wpbc_all_translations2.php:67
+#: includes/publish/wpbc-publish-shortcode.php:244
+msgid "Embed in Existing Page"
+msgstr "Embarquer dans une page existante"
+
+#: core/lang/wpbc_all_translations1.php:774
+msgid "Legacy"
+msgstr "Ancien"
+
+#: core/lang/wpbc_all_translations1.php:454
+#: includes/page-resource-free/page-resource-free.php:233
+msgid "Add Resource"
+msgstr "Ajouter une ressource"
+
+#: core/lang/wpbc_all_translations.php:786 core/wpbc_functions.php:2500
+msgid "Discount Coupons"
+msgstr "Codes promo de remise"
+
+#: core/admin/api-settings.php:1158 core/lang/wpbc_all_translations.php:136
+msgid "Performance"
+msgstr "Performance"
+
+#: core/admin/api-settings.php:1157 core/lang/wpbc_all_translations.php:134
+msgid "Parallel requests"
+msgstr "Requêtes parallèles"
+
+#. translators: 1: The number of seconds in an interval of time.
+#: includes/_capacity/dates_times_support.php:716
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s seconde"
+msgstr[1] "%s secondes"
+
+#. translators: 1: The number of minutes in an interval of time.
+#: includes/_capacity/dates_times_support.php:714
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minute"
+msgstr[1] "%s minutes"
+
+#. translators: 1: The number of hours in an interval of time.
+#: includes/_capacity/dates_times_support.php:712
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s heure"
+msgstr[1] "%s heures"
+
+#. translators: 1: The number of days in an interval of time.
+#: includes/_capacity/dates_times_support.php:710
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s jour"
+msgstr[1] "%s jours"
+
+#. translators: 1: The number of weeks in an interval of time.
+#: includes/_capacity/dates_times_support.php:708
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s semaine"
+msgstr[1] "%s semaines"
+
+#. translators: 1: The number of months in an interval of time.
+#: includes/_capacity/dates_times_support.php:706
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s mois"
+msgstr[1] "%s mois"
+
+#. translators: 1: The number of years in an interval of time.
+#: includes/_capacity/dates_times_support.php:704
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s année"
+msgstr[1] "%s années"
+
+#: core/lang/wpbc_all_translations2.php:52
+#: includes/page-customize/customize__templates.php:1672
+msgid "1 mouse click"
+msgstr "1 clic de souris"
+
+#: core/lang/wpbc_all_translations2.php:51
+#: includes/page-customize/customize__templates.php:1637
+msgid "2 mouse clicks"
+msgstr "2 clics de souris"
+
+#: core/lang/wpbc_all_translations2.php:50
+#: includes/page-customize/customize__templates.php:1484
+msgid "Reset Size"
+msgstr "Réinitialiser la taille"
+
+#: core/lang/wpbc_all_translations2.php:49
+#: includes/page-customize/customize__templates.php:1455
+msgid "Apply Size"
+msgstr "Appliquer la taille"
+
+#: core/lang/wpbc_all_translations2.php:48
+#: includes/page-customize/customize__templates.php:1395
+msgid "Height of calendar cell"
+msgstr "Hauteur de cellule du calendrier"
+
+#: core/lang/wpbc_all_translations2.php:46
+#: includes/page-customize/customize__templates.php:1186
+msgid "Number of visible months"
+msgstr "Nombre de mois visibles"
+
+#: core/lang/wpbc_all_translations2.php:44
+#: includes/page-customize/customize__templates.php:959
+msgid "Reset Wizard"
+msgstr "Réinitialiser l’assistant"
+
+#: core/lang/wpbc_all_translations2.php:43
+#: includes/page-customize/customize__templates.php:927
+msgid "Skip Wizard"
+msgstr "Passer l’assistant"
+
+#: core/lang/wpbc_all_translations2.php:42
+#: includes/page-customize/customize__templates.php:791
+msgid "Advanced availability"
+msgstr "Disponibilité avancée"
+
+#: core/lang/wpbc_all_translations2.php:40
+#: includes/page-customize/customize__templates.php:357
+msgid "Save and continue"
+msgstr "Enregistrer et continuer"
+
+#: core/lang/wpbc_all_translations2.php:39
+#: includes/page-customize/customize__page.php:157
+msgid "Publish Resources"
+msgstr "Publier des ressources"
+
+#: core/lang/wpbc_all_translations2.php:37
+#: includes/page-customize/customize__page.php:41
+msgid "Configuration Wizard"
+msgstr "Assistant de configuration"
 
 #: core/lang/wpbc_all_translations1.php:840
 #: includes/page-customize/customize__templates.php:338
