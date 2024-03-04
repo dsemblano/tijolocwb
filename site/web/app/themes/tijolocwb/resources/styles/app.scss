@@ -16,10 +16,6 @@
 //   font-display: swap;
 // }
 
-:root {
-    --app-height: 100%;
-}
-
 body,
 .nav-primary {
     font-family: 'cuprumregular', sans-serif;
@@ -59,11 +55,15 @@ h6 {
   flex-direction: column;
   flex-wrap: nowrap;
   // gap: 80px;
-  height: min-content;
+  // height: min-content;
   justify-content: flex-start;
   overflow: hidden;
   // padding: 2rem 0 0;
   position: relative;
+}
+
+section#tela1 {
+  min-height: 100svh;
 }
 
 .container {

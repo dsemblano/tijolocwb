@@ -10,25 +10,25 @@
           </div> --}}
 
           <article class="text-center lg:text-left">
-            <p class="mb-6 animate__animated animate__fadeInUp">
+            <p class="mb-6 animate__animated animate__fadeInUp animate__fast">
               A Tijolo CWB é um projeto de comida descomplicada. Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast
               food e do cotidiano. Com exceção dos pães e chocolate, nossos preparos são todos feitos
               pela nossa equipe de cozinha.
             </p>
-            <p class="mb-6 animate__animated animate__fadeInUp animate__delay-1s">
+            <p class="mb-6 animate__animated animate__fadeInUp animate__fast animate__delay-1s">
               Servimos bocaditos, sanduíches, pastas e molhos especiais, produzidos com insumos não refinados e minimamente
               processados.</p>
-            <p class="mb-6 animate__animated animate__fadeInUp animate__delay-2s">
+            <p class="mb-6 animate__animated animate__fadeInUp animate__fast animate__delay-2s">
               Trabalhamos com a ideia de comida saudável e saborosa, oferecemos comida de verdade. Grande
               parte do nosso cardápio é vegano, e nossa confeitaria preza por doces plant based.</p>
-            <p class="animate__animated animate__fadeInUp animate__delay-3s">
+            <p class="animate__animated animate__fadeInUp animate__delay-3s animate__fast">
               Faça sua reserva abaixo!
             </p>
           </article>
           
-          <div class="flex justify-center lg:justify-start mt-2">
+          <div class="flex justify-center lg:justify-start mt-2 animate__animated animate__bounce animate__delay-3s animate__fast">
               <a href="/reservas" class="w-full flex">
-                <button class=" animate__fadeInUp animate__delay-3s bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded lg:w-auto w-full">
+                <button class="bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded lg:w-auto w-full">
                   Reservas
                 </button>
               </a>
