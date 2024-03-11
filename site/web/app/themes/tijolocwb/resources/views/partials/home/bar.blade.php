@@ -17,7 +17,7 @@
                 
               </div>
               <div class="right mt-8 lg:mt-0">
-                <img src="@asset('images/lourdinha-bar-taca.webp')" alt="Tijolo CWB"/>
+                <img src="@asset('images/lourdinha-bar-taca.webp')" alt="Tijolo CWB" class="aspect-square"/>
               </div>
         </div>
     </div>
