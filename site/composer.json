@@ -60,7 +60,6 @@
     "wpackagist-plugin/ewww-image-optimizer": ">=6.6.0",
     "wpackagist-plugin/wp-enable-webp": ">=1.0",
     "wpackagist-plugin/responsive-lightbox": ">=2.4.1",
-    "wpackagist-plugin/getwid": ">=1.8.5",
     "wpackagist-plugin/block-options": ">=1.40.0",
     "wpackagist-plugin/wp-mail-smtp": ">=3.10.0",
     "wpackagist-plugin/responsive-block-editor-addons": "^1.7.9",
