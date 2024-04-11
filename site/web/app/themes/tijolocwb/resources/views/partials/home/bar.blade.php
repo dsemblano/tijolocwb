@@ -1,11 +1,7 @@
 <section id="bar" class="home-section flex justify-start items-start bg-tijolopink py-6">
     <div class="container flex justify-start">
-        <div class="flex flex-col lg:flex-col xl:flex-row gap-x-10 text-white">
+        <div class="flex flex-col lg:flex-row gap-x-10 text-white w-full">
             <div class="left flex flex-col w-full lg:w-1/2 lourdinha-wrap items-center justify-around">
-                {{-- <div class="logohome text-5xl text-center xl:text-7xl mb-6">
-                  <h2 class="text-5xl">A gente cozinha pra todo mundo</h2>
-                  <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span>
-                </div> --}}
       
                 <article class="text-center lg:text-left">
                   <p class="mb-6 lg:text-3xl">
@@ -20,7 +16,7 @@
                 </figure>
                 
               </div>
-              <div class="right mt-8 lg:mt-0">
+              <div class="right mt-8 lg:mt-0 lg:w-1/2">
                 <img src="@asset('images/lourdinha-bar-taca.webp')" alt="Tijolo CWB" class="aspect-square"/>
               </div>
         </div>
