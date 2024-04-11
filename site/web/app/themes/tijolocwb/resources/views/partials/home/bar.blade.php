@@ -1,6 +1,6 @@
 <section id="bar" class="home-section flex justify-start items-start bg-tijolopink py-6">
     <div class="container flex justify-start">
-        <div class="flex flex-col lg:flex-row gap-x-10 text-white">
+        <div class="flex flex-col lg:flex-col xl:flex-row gap-x-10 text-white">
             <div class="left flex flex-col w-full lg:w-1/2 lourdinha-wrap items-center justify-around">
                 {{-- <div class="logohome text-5xl text-center xl:text-7xl mb-6">
                   <h2 class="text-5xl">A gente cozinha pra todo mundo</h2>
