@@ -1,7 +1,7 @@
-<section id="bar" class="home-section h-dvh flex justify-start items-start bg-tijolopink pt-6">
+<section id="bar" class="home-section flex justify-start items-start bg-tijolopink py-6">
     <div class="container flex justify-start">
         <div class="flex flex-col lg:flex-row gap-x-10 text-white">
-            <div class="left flex flex-col w-full lg:w-1/2 justify-start lg:justify-start lourdinha-wrap items-center">
+            <div class="left flex flex-col w-full lg:w-1/2 lourdinha-wrap items-center justify-around">
                 {{-- <div class="logohome text-5xl text-center xl:text-7xl mb-6">
                   <h2 class="text-5xl">A gente cozinha pra todo mundo</h2>
                   <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span>
@@ -15,8 +15,8 @@
                     A hora da verdade: vovô se levantava calmamente da cadeira e se expressava: “Lourdinha, tô pronto”. Hora de partir. Fim de festa. Amanhã tem mais. Nicolau</p>
                 </article>
 
-                <figure>
-                  <img width="432" height="381" src="@asset('images/Lourdinha-logo.webp')" alt="Lourdinha logo"/>
+                <figure id="lourdinha-logo" class="w-2/4 py-4">
+                  <img width="509" height="300" src="@asset('images/Lourdinha-logo.webp')" alt="Lourdinha logo"/>
                 </figure>
                 
               </div>
