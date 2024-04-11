@@ -1,4 +1,4 @@
-<section id="bar" class="home-section h-screen flex justify-start items-start bg-tijolopink pt-6">
+<section id="bar" class="home-section h-dvh flex justify-start items-start bg-tijolopink pt-6">
     <div class="container flex justify-start">
         <div class="flex flex-col lg:flex-row gap-x-10 text-white">
             <div class="left flex flex-col w-full lg:w-1/2 justify-start lg:justify-start lourdinha-wrap items-center">
