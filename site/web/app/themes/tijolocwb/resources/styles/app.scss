@@ -309,26 +309,41 @@ select.active_booking_form {
 
 // Loading spinner
 /* Add this CSS to your stylesheet or <style> tag */
-.lazyloading {
-  position: relative;
-}
+// figure .lazyloading {
+//   position: relative;
+// }
 
-.lazyloading::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 30px;
-  height: 30px;
-  border: 3px solid #ccc;
-  border-top: 3px solid #3498db;
+// figure .lazyloading::before {
+//   content: '';
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   width: 30px;
+//   height: 30px;
+//   border: 3px solid #ccc;
+//   border-top: 3px solid #3498db;
+//   border-radius: 50%;
+//   animation: spin 1s linear infinite;
+//   z-index: 1; /* Ensure the spinner appears above the image */
+// }
+
+// @keyframes spin {
+//   0% { transform: rotate(0deg); }
+//   100% { transform: rotate(360deg); }
+// }
+
+figure .lazyloading {
+  margin: auto;
+  border: 20px solid #EAF0F6;
   border-radius: 50%;
-  animation: spin 1s linear infinite;
-  z-index: 1; /* Ensure the spinner appears above the image */
+  border-top: 20px solid #E2AA9F;
+  width: 200px;
+  height: 200px;
+  animation: spinner 4s linear infinite;
 }
-
-@keyframes spin {
+@keyframes spinner {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
