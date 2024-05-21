@@ -29,12 +29,12 @@
         </article>
 
         <div class="flex justify-center lg:justify-start mt-2 animate__animated animate__headShake animate__delay-3s">
-            <button
+            <span
               class="bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded lg:w-auto w-full">
               <a href="/reservas" class="w-full flex">
                 Reservas
               </a>
-            </button>
+            </span>
           {{-- @include('partials/snippets/reservation') --}}
         </div>
       </div>
