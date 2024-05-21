@@ -12,8 +12,6 @@ const config = {
         tijolocardapio: '#dbc8b2',
         tijolohorarios: '#666b54',
         tijolopink: '#D68778',
-        tijolop: '#F9FFE0',
-        tijologray: '#2B2B2B',
         top: {
           '85': '85%',
         }
