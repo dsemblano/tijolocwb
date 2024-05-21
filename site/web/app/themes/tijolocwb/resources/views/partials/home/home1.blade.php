@@ -10,7 +10,7 @@
         </div> --}}
 
         <article class="text-center lg:text-left">
-          <p class="mb-6 animate__animated animate__fadeInUp animate__fast">
+          <p class="mb-6">
             A Tijolo CWB é um projeto de comida descomplicada. Nosso conceito é baseado no slow food, na experiência, na
             produção com cuidado e atenção plena, sem a pressa do fast
             food e do cotidiano. Com exceção dos pães e chocolate, nossos preparos são todos feitos
