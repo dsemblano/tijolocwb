@@ -9,7 +9,7 @@
         @endphp
         <{{$current}} id="logo" class="text-white logohome relative bottom-4 hover:scale-105 transition duration-300 ease-in-out">
           {{-- <span id="logoname" class="text-8xl relative">Tijolo</span> --}}
-          <div id="logoname">Tijolo</div>
+          <span id="logoname">Tijolo</span>
           <span id="logosurname" class="text-lg absolute top-[85%] right-0">comidas e vinhos</span>
 
           @if (! is_front_page())
