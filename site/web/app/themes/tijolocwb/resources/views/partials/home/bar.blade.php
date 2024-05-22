@@ -14,9 +14,10 @@
             partir. Fim de festa. Amanhã tem mais. Nicolau</p>
           </div>
 
-        <figure id="lourdinha-logo" class="w-2/4 py-4">
-          <img width="509" height="300" src="@asset('images/Lourdinha-logo.webp')" alt="Lourdinha logo" />
-        </figure>
+        <picture id="lourdinha-logo" class="w-2/4 py-4">
+          <source media="(min-width: 600px)" srcset="@asset('images/Lourdinha-logo.webp')" width="509" height="300">
+          <img src="@asset('images/Lourdinha-logo.webp')" alt="Lourdinha logo" width="509" height="300">
+        </picture>
 
       </div>
 
