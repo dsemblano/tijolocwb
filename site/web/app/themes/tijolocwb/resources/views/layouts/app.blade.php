@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @php(do_action('get_header'))
     @php(wp_head())
-  <?php //echo \Roots\view('layouts/head/preload')->render(); ?>
+  <?php echo \Roots\view('layouts/head/preload')->render(); ?>
   <?php echo \Roots\view('layouts/head/favicon')->render(); ?>
   <?php echo \Roots\view('layouts/head/gconsole')->render(); ?>
   <?php echo \Roots\view('layouts/head/gtaghead')->render(); ?>
   <?php echo \Roots\view('partials/snippets/schema')->render(); ?>
   </head>
 
-  <body @php(body_class())>
+  <body @php(body_class('debug-screens'))>
     @php(wp_body_open())
   <?php echo \Roots\view('partials/snippets/gtagbody')->render(); ?>
 
