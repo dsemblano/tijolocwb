@@ -21,7 +21,7 @@
 
 #logo.shrink {
   #logoname {
-    @apply text-5xl top-8 relative pt-2 pb-4;
+    @apply text-5xl top-1 relative pt-2 pb-4;
   
     // background-color: green;
     transform: translate(0, -20px); /* Add a transform effect */
@@ -38,7 +38,7 @@
 .menu-menu-principal-container {
   @apply bg-tijolo w-full;
 
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 
   ul#menu-menu-principal {
     animation: slide-down .3s ease-out;
