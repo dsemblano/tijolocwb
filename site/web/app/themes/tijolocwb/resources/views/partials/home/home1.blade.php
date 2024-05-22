@@ -38,9 +38,14 @@
           {{-- @include('partials/snippets/reservation') --}}
         </div>
       </div>
-      <div class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow lg:w-1/2">
-        <img width="732" height="700" src="@asset('images/home-tijolo.webp')" alt="Tijolo CWB" />
-      </div>
+      {{-- <div class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow lg:w-1/2"> --}}
+        {{-- <img width="732" height="700" src="@asset('images/home-tijolo.webp')" alt="Tijolo CWB" /> --}}
+        <picture class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow lg:w-1/2">
+          <source media="(max-width: 600px)" srcset="@asset('images/home-tijolo-mobile.webp')">
+          <source media="(min-width: 601px)" srcset="@asset('images/home-tijolo-desktop.webp')">
+          <img src="home-tijolo.webp" alt="Tijolo CWB restaurante foto interior">
+        </picture>
+      {{-- </div> --}}
     </div>
 
   </div>
