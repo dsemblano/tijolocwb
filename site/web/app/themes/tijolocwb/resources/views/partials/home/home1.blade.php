@@ -39,7 +39,7 @@
         </div>
       </div>
       <div class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow lg:w-1/2">
-        <img src="@asset('images/home-tijolo.webp')" alt="Tijolo CWB" />
+        <img width="732" height="700" src="@asset('images/home-tijolo.webp')" alt="Tijolo CWB" />
       </div>
     </div>
 
