@@ -3,18 +3,8 @@
 @tailwind utilities;
 @import 'common/fonts.scss';
 @import "./menu.scss";
-// @import "./scrollbar.scss";
 @import "./arrowcdtop.scss";
 @import 'animate.css';
-
-
-// @import "swiper/css/bundle";
-
-
-// @font-face {
-//   font-family: 'mobmenu';
-//   font-display: swap;
-// }
 
 body,
 .nav-primary {
@@ -46,19 +36,12 @@ h6 {
   @apply text-3xl;
 }
 
-// p {
-//   font-size: 1.5rem;
-// }
-
 .main {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  // gap: 80px;
-  // height: min-content;
   justify-content: flex-start;
   overflow: hidden;
-  // padding: 2rem 0 0;
   position: relative;
 }
 
@@ -73,25 +56,6 @@ h6 {
   padding-right: 1rem;
   padding-left: 1rem;
 }
-
-// #tela1 {
-//   background-image: url("../images/pratos/pratohome2.webp");
-
-// }
-
-// Home
-// #tela1 {
-//     padding: 0;
-//     margin: 0;
-//     overflow: hidden;
-
-//     // width: 100vw;
-//     height: 85vh;
-
-//     @media not all and (hover: hover) {
-//         height: var(--app-height);
-//     }
-// }
 
 .top-10 {
     top: 2.5rem;
@@ -146,106 +110,6 @@ picture {
   justify-content: inherit;
 }
 
-// Wordpress blocks
-// figure.wp-block-pullquote {
-//   border-top: 5px solid black;
-//   border-bottom: 5px solid black;
-// }
-
-// h2.has-text-align-center {
-//   border-top: 5px solid black;
-//   border-bottom: 5px solid black;
-//   padding: 3.5rem 0;
-//   margin-bottom: 2rem;
-// }
-
-// .wp-block-media-text__content {
-//   margin-top: 1rem;
-// }
-
-// .wp-block-separator {
-//   margin: 1rem 0rem 1rem 0rem;
-// }
-
-// .social-icons-div {
-//   @apply transform hover:scale-150 transition duration-300 ease-in-out;
-// }
-
-// .footer-nav {
-//   li {
-
-//     &:hover {
-//       text-decoration: underline; 
-//     }
-//   }
-// }
-
-// .wp-block-group.is-layout-constrained {
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr);
-//     grid-template-rows: repeat(5, 1fr);
-//     grid-column-gap: 15px;
-//     grid-row-gap: 15px;
-    
-//     .wp-block-media-text__media {
-//       img {
-//         @apply shadow-lg rounded-md max-w-full h-auto align-middle border-none;
-//       }
-//     }
-      
-// }
-
-// Cardapio blocks
-
-// .cardapio {
-//   @apply text-tijolop bg-tijologreentext;
-
-//   .container {
-
-//     h2 {
-//       margin-bottom: 3rem;  
-//     }
-
-//     .wp-block-group {
-//       @apply grid grid-cols-1 md:grid-cols-3 gap-20;
-
-//       .wp-block-media-text {
-//         @apply flex flex-col w-full;
-
-//         figure.wp-block-media-text__media {
-//           @apply rounded-lg w-full shadow-2xl lg:h-96 overflow-hidden lg:w-10/12 self-start;
-
-//           img {
-//             @apply object-cover object-bottom lg:h-96;
-//             object-fit: cover;
-//             object-position: bottom;
-//             -webkit-transform: scale(1);
-//             transform: scale(1);
-//             -webkit-transition: .3s ease-in-out;
-//             transition: .3s ease-in-out;
-
-//             &:hover {
-//               -webkit-transform: scale(1.3);
-//               transform: scale(1.3);
-//             }
-//           }
-//         }
-      
-//         .wp-block-media-text__content {
-//           @apply self-start p-0 mt-6;
-
-//           h3 {
-//             @apply text-3xl;
-//           }
-//           p {
-//             @apply text-lg;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
 // menu, páginas etc
 
 .wp-block-media-text__content {
@@ -265,7 +129,7 @@ picture {
 }
 
 .home {
-  div p {
+  section div p {
     @apply text-lg lg:text-3xl;
   }
 }
@@ -291,47 +155,9 @@ figure.wp-block-image {
   @apply my-4;
 }
 
-// .responsive-columns-inner-wrap {
-//   display: grid;
-//   grid-template-rows: 1fr;
-//   grid-column-gap: 20px;
-//   grid-row-gap: 20px;
-//   grid-template-columns: repeat(3, 1fr);
-
-//   .wp-block-responsive-block-editor-addons-column {
-//     width: auto !important;
-//   }
-// }
-
 select.active_booking_form {
   border-radius: 0.25rem;
 }
-
-// Loading spinner
-/* Add this CSS to your stylesheet or <style> tag */
-// figure .lazyloading {
-//   position: relative;
-// }
-
-// figure .lazyloading::before {
-//   content: '';
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-//   width: 30px;
-//   height: 30px;
-//   border: 3px solid #ccc;
-//   border-top: 3px solid #3498db;
-//   border-radius: 50%;
-//   animation: spin 1s linear infinite;
-//   z-index: 1; /* Ensure the spinner appears above the image */
-// }
-
-// @keyframes spin {
-//   0% { transform: rotate(0deg); }
-//   100% { transform: rotate(360deg); }
-// }
 
 figure .lazyloading {
   margin: auto;
