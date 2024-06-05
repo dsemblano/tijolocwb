@@ -1,7 +1,23 @@
 import domReady from '@roots/sage/client/dom-ready';
-import flowbite from 'flowbite';
+import 'flowbite/dist/flowbite.js';
 import './logoscroll.js';
-import './arrowtop.js'
+import './arrowtop.js';
+
+import { Partytown } from '@builder.io/partytown/react';
+
+export function Head() {
+  return (
+    <>
+      <Partytown debug={true} forward={['dataLayer.push']} />
+    </>
+  );
+}
+
+// import '@builder.io/partytown/integration/index.mjs'
+
+// import { partytownSnippet } from '@builder.io/partytown/integration';
+
+// const snippetText = partytownSnippet();
 
 /**
  * Application entrypoint

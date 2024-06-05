@@ -10,7 +10,7 @@
   "type": "module",
   "scripts": {
     "dev": "bud dev",
-    "build": "bud build",
+    "build": "bud build && node resources/scripts/copyPartytown.js",
     "translate": "npm run translate:pot && npm run translate:update",
     "translate:pot": "wp i18n make-pot . ./resources/lang/sage.pot --include=\"theme.json,patterns,app,resources\"",
     "translate:update": "for file in ./resources/lang/*.po; do wp i18n update-po ./resources/lang/sage.pot $file; done",
@@ -25,7 +25,7 @@
     "@roots/sage": "6.20.0"
   },
   "dependencies": {
-    "@builder.io/partytown": "^0.10.1",
+    "@builder.io/partytown": "^0.10.2",
     "animate.css": "^4.1.1",
     "flowbite": "^2.3.0",
     "moment": "^2.30.1",

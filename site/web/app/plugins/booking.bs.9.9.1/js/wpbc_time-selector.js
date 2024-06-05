@@ -2,60 +2,62 @@
 (function ( $ ){
 
 	$.fn.extend( {
-
 		wpbc_timeselector: function (){
-
 			var times_options = [];
-
 			this.each( function (){
-
 				var el = $( this );
-
-				// On new days click we are searching for old time items,  and remove them from this booking form
 				if ( el.parent().find( '.wpbc_times_selector' ).length ) {
 					el.parent().find( '.wpbc_times_selector' ).remove();
 				}
+				var currentTime = new Date();
+				var currentHour = currentTime.getHours();
+				var currentMinute = currentTime.getMinutes();
+				// var currentDate = new Date();
+				// currentDate.setHours(0, 0, 0, 0);
+				var today = new Date();
+				var dd = String(today.getDate()).padStart(2, '0');
+				var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+				var yyyy = today.getFullYear();
+				var currentDateAsNumber = Number(yyyy + mm + dd);
 
+				console.log("Current time: " + currentHour + ":" + currentMinute); // Log the current time
+				console.log("Current date: " + currentDateAsNumber); // Current date
 				el.find( 'option' ).each( function ( ind ){
-
+					var time = jQuery( this ).val();
+					var hour = parseInt(time.split(':')[0]);
+					var minute = parseInt(time.split(':')[1]);
+					var isDisabled = jQuery( this ).is( ':disabled' );
+					// The magic
+					if(hour < currentHour + 2 || (hour == currentHour + 2 && minute < currentMinute)){
+						isDisabled = true;
+					}
+					console.log("Option time: " + hour + ":" + minute + ", Disabled: " + isDisabled); // Log each option's time and whether it's disabled
 					times_options.push( {
-										  title   : jQuery( this ).text()
-										, value   : jQuery( this ).val()
-										, disabled: jQuery( this ).is( ':disabled' )
-										, selected: jQuery( this ).is( ':selected' )
-										} );
-
-				} );
-
+						title   : jQuery( this ).text(),
+						value   : time,
+						disabled: isDisabled,
+						selected: jQuery( this ).is( ':selected' )
+					});
+				});
 				var times_options_html = $.fn.wpbc_timeselector.format( times_options );
-
 				el.after( times_options_html );
-
 				el.next('.wpbc_times_selector').find('div').on( "click", function() {
-
-					// Get data value of clicked DIV time-slot
 					var selected_value = jQuery( this ).attr( 'data-value' );
-
-					// Remove previos selected class
 					jQuery( this ).parent( '.wpbc_times_selector' ).find( '.wpbc_time_selected' ).removeClass( 'wpbc_time_selected' );
-					// Set  time item with  selected Class
 					jQuery( this ).addClass('wpbc_time_selected');
-
 					el.find( 'option' ).prop( 'selected', false );
-					// Find option in selectbox with this value
 					el.find( 'option[value="' + selected_value + '"]' ).prop( 'selected', true );
-
 					el.trigger( 'change' );
 				});
-
 				el.hide();
-
 				times_options = [];
-			} );
-
-			return this;				// Chain
+			});
+			return this;
 		}
-	} );
+	});
+	
+	
+	
 
 
 	// Get HTML structure of times selection
