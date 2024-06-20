@@ -3,15 +3,15 @@ import 'flowbite/dist/flowbite.js';
 import './logoscroll.js';
 import './arrowtop.js';
 
-import { Partytown } from '@builder.io/partytown/react';
+// import { Partytown } from '@builder.io/partytown/react';
 
-export function Head() {
-  return (
-    <>
-      <Partytown debug={true} forward={['dataLayer.push']} />
-    </>
-  );
-}
+// export function Head() {
+//   return (
+//     <>
+//       <Partytown debug={true} forward={['dataLayer.push']} />
+//     </>
+//   );
+// }
 
 // import '@builder.io/partytown/integration/index.mjs'
 
