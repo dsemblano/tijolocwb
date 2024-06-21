@@ -122,7 +122,9 @@ picture {
   }
 }
 
-.wp-block-media-text {
+.wp-block-media-text,
+.page main.main .container,
+.wp-block-group {
   p {
     @apply text-lg lg:text-3xl;
   }
