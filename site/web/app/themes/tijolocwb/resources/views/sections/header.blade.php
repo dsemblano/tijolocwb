@@ -1,6 +1,6 @@
 <header id="header" class="banner w-full z-50 bg-tijolo sticky top-0 left-0">
-  <nav class="nav-primary container py-1 nav-primary px-0 xl:px-24">
-    <div class="flex flex-wrap xl:flex-nowrap justify-between items-center mx-auto">
+  <nav class="nav-primary container py-1 nav-primary">
+    <div class="flex flex-wrap lg:flex-nowrap justify-between items-center mx-auto">
       <a class="brand" href="{{ home_url('/') }}">
         @php
         $current = (! is_front_page() ? "div" : 'h1');
@@ -18,10 +18,10 @@
           @endif
         </{{$current}}>
       </a>
-      <div id="mobile-menu" class="flex xl:order-2 ml-8">
+      <div id="mobile-menu" class="flex lg:order-2 ml-8">
 
         <button aria-label="Botão menu sanduíche" data-collapse-toggle="mobile-menu-3" type="button"
-          class="inline-flex items-center p-2 text-sm text-white rounded-lg xl:hidden" aria-controls="mobile-menu-3"
+          class="inline-flex items-center p-2 text-sm text-white rounded-lg lg:hidden" aria-controls="mobile-menu-3"
           aria-expanded="false">
           <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd"
@@ -35,13 +35,13 @@
           </svg>
         </button>
       </div>
-      <div class="hidden justify-between items-center w-full xl:flex xl:order-1" id="mobile-menu-3">
-        {{-- <div class="relative mt-3 xl:hidden">
+      <div class="hidden justify-between items-center w-full lg:flex lg:order-1" id="mobile-menu-3">
+        {{-- <div class="relative mt-3 lg:hidden">
           @include('partials/inputsearch')
         </div> --}}
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'flex flex-col pl-4 py-2
         tracking-widest w-full justify-evenly
-        xl:flex-row xl:mt-0 nav text-white text-xl md:text-2xl relative', 'echo' => false]) !!}
+        lg:flex-row lg:mt-0 nav text-white text-xl relative', 'echo' => false]) !!}
       </div>
     </div>
   </nav>

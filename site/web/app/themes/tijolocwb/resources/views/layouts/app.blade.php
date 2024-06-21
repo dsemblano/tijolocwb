@@ -32,7 +32,7 @@
     <main id="main" class="main">
 
       @if (! is_front_page() && ! is_page('reservas') )
-      <div class="container lg:max-w-fit lg:mx-60">
+      <div class="container">
         @yield('content')
       </div>
       @else

@@ -3,8 +3,13 @@ const config = {
   content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
   theme: {
     container: {
+      padding: {
+      DEFAULT: '1rem',
+      sm: '2rem',
+      lg: '4rem',
+      xl: '5rem',
+    },
       center: true,
-      padding: '1rem',
     },
     extend: {
       colors: {
