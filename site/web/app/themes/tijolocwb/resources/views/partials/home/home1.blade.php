@@ -29,20 +29,21 @@
         </article>
 
         <div class="grid justify-center lg:justify-start mt-2 animate__animated animate__headShake animate__delay-3s">
-            <div
-              class="bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded lg:w-auto w-full">
-              <a href="/reservas" class="w-full flex">
-                Reservas
-              </a>
-            </div>
+          <div
+            class="bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded lg:w-auto w-full">
+            <a href="/reservas" class="w-full flex">
+              Reservas
+            </a>
+          </div>
           {{-- @include('partials/snippets/reservation') --}}
         </div>
       </div>
-        <picture class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow lg:w-1/2">
-          <source media="(max-width: 600px)" srcset="@asset('images/home-tijolo-mobile.webp')" width="570" height="545">
-          <source media="(min-width: 601px)" srcset="@asset('images/home-tijolo-desktop.webp')" width="604" height="650">
-          <img src="home-tijolo-desktop.webp" alt="Tijolo CWB restaurante foto interior" width="604" height="650">
-        </picture>
+      <picture class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow lg:w-1/2">
+        <source media="(max-width: 600px)" srcset="@asset('images/home-tijolo-mobile.webp')" width="570" height="545">
+        <source media="(min-width: 601px)" srcset="@asset('images/home-tijolo-desktop.webp')" width="604" height="650">
+        <img src="@asset('images/home-tijolo-desktop.webp')" alt="Tijolo CWB restaurante foto interior" width="604"
+          height="650">
+      </picture>
     </div>
 
   </div>
