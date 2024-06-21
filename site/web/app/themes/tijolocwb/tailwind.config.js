@@ -2,6 +2,10 @@
 const config = {
   content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
   theme: {
+    container: {
+      center: true,
+      padding: '1rem',
+    },
     extend: {
       colors: {
         tijolo: '#E2AA9F',
