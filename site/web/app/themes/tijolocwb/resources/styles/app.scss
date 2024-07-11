@@ -15,6 +15,11 @@ img {
   @apply rounded-md;
 }
 
+a:hover:not(.brand) {
+  text-decoration-line: underline;
+  text-decoration: underline  ;
+}
+
 .logohome {
     font-family: 'acumin_pro_extracondensedIt', sans-serif;
 }
