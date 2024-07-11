@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('.cd-top').classList.add('cd-fade-out');
         }
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            document.getElementById("logo").classList.add("shrink");
+            document.getElementById("logo").classList.add("shrink", "bottom-4");
             document.getElementById("logosurname").classList.add("hidden");
             document.getElementById("logosurnamepage").classList.remove("hidden");
             document.getElementById("logosurnamepage").classList.add("block");
