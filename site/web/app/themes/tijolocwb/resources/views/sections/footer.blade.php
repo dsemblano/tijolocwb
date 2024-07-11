@@ -1,4 +1,4 @@
-<footer class="content-info bg-tijolo text-neutral-700 py-4 pt-8">
+<footer class="content-info bg-tijolo text-neutral-700 py-4">
   <div class="container">
     <div class="up-footer flex flex-col lg:flex-row justify-center items-center">
       <div class="left-footer">
