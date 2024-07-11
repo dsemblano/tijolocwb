@@ -1,4 +1,9 @@
 apt_cache_valid_time: 3600
+php_max_execution_time: 700
+upload_max_filesize : 300M
+upload_max_size: 300M
+php_upload_max_filesize: 300M
+php_post_max_size: 300M
 apt_package_state: present
 apt_security_package_state: latest
 apt_dev_package_state: latest
