@@ -175,18 +175,30 @@ select.active_booking_form {
 }
 
 figure .lazyloading {
-  @apply animate-spin;
-
-  // margin: auto;
-  // border: 20px solid #EAF0F6;
-  // border-radius: 50%;
-  // border-top: 20px solid #E2AA9F;
-  // width: 5rem;
-  // height: 5rem;
-  // animation: spinner 4s linear infinite;
+  margin: auto;
+  border: 20px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 20px solid #E2AA9F;
+  width: 5rem;
+  height: 5rem;
+  animation: spinner 4s linear infinite;
 }
-// @keyframes spinner {
-//   0% { transform: rotate(0deg); }
-//   100% { transform: rotate(360deg); }
-// }
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
+// figure .lazyloaded {
+
+//   animation: spin 1s linear infinite;
+
+//   @keyframes spin {
+//     from {
+//       transform: rotate(0deg);
+//     }
+//     to {
+//       transform: rotate(360deg);
+//     }
+//   }
+  
+// }
