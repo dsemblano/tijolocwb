@@ -1,0 +1,122 @@
+#logo #logoname {
+  @apply text-8xl relative;
+  
+  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  transform: translate(0, 0); /* Add a transform effect */
+}
+
+#logo.shrink {
+  #logoname {
+    @apply text-5xl top-1 relative pt-2 pb-4;
+  
+    // background-color: green;
+    transform: translate(0, -20px); /* Add a transform effect */
+    transition: 0.2s;
+  }
+
+  #logosurnamepage {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2.5rem;
+  }
+}
+
+.menu-menu-principal-container {
+  @apply bg-tijolo w-full;
+
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+  ul#menu-menu-principal {
+    animation: slide-down .3s ease-out;
+    
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .sub-menu {
+      @apply bg-tijolo pl-2;
+
+    }
+
+    li>a:not(:last-child)::after {
+      content: " ▾";
+    }
+
+  }
+
+}
+
+@screen lg {
+
+  .menu-menu-principal-container {
+    box-shadow: none;
+
+    ul#menu-menu-principal {
+
+      li {
+        margin-bottom: 0;
+
+        a {
+
+          @apply hover:text-neutral-700;
+        }
+      }
+
+      .sub-menu {
+        @apply shadow-md;
+
+        margin-left: 0;
+        display: none;
+        position: absolute;
+        top: 1.5rem;
+        left: 0;
+        z-index: 99999;
+        visibility: hidden;
+        opacity: 0;
+        // min-width: 15rem;
+        // max-width: 25rem;
+        width: 30rem;
+        // box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+        padding: 0.5rem 1rem 1rem 1rem;
+
+        li {
+          @apply py-2;
+        }
+      }
+
+      li:hover>ul,
+      li:focus-within>ul,
+      li ul:hover,
+      li ul:focus {
+        animation: slide-down .3s ease-out;
+        display: block;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    li {
+      position: relative;
+      transition-duration: 0.5s;
+
+      ul li {
+        clear: both;
+        width: 100%;
+      }
+
+      &:focus-within a {
+        outline: none;
+      }
+
+      &:hover,
+      &:focus-within {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@keyframes slide-down {
+  0% { opacity: 0; -webkit-transform: translateY(-5%); }   
+100% { opacity: 1; -webkit-transform: translateY(0); }
+}
