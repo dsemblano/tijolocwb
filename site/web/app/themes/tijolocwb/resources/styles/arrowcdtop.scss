@@ -1,0 +1,81 @@
+// top-arrow
+// $link: #3fc7ba;
+$link: #D68778;
+$small-mq: 480px;
+$medium-mq: 768px;
+$large-mq: 1024px;
+$button-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+// top-arrow
+@mixin top-arrow-mq($canvas) {
+  @if $canvas==small-mq {
+    @media only screen and (min-width: $small-mq) {
+      @content;
+    }
+  }
+
+  @else if $canvas==medium-mq {
+    @media only screen and (min-width: $medium-mq) {
+      @content;
+    }
+  }
+
+  @else if $canvas==large-mq {
+    @media only screen and (min-width: $large-mq) {
+      @content;
+    }
+  }
+}
+
+.cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 13em;
+    right: 1em;
+    // box-shadow: 0 0 10px rgba(#000, 0.05);
+    box-shadow: $button-shadow;
+  
+    /* image replacement properties */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: rgba($link, 0.8) url(../images/arrowcdtop.svg) no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  
+    &.cd-is-visible,
+    &.cd-fade-out,
+    .no-touch &:hover {
+      transition: opacity 0.3s 0s, visibility 0s 0s;
+    }
+  
+    &.cd-is-visible {
+      /* the button becomes visible */
+      visibility: visible;
+      opacity: 1;
+    }
+  
+    &.cd-fade-out {
+      /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+      opacity: 0.5;
+    }
+  
+    .no-touch &:hover {
+      background-color: rgba($link, 1);
+      opacity: 1;
+    }
+  
+    @include top-arrow-mq(medium-mq) {
+      right: 20px;
+      bottom: 20px;
+    }
+  
+    @include top-arrow-mq(large-mq) {
+      height: 60px;
+      width: 60px;
+      right: 1em;
+      bottom: 10em;
+    }
+  }

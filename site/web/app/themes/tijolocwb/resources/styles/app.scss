@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'common/fonts.scss';
+@import "./menu.scss";
+@import "./arrowcdtop.scss";
+@import 'animate.css';
+
+body,
+.nav-primary {
+    font-family: 'cuprumregular', sans-serif;
+}
+
+img {
+  @apply rounded-md;
+}
+
+a:hover:not(.brand) {
+  text-decoration-line: underline;
+  text-decoration: underline  ;
+}
+
+.logohome {
+    font-family: 'acumin_pro_extracondensedIt', sans-serif;
+}
+
+h1#logo.shrink {
+  bottom: 0.5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'acumin_pro_extracondensedIt', sans-serif;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  @apply text-3xl;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-section {
+  min-height: 100svh;
+}
+
+// .container {
+//   width: 100%;
+//   margin-right: auto;
+//   margin-left: auto;
+//   padding-right: 1rem;
+//   padding-left: 1rem;
+// }
+
+.top-10 {
+    top: 2.5rem;
+    position: relative;
+}
+
+.qrr-booking-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+
+    input,
+    select,
+    textarea {
+        @apply text-gray-800;
+    }
+}
+
+// Pages
+// Cardapio
+.cardapio, .reservas {
+    @apply bg-tijolocardapio;
+}
+
+.horarios,
+.hora-que-feliz,
+.happy-hour {
+    @apply bg-tijolohorarios text-white;
+
+    .wp-block-image.invert img {
+        filter: invert(100%);
+    }
+}
+
+.galeria {
+    @apply bg-tijolocardapio;
+}
+
+.reservas-data {
+    @apply bg-tijologreen;
+
+    form {
+        @apply text-gray-200;
+    }
+}
+
+picture {
+  display: flex;
+  justify-content: inherit;
+}
+
+// menu, páginas etc
+
+.wp-block-media-text__content {
+  .wp-block-heading {
+    @apply text-5xl lg:text-6xl my-4;
+    
+    strong {
+      font-weight: normal;
+    }
+  }
+}
+
+main .container {
+  padding-bottom: 2rem;
+}
+
+.wp-block-media-text,
+.page main.main .container,
+.wp-block-group {
+  p {
+    @apply text-lg lg:text-3xl;
+  }
+}
+
+.home {
+  section div p {
+    @apply text-lg lg:text-3xl;
+  }
+}
+
+.wp-block-media-text.alignwide.is-stacked-on-mobile {
+  margin-bottom: 3rem;
+}
+
+// Reservas page
+.wp-block-booking-booking {
+  @apply text-center;
+
+  .resource_selection_div {
+    @apply text-2xl;
+
+    .active_booking_form {
+      @apply text-2xl pr-12 pl-4;
+    }
+  }
+}
+
+figure.wp-block-image {
+  @apply my-4;
+}
+
+select.active_booking_form {
+  border-radius: 0.25rem;
+}
+
+figure .lazyloading {
+  margin: auto;
+  border: 20px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 20px solid #E2AA9F;
+  width: 5rem;
+  height: 5rem;
+  animation: spinner 4s linear infinite;
+}
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+// figure .lazyloaded {
+
+//   animation: spin 1s linear infinite;
+
+//   @keyframes spin {
+//     from {
+//       transform: rotate(0deg);
+//     }
+//     to {
+//       transform: rotate(360deg);
+//     }
+//   }
+  
+// }
