@@ -9,7 +9,7 @@
           <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span>
         </div> --}}
 
-        <article class="text-center lg:text-left text-base lg:text-2xl">
+        <article class="text-center lg:text-left text-lg lg:text-2xl">
           <p class="mb-6">
             O Restaurante Tijolo CWB é um projeto de comida descomplicada, no centro histórico de Curitiba. Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast food e do cotidiano.
           </p>
