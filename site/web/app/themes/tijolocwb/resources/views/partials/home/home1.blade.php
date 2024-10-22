@@ -14,12 +14,12 @@
             O Restaurante Tijolo CWB é um projeto de comida descomplicada, no centro histórico de Curitiba. Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast food e do cotidiano.
           </p>
           <p class="mb-6 animate__animated animate__fadeInUp animate__fast animate__delay-1s">
-            Servimos bocaditos, sanduíches, pastas e molhos especiais, produzidos com insumos não refinados e
-            minimamente
-            processados.</p>
+            Servimos carnes, vinhos, massas, bocaditos, sanduíches, pastas e molhos especiais, produzidos com insumos não refinados e
+            minimamente processados.</p>
           <p class="mb-6 animate__animated animate__fadeInUp animate__fast animate__delay-2s">
-            Servimos bocaditos, sanduíches, pastas, comida vegana e molhos especiais, produzidos com insumos não refinados e minimamente processados, com a ideia de comida saudável e saborosa.</p>
-          <p class="animate__animated animate__fadeInUp animate__delay-3s animate__fast">
+            Trabalhamos com a ideia de comida saudável e saborosa, oferecemos comida de verdade. Grande
+            parte do nosso cardápio é vegano, e nossa confeitaria preza por doces plant based.</p>
+
             Faça sua reserva abaixo!
           </p>
         </article>
