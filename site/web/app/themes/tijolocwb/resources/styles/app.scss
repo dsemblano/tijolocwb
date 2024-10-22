@@ -136,18 +136,17 @@ main .container {
 }
 
 .wp-block-media-text,
-.page main.main .container,
 .wp-block-group {
   p {
     @apply text-lg lg:text-3xl;
   }
 }
 
-.home {
-  section div p {
-    @apply text-lg lg:text-3xl;
-  }
-}
+// .home {
+//   section div p {
+//     @apply text-lg lg:text-3xl;
+//   }
+// }
 
 .wp-block-media-text.alignwide.is-stacked-on-mobile {
   margin-bottom: 3rem;
