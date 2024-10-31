@@ -1,4 +1,4 @@
-<article @php(post_class('h-entry'))>
+<article @php(post_class('single-post'))>
   <header>
     <h1 class="text-5xl text-center mt-8">
       {!! $title !!}
