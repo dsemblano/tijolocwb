@@ -1,3 +1,5 @@
+import typography from '@tailwindcss/typography';
+
 /** @type {import('tailwindcss').Config} config */
 const config = {
   content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
@@ -12,6 +14,13 @@ const config = {
       center: true,
     },
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '100ch', // add required value here
+          }
+        }
+      },
       colors: {
         tijolo: '#E2AA9F',
         tijologreen: '#A5AB9D',
@@ -39,7 +48,7 @@ const config = {
       }
     },
   },
-  plugins: [],
+  plugins: [typography],
 };
 
 export default config;
