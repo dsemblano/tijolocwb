@@ -5,7 +5,8 @@
         @php
         $current = (! is_front_page() ? "div" : 'h1');
         // $current_page = basename(get_permalink());
-        $current_page = get_the_title();
+        
+        $current_page = (! is_category() ? get_the_title() : single_cat_title('', false) );
         @endphp
         <{{$current}} id="logo"
           class="text-white logohome relative bottom-4 hover:scale-105 transition duration-300 ease-in-out">
