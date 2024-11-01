@@ -175,6 +175,22 @@ figure.wp-block-image {
   @apply my-4;
 }
 
+figure.imgpost {
+  overflow: hidden;
+
+  img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+    &:hover {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  }
+}
+
 select.active_booking_form {
   border-radius: 0.25rem;
 }
