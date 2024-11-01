@@ -1,7 +1,7 @@
 <article @php(post_class('diaadia'))>
   <a href="{{ get_permalink() }}">
-    <figure class="imgpost">
-      {{ the_post_thumbnail('medium_large', array( 'class' => 'w-full shadow-xl rounded-t-md' ) ) }}
+    <figure class="imgpost shadow-xl rounded">
+      {{ the_post_thumbnail('medium_large', array( 'class' => 'w-full shadow-xl rounded' ) ) }}
     </figure>
   </a>
   <header>
