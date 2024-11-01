@@ -28,8 +28,8 @@
       class="down-footer flex flex-col text-center text-base gap-y-6 lg:flex-row justify-center w-full border-t border-solid border-neutral-500 pt-6">
 
       <div class="left-footer">
-        <section id="endereco" class="text-center">
-          <p>R. São Francisco, 179, lojas 2 e 3 – dentro da <a class="hover:underline" href="https://sfco179.com.br/"
+        <section id="endereco" class="text-center">          
+          <p><span>📍</span> R. São Francisco, 179, lojas 2 e 3 – dentro da <a class="hover:underline" href="https://sfco179.com.br/"
               target="_blank">SFCO 179</a> <br> Centro Histórico, Curitiba - PR</p>
           <p class="text-base">
             <a title="Clique para a página dos horários" href="/horarios">> Horários</a>
