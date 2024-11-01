@@ -1,4 +1,4 @@
-<article @php(post_class('border-default'))>
+<article @php(post_class('diaadia'))>
   <a href="{{ get_permalink() }}">
     <figure class="imgpost">
       {{ the_post_thumbnail('medium_large', array( 'class' => 'w-full shadow-xl rounded-t-md' ) ) }}
@@ -6,7 +6,7 @@
   </a>
   <header>
     <div class="wrap">
-      <h2 class="text-xl my-2">
+      <h2 class="text-xl my-2 text-center">
         <a class="postslinks" href="{{ get_permalink() }}">
           {!! $title !!}
         </a>
