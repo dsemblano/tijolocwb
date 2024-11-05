@@ -16,7 +16,7 @@
 
         {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'flex footer-nav gap-4 w-full
         justify-center items-center lg:justify-start
-        flex-row my-8 nav text-xl md:text-xl relative', 'echo' => false]) !!}
+        flex-row my-8 nav text-sm md:text-xl relative', 'echo' => false]) !!}
       </div>
 
       {{-- <div id="social-icons" class="right-footer flex flex-row justify-between fill-neutral-700 gap-x-24">
