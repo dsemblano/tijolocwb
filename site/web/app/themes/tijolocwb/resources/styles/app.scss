@@ -6,9 +6,13 @@
 @import "./arrowcdtop.scss";
 @import 'animate.css';
 
-body,
+body {
+  font-family: 'cuprumregular', sans-serif;
+  // font-family: var(--font-sans);
+}
+
 .nav-primary {
-    font-family: 'cuprumregular', sans-serif;
+  font-family: 'cuprumregular', sans-serif;
 }
 
 img {
@@ -133,7 +137,7 @@ picture {
 
 .page:not(.home), .single-post, .category {
   .main .container p {
-    @apply text-lg lg:text-2xl;
+    @apply text-base text-gray-800 mb-6;
   }
 } 
 
@@ -240,4 +244,8 @@ figure.wp-image-3471 {
 
 .wp-block-image.aligncenter {
   margin: 0 auto;
+}
+
+.wp-block-video video {
+  height: 100vh;
 }
