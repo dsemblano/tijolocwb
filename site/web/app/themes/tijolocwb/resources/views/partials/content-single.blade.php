@@ -1,6 +1,6 @@
 <article @php(post_class('single-post'))>
   <header>
-    <h1 class="text-5xl text-center mt-8">
+    <h1 class="text-5xl text-center mt-8 animate__animated animate__fadeInDown">
       {!! $title !!}
     </h1>
 
