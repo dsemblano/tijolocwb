@@ -41,8 +41,7 @@
           @include('partials/inputsearch')
         </div> --}}
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'flex flex-col pl-4 py-2
-        tracking-widest w-full justify-evenly
-        lg:flex-row lg:mt-0 nav text-white text-xl relative', 'echo' => false]) !!}
+        tracking-widest w-full justify-evenly lg:flex-row lg:mt-0 nav text-white text-lg relative', 'echo' => false]) !!}
       </div>
     </div>
   </nav>
