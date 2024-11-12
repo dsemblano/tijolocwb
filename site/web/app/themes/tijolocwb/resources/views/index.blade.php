@@ -11,7 +11,7 @@
     {!! get_search_form(false) !!}
   @endif
 
-  <section class="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-5 w-full lg:pr-8 mb-6">
+  <section class="gap-4 grid grid-cols-1 md:grid-cols-2 mt-5 w-full lg:pr-8 mb-6">
     @while(have_posts()) @php(the_post())
     @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
     @endwhile

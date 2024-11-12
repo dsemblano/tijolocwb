@@ -5,8 +5,7 @@
     </figure>
   </a>
   <header>
-    <div class="wrap">
-      <h2 class="text-lg my-2 text-center">
+      <h2 class="text-center">
         <a class="postslinks" href="{{ get_permalink() }}">
           {!! $title !!}
         </a>
@@ -17,6 +16,5 @@
           {{ get_the_excerpt() }}
         </a>
       </p> --}}
-    </div>
   </header>
 </article>
