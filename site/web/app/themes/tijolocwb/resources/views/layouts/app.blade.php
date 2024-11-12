@@ -32,7 +32,7 @@
     <main id="main" class="main">
 
       @if (! is_front_page() && ! is_page('reservas') )
-      <div class="container">
+      <div class="container prose mx-auto prose-a:no-underline">
         @yield('content')
       </div>
       @else
