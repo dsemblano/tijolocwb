@@ -96,6 +96,42 @@ h6 {
     @apply bg-tijolocardapio;
 }
 
+section.cardapio-pratos {
+  // background-color: orange;
+
+  .wp-block-media-text {
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    @apply text-4xl mb-12 lg:mt-0 font-bold;
+  }
+
+  h3 {
+    @apply text-3xl mt-4 mb-8 lg:mt-0 font-bold;
+  }
+  
+  p {
+    margin-top: 1rem;
+  }
+}
+
+// #vinhos {
+//   background-color: purple;
+// }
+
+// menu, páginas etc
+
+// .wp-block-media-text__content {
+//   .wp-block-heading {
+//     @apply text-5xl lg:text-6xl my-4;
+    
+//     strong {
+//       font-weight: normal;
+//     }
+//   }
+// }
+
 .horarios,
 .hora-que-feliz,
 .happy-hour {
@@ -121,18 +157,6 @@ h6 {
 picture {
   display: flex;
   justify-content: inherit;
-}
-
-// menu, páginas etc
-
-.wp-block-media-text__content {
-  .wp-block-heading {
-    @apply text-5xl lg:text-6xl my-4;
-    
-    strong {
-      font-weight: normal;
-    }
-  }
 }
 
 .page:not(.home), .single-post, .category {
