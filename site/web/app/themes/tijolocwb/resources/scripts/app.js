@@ -3,6 +3,14 @@ import 'flowbite/dist/flowbite.js';
 import './logoscroll.js';
 import './arrowtop.js';
 
+const images = document.querySelectorAll('img');
+
+images.forEach(image => {
+  image.addEventListener('load', () => {
+    image.classList.remove('image-loading');
+  });
+});
+
 // import { Partytown } from '@builder.io/partytown/react';
 
 // export function Head() {
