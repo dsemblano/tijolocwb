@@ -165,13 +165,15 @@ picture {
   }
 } 
 
-.page.horarios .main .container {
+.page.horarios, .page.happy-hour .main .container {
   h1,
   h2,
   h3,
+  h4,
   figcaption,
   a,
   strong,
+  blockquote,
   p {
     @apply text-gray-100;
   }
