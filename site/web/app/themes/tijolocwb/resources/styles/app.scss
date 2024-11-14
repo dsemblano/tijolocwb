@@ -165,6 +165,18 @@ picture {
   }
 } 
 
+.page.horarios .main .container {
+  h1,
+  h2,
+  h3,
+  figcaption,
+  a,
+  strong,
+  p {
+    @apply text-gray-100;
+  }
+}
+
 main .container {
   padding-bottom: 2rem;
 }
