@@ -302,15 +302,18 @@ figure.wp-image-3471 {
 }
 
 .nossodiaadia {
-  @apply flex;
+  @apply text-base mt-2 flex flex-row gap-x-4;
 
-    a figure {
-      width: 70%;
-      height: 70%;
+  a.img-link {
+    width: 30%;
+
+    figure {
+      height: 15rem;
     }
+  }
 
-  header h2 {
-    width: 55%;
-    text-align: left;
+  header {
+    display: flex;
+    align-items: center;
   }
 }
