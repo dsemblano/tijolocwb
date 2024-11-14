@@ -300,3 +300,17 @@ figure.wp-image-3471 {
 .wp-block-video video {
   height: 100vh;
 }
+
+.nossodiaadia {
+  @apply flex;
+
+    a figure {
+      width: 70%;
+      height: 70%;
+    }
+
+  header h2 {
+    width: 55%;
+    text-align: left;
+  }
+}
