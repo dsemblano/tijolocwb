@@ -4,10 +4,6 @@
   <div class="container mx-auto">
     <div class="flex flex-col lg:flex-row gap-x-10 text-tijolo">
       <div class="left flex flex-col w-full lg:w-1/2">
-        {{-- <div class="logohome text-5xl text-center xl:text-7xl mb-6">
-          <h2 class="text-5xl">A gente cozinha pra todo mundo</h2>
-          <span class="text-2xl lg:text-5xl absolute top-[90%] lg:top-[95%] right-0">comidas e vinhos</span>
-        </div> --}}
 
         <article class="text-center lg:text-left text-lg lg:text-2xl">
           <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast">
@@ -46,9 +42,3 @@
 
 
 </section>
-
-{{-- <div class=" flex justify-center items-center bg-green-100 ">
-  <div class="flex flex-row justify-center social-icons my-10 gap-24 fill-white">
-    @include ('partials.socialicons')
-  </div>
-</div> --}}
