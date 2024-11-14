@@ -302,10 +302,10 @@ figure.wp-image-3471 {
 }
 
 .nossodiaadia {
-  @apply text-base mt-2 flex flex-row gap-x-4;
+  @apply text-base mt-2 flex flex-col lg:flex-row gap-x-4;
 
   a.img-link {
-    width: 30%;
+    // width: 30%;
 
     figure {
       height: 15rem;
