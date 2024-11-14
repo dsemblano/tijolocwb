@@ -5,7 +5,7 @@
     </figure>
   </a>
   <header>
-      <h2 class="text-center">
+      <h2 class="text-left">
         <a class="postslinks" href="{{ get_permalink() }}">
           {!! $title !!}
         </a>
