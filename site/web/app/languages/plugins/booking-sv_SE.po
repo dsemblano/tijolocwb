@@ -2,14 +2,54 @@
 # This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-07 09:13:48+0000\n"
+"PO-Revision-Date: 2024-03-05 17:39:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-beta.2\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
 "Language: sv_SE\n"
 "Project-Id-Version: Plugins - WP Booking Calendar - Stable (latest release)\n"
+
+#: core/lang/wpbc_all_translations2.php:68
+#: includes/publish/wpbc-publish-shortcode.php:250
+msgid "Create New Page"
+msgstr "Skapa ny sida"
+
+#: core/lang/wpbc_all_translations2.php:75
+#: includes/publish/wpbc-publish-shortcode.php:292
+msgid "Go Back"
+msgstr "Gå tillbaka"
+
+#: core/lang/wpbc_all_translations2.php:71
+#: includes/publish/wpbc-publish-shortcode.php:266
+msgid "Use This Page"
+msgstr "Använd denna sida"
+
+#: core/lang/wpbc_all_translations2.php:67
+#: includes/publish/wpbc-publish-shortcode.php:244
+msgid "Embed in Existing Page"
+msgstr "Bädda in på befintlig sida"
+
+#: core/lang/wpbc_all_translations2.php:74
+#: includes/publish/wpbc-publish-shortcode.php:277
+msgid "Create Page"
+msgstr "Skapa sida"
+
+#: core/lang/wpbc_all_translations2.php:73
+#: includes/publish/wpbc-publish-shortcode.php:274
+msgid "Enter Page Name"
+msgstr "Ange sidnamn"
+
+#: core/lang/wpbc_all_translations2.php:72
+#: includes/publish/wpbc-publish-shortcode.php:271
+msgid "Provide a name for your new page."
+msgstr "Ange ett namn för din nya sida."
+
+#: core/lang/wpbc_all_translations2.php:55
+#: includes/publish/wpbc-create-pages.php:219
+msgid "A new page has been created."
+msgstr "En ny sida har skapats."
 
 #: core/lang/wpbc_all_translations2.php:40
 #: includes/page-customize/customize__templates.php:357
@@ -164,6 +204,11 @@ msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s år"
 msgstr[1] "%s år"
+
+#: core/lang/wpbc_all_translations1.php:821
+#: includes/_capacity/confirmation.php:98
+msgid "Your booking id: %s"
+msgstr "Ditt boknings-ID: %s"
 
 #: core/lang/wpbc_all_translations2.php:28
 #: includes/page-bookings/bookings__sql.php:2074

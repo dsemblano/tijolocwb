@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-03-02 15:23:22+0000\n"
+"PO-Revision-Date: 2024-03-07 22:16:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-beta.3\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
 "Language: de\n"
 "Project-Id-Version: Plugins - WP Booking Calendar - Stable (latest release)\n"
 
@@ -645,12 +645,46 @@ msgstr "Auswahlbox(en)"
 msgid "Drop Down"
 msgstr "Auswahllisten"
 
+#: core/admin/api-settings.php:1274 core/lang/wpbc_all_translations.php:153
+msgid "Bottom"
+msgstr "Unten"
+
+#: core/admin/api-settings.php:1273 core/lang/wpbc_all_translations.php:152
+msgid "Middle"
+msgstr "Mitte"
+
+#: core/admin/api-settings.php:1272 core/lang/wpbc_all_translations.php:151
+msgid "Top"
+msgstr "Oben"
+
 #: core/lang/wpbc_all_translations.php:697
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2740
 #: includes/page-bookings/bookings__actions.php:2949
 #: includes/_toolbar_ui/toolbar_ui.php:1820
 msgid "Restore"
 msgstr "Wiederherstellen"
+
+#: core/admin/api-settings.php:1309 core/admin/page-settings.php:102
+#: core/admin/page-settings.php:235 core/admin/page-settings.php:383
+#: core/lang/wpbc_all_translations.php:156 core/wpbc.php:210 core/wpbc.php:211
+#: core/wpbc.php:212 core/wpbc_functions.php:2428
+#: includes/page-availability/availability__page.php:87
+msgid "Availability"
+msgstr "Verfügbarkeit"
+
+#: core/lang/wpbc_all_translations.php:852
+#: includes/page-bookings/bookings__actions.php:2990
+msgid "Completely Delete"
+msgstr "Vollständig löschen"
+
+#: core/lang/wpbc_all_translations.php:649 core/lib/wpbc-ajax.php:241
+msgid "Moved to trash"
+msgstr "In Papierkorb verschoben"
+
+#: core/lang/wpbc_all_translations1.php:903
+#: includes/_toolbar_ui/toolbar_ui.php:1821
+msgid "Restore selected bookings"
+msgstr "Ausgewählte Buchungen wiederherstellen"
 
 #: core/admin/api-settings.php:1675 core/admin/api-settings.php:1719
 #: core/admin/api-settings.php:1756 core/lang/wpbc_all_translations.php:173
@@ -1033,7 +1067,7 @@ msgstr "Absteigend"
 
 #: core/admin/api-settings.php:894 core/lang/wpbc_all_translations.php:113
 msgid "Date Format"
-msgstr "Formate des Datums"
+msgstr "Datumsformat"
 
 #: core/admin/page-form-free.php:230 core/lang/wpbc_all_translations.php:268
 #: core/wpbc-activation.php:1113
