@@ -12,7 +12,7 @@
   @endif
 
   {{-- <section class="gap-4 grid grid-cols-1 md:grid-cols-2 mt-5 w-full lg:pr-8 mb-6"> --}}
-    <section id="na-midia" class="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-5 w-full lg:pr-8 mb-6">
+    <section id="na-midia">
     {{-- @php
       $excluded_category_slug = 'na-midia'; // Defina o slug da categoria a ser excluída
       $excluded_category_id = get_category_by_slug($excluded_category_slug)->term_id;
