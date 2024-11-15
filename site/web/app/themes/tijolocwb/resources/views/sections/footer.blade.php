@@ -34,7 +34,7 @@
              R. São Francisco, 179, lojas 2 e 3 – dentro da <a class="hover:underline" href="https://sfco179.com.br/"
               target="_blank">SFCO179</a> <br> Centro Histórico, Curitiba - PR</p>
           <p class="text-sm lg:text-lg">
-            <a title="Clique para a página dos horários" href="/horarios">> Horários</a>
+            <a title="Clique para a página dos horários" href="/horarios/">> Horários</a>
           </p>
         </section>
       </div>
