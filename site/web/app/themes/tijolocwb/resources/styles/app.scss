@@ -154,6 +154,42 @@ section.cardapio-pratos {
     }
 }
 
+// Pagination
+.pagination {
+  @apply text-tijolopink my-14;
+
+
+  h2 {
+    color: inherit;
+  }
+
+  .nav-links {
+    color: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    a {
+      color: inherit;
+    }
+
+    .page-numbers:not(.prev):not(.next) {
+      @apply border-r-2 border-tijolopink;
+
+      padding: 0 1rem 0 1rem;
+    }
+    
+    .next.page-numbers {
+      padding-left: 1rem;
+    }
+
+    .current {
+      font-size: large;
+      font-weight: bolder;
+    }
+  }
+}
+
 picture {
   display: flex;
   justify-content: inherit;

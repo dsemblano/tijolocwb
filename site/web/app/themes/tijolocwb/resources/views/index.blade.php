@@ -21,6 +21,9 @@
     @php
 if (is_category()) {
           $category = get_queried_object();
+          $posts_per_page = 10;
+          $paged = max(1, get_query_var('paged'));
+          $offset = ($paged - 1) * $posts_per_page;
 
           // Verifica se a categoria atual é pai ou filha
           if ($category->category_parent == 0) {
@@ -28,13 +31,17 @@ if (is_category()) {
               $args = array(
                   'category__in' => array($category->term_id),
                   'category__not_in' => get_term_children($category->term_id, 'category'),
-                  'posts_per_page' => 10,
+                  'posts_per_page' => $posts_per_page,
+                  'offset' => $offset,
+                  'paged' => $paged,
               );
           } else {
               // Se for uma subcategoria, mostramos apenas os posts da subcategoria
               $args = array(
                   'category__in' => array($category->term_id),
-                  'posts_per_page' => 10,
+                  'posts_per_page' => $posts_per_page,
+                  'offset' => $offset,
+                  'paged' => $paged,
               );
           }
 
@@ -47,16 +54,36 @@ if (is_category()) {
           <?php $query->the_post(); ?>
           @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
       @endwhile
-    <?php wp_reset_postdata(); ?>
+
     @else
       @while (have_posts())
           <?php the_post(); ?>
           @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
       @endwhile
+
     @endif
   </section>
 
-  {!! get_the_posts_navigation() !!}
+@if ($query->max_num_pages > 1)
+  {!! get_the_posts_pagination(array(
+    'total' => $query->max_num_pages,
+    'current' => $paged,
+    'prev_text' => '« Anterior',
+    'next_text' => 'Próximo »',
+    'screen_reader_text' => __('Navegação de página'),
+    )) !!}
+@endif
+<?php wp_reset_postdata(); ?>
+
+
+  {{-- {!! get_the_posts_navigation() !!} --}}
+  {{-- {!! get_the_posts_pagination(array('prev_text' => '« Anterior' , 'next_text' => 'Próximo »' )) !!} --}}
+  {{-- {!! get_the_posts_pagination(array(
+    'total' => $query->max_num_pages,
+    'current' => $paged,
+    'prev_text' => '« Anterior',
+    'next_text' => 'Próximo »',
+    )) !!} --}}
 @endsection
 
 @section('sidebar')
