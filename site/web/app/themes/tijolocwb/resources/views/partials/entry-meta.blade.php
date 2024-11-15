@@ -3,7 +3,18 @@
 </time>
 
 <div>
-  <a class="no-underline" href="/nosso-dia-a-dia/">&larr; <span class="relative top-px">Voltar para Nosso dia a dia</span></a>
+  @php
+   $category = get_the_category();
+
+if ( ! empty( $category ) ) {
+    $category_slug = get_category_parents($category[0]->term_id, true, '/', true);
+    $category_slug = trim($category_slug, '/');
+}
+  @endphp
+<span class="relative top-px">Voltar para:
+  {!!$category_slug !!}
+</span>
+  {{-- <a class="no-underline" href="/{{$category_slug}}/">&larr; <span class="relative top-px">Voltar para Nosso dia a dia</span></a> --}}
 </div>
 
 {{-- <p>
