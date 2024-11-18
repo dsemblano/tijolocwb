@@ -4,7 +4,6 @@
       <a class="brand relative" href="{{ home_url('/') }}">
         @php
         $current = (! is_front_page() ? "div" : 'h1');
-        // $current_page = basename(get_permalink());
         
         $current_page = (! is_category() ? get_the_title() : single_cat_title('', false) );
         // $current_page = !is_category() 

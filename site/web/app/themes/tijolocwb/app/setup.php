@@ -52,6 +52,10 @@ add_action('after_setup_theme', function () {
         'footer_navigation' => __('Footer Navigation', 'sage'),
     ]);
 
+    register_nav_menus([
+        'primary-menu' => __('Primary Menu', 'sage'),
+    ]);
+
     /**
      * Disable the default block patterns.
      *
@@ -138,4 +142,14 @@ add_action( 'wp_enqueue_scripts', function () {
     if ( ! is_user_logged_in() ) {
         wp_deregister_style( 'dashicons' );
     }
+});
+
+// Menu overlay
+add_action ('wp_enqueue_scripts', function () {
+    wp_enqueue_script(
+        'menu-toggle-script',
+        [],
+        '1.0',
+        true
+    );
 });
