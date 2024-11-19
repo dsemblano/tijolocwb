@@ -371,3 +371,9 @@ figure.wp-image-3471 {
     align-items: center;
   }
 }
+
+.single-post {
+  p:last-of-type a {
+    @apply block whitespace-nowrap overflow-hidden text-ellipsis;
+  }
+}
