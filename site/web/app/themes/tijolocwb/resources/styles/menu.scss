@@ -131,16 +131,23 @@
 
 // Menu overlay
 /* Tailwind customization for dropdown */
-// .submenu {
-//   @apply pl-6 space-y-2 text-white text-base;
-// }
+
+.submenu {
+  margin-top: 1rem;
+  //  @apply pl-6 space-y-2 text-white text-base;
+}
 
 // .menu-item-has-children > a {
 //   @apply flex items-center justify-between text-lg;
 // }
 
-#menu-mobile {
+#menu-mobile,
+#menu-menu-principal {
   @apply p-12;
+
+  li.menu-item:not(.menu-item-object-page) {
+    margin-bottom: 3rem;
+  }
 }
 
 .arrow {
@@ -157,12 +164,12 @@
 
 .submenu-toggle {
   position: absolute;
-  right: 5em;
-  top: 0.5em;
+  right: 0;
+  top: 0;
   cursor: pointer;
   background: none;
   border: none;
-  font-size: 1.2rem; /* Adjust size as needed */
+  font-size: 1.5rem;
   color: inherit;
   padding: 0;
 }

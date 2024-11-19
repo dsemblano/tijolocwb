@@ -20,7 +20,7 @@ class CustomWalker extends \Walker_Nav_Menu
 
         // Add submenu toggle button for items with children
         if (in_array('menu-item-has-children', $class_names)) {
-            $output .= '<button class="submenu-toggle ml-2 text-sm" aria-expanded="false">↓</button>';
+            $output .= '<button class="submenu-toggle ml-2" aria-expanded="false">↓</button>';
         }
     }
 }

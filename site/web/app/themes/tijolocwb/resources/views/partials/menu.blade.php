@@ -1,6 +1,6 @@
 <!-- Menu Overlay Mobile -->
             <div id="menu-overlay" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center opacity-0 invisible transition-opacity duration-300 z-50 hidden md:hidden">
-                <button id="menu-close" class="absolute top-5 right-5 text-white text-3xl focus:outline-none">&times;</button>
+                <button id="menu-close" class="absolute top-5 right-5 text-white text-5xl focus:outline-none">&times;</button>
                 <div class="text-center text-red-800">
                     
                 <?php
