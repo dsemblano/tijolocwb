@@ -50,14 +50,18 @@ h6 {
   @apply text-3xl;
 }
 
-// .main {
-//   display: flex;
-//   flex-direction: column;
-//   flex-wrap: nowrap;
-//   justify-content: flex-start;
-//   overflow: hidden;
-//   position: relative;
-// }
+  // .main {
+  //   display: flex;
+  //   flex-direction: column;
+  //   flex-wrap: nowrap;
+  //   justify-content: flex-start;
+  //   overflow: hidden;
+  //   position: relative;
+  // }
+
+  .home {
+    @apply bg-tijolo;
+  }
 
 .home-section {
   min-height: 100svh;
