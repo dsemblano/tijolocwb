@@ -5,7 +5,7 @@ namespace App\Menu;
 class CustomWalker extends \Walker_Nav_Menu
 {
     public function start_lvl( &$output, $depth = 0, $args = null ) {
-        $output .= '<ul class="submenu hidden pl-4 space-y-2 text-xl">';
+        $output .= '<ul class="submenu hidden pl-4 space-y-2 text-xl animate__animated animate__fadeInDown animate__faster">';
     }
 
     public function start_el( &$output, $item, $depth = 0, $args = null, $id = 0 ) {
