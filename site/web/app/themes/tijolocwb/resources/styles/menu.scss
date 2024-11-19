@@ -141,8 +141,7 @@
 //   @apply flex items-center justify-between text-lg;
 // }
 
-#menu-mobile,
-#menu-menu-principal {
+#menu-mobile {
   @apply p-12;
 
   li.menu-item:not(.menu-item-object-page) {
