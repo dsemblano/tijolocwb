@@ -1,8 +1,21 @@
 <a class="brand relative" href="{{ home_url('/') }}">
     @php
     $current = (! is_front_page() ? "div" : 'h1');
+
+    if (is_category()) {
+      $current_page = single_cat_title('', false);
+    } elseif (is_page()) {
+      $current_page = get_the_title();
+    } elseif (is_single()) {
+      $category = get_the_category();
+        if ( ! empty( $category ) ) {
+          $current_page = $category[0]->name;
+        }
+    }
+
+    // $current_page = (! is_category() ? get_the_title() : single_cat_title('', false) );
     
-    $current_page = (! is_category() ? get_the_title() : single_cat_title('', false) );
+    // $current_page = (! is_category() || ! is_page() ? get_the_category(get_the_ID())[0]->name : get_the_title('', false) );
     // $current_page = !is_category() 
     // ? htmlspecialchars_decode(get_the_title(), ENT_QUOTES) 
     // : htmlspecialchars_decode(single_cat_title('', false), ENT_QUOTES);
