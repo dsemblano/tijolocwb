@@ -29,7 +29,7 @@
 
     @include('sections.header')
 
-    <main id="main" class="main">
+    <main id="main" class="main pt-28">
 
       @if (! is_front_page() && ! is_page('reservas') )
       <div class="container prose mx-auto prose-a:no-underline prose-h1:mb-10 prose-h2:mb-4 prose-h3:mb-0 prose-blockquote:border-tijolopink prose-blockquote:text-tijolopink">
@@ -47,11 +47,11 @@
     @endif
 
     @include('sections.footer')
-    @include('partials/arrowcdtop')
   </div>
 
   @php(do_action('get_footer'))
   @php(wp_footer())
+
 </body>
 
 </html>
