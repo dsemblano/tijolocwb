@@ -1,19 +1,19 @@
 <!-- Menu Overlay Mobile -->
-            <div id="menu-overlay" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center opacity-0 invisible transition-opacity duration-300 z-50 hidden md:hidden">
-                <button id="menu-close" class="absolute top-5 right-5 text-white text-5xl focus:outline-none">&times;</button>
-                <div class="text-center text-red-800">
-                    
-                <?php
-                wp_nav_menu([
-                    'theme_location' => 'primary-menu',
-                    'container'      => false,
-                    'menu_class'     => 'space-y-4 text-white text-2xl uppercase font-bold',
-                    'walker'         => new \App\Menu\CustomWalker(),
-                    'echo'           => true, // Since Blade handles the output
-                ]);
-                ?>
-                </div>
-            </div>
+    <div id="menu-overlay" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center opacity-0 invisible transition-opacity duration-300 z-50 hidden md:hidden">
+        <button id="menu-close" class="absolute top-5 right-5 text-white text-5xl focus:outline-none">&times;</button>
+        
+            
+        <?php
+        wp_nav_menu([
+            'theme_location' => 'primary-menu',
+            'container'      => false,
+            'menu_class'     => 'space-y-4 text-white text-2xl uppercase font-bold',
+            'walker'         => new \App\Menu\CustomWalker(),
+            'echo'           => true, // Since Blade handles the output
+        ]);
+        ?>
+        
+    </div>
             
             
             <!-- Menu Toggle Button -->
@@ -31,4 +31,3 @@
                 {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'flex flex-col pl-4 py-2
                 tracking-widest w-full justify-evenly lg:flex-row lg:mt-0 nav text-white text-lg relative', 'echo' => false]) !!}
             </div>
-        </div>
