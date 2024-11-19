@@ -144,7 +144,7 @@
 #menu-mobile {
   @apply p-12;
 
-  li.menu-item:not(.menu-item-object-page) {
+  li.menu-item:not(.menu-item-object-page, .menu-item-object-custom) {
     margin-bottom: 3rem;
   }
 }
