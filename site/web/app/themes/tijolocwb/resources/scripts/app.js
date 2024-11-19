@@ -3,13 +3,13 @@ import 'flowbite/dist/flowbite.js';
 import './logoscroll.js';
 import './arrowtop.js';
 
-// const images = document.querySelectorAll('img');
+const images = document.querySelectorAll('img');
 
-// images.forEach(image => {
-//   image.addEventListener('load', () => {
-//     image.classList.remove('image-loading');
-//   });
-// });
+images.forEach(image => {
+  image.addEventListener('load', () => {
+    image.classList.remove('image-loading');
+  });
+});
 
 // import { Partytown } from '@builder.io/partytown/react';
 
@@ -46,9 +46,44 @@ const menuOverlay = document.getElementById('menu-overlay');
 const menuToggle = document.getElementById('menu-toggle');
 const menuClose = document.getElementById('menu-close');
 
+// Toggle the main menu visibility
 menuToggle.addEventListener('click', toggleMenu);
 menuClose.addEventListener('click', toggleMenu);
 
+// Submenu toggle logic
+document.addEventListener('DOMContentLoaded', () => {
+  // Handle submenu toggle button clicks
+  const submenuToggles = document.querySelectorAll('.submenu-toggle');
+  
+  submenuToggles.forEach(button => {
+    button.addEventListener('click', function (e) {
+      e.preventDefault(); // Prevent default button behavior
+      
+      const parentLi = this.closest('li'); // Get the parent <li>
+      const submenu = parentLi.querySelector('.submenu'); // Find the submenu
+
+      if (submenu) {
+        submenu.classList.toggle('hidden'); // Toggle visibility
+        submenu.classList.toggle('block'); // Ensure proper display when shown
+
+        // Accessibility: Update aria-expanded
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !isExpanded);
+      }
+    });
+  });
+
+  // Allow parent link (`a`) to remain navigable
+  const parentLinks = document.querySelectorAll('.menu-item-has-children > a');
+
+  parentLinks.forEach(link => {
+    link.addEventListener('click', function (e) {
+      // Do not prevent default; allow navigation
+    });
+  });
+});
+
+// Toggle the menu overlay
 function toggleMenu() {
   menuOverlay.classList.toggle('menu-open');
 
@@ -59,17 +94,3 @@ function toggleMenu() {
     document.body.style.overflow = '';
   }
 }
-
-document.querySelectorAll('.menu-item-has-children > a').forEach(item => {
-  item.addEventListener('click', function (e) {
-    e.preventDefault(); // Prevent navigation
-    const submenu = this.nextElementSibling;
-
-    if (submenu && submenu.classList.contains('submenu')) {
-      submenu.classList.toggle('hidden'); // Show/hide submenu
-      submenu.classList.toggle('block'); // Toggle display
-    }
-  });
-});
-
-

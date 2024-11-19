@@ -27,8 +27,7 @@
       {{ __('Skip to content') }}
     </a>
 
-    {{-- @include('sections.header') --}}
-    @include('sections.headertest')
+    @include('sections.header')
 
     <main id="main" class="main">
 
