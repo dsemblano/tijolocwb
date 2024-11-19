@@ -128,3 +128,48 @@
   0% { opacity: 0; -webkit-transform: translateY(-5%); }   
 100% { opacity: 1; -webkit-transform: translateY(0); }
 }
+
+// Menu overlay
+/* Tailwind customization for dropdown */
+// .submenu {
+//   @apply pl-6 space-y-2 text-white text-base;
+// }
+
+// .menu-item-has-children > a {
+//   @apply flex items-center justify-between text-lg;
+// }
+
+#menu-mobile {
+  @apply p-12;
+}
+
+.arrow {
+  @apply ml-2 transition-transform duration-200;
+}
+
+.menu-item-has-children > a[aria-expanded="true"] .arrow {
+  @apply rotate-180; /* Rotate arrow when submenu is open */
+}
+
+.menu-item-has-children {
+  position: relative ;
+}
+
+.submenu-toggle {
+  position: absolute;
+  right: 5em;
+  top: 0.5em;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.2rem; /* Adjust size as needed */
+  color: inherit;
+  padding: 0;
+}
+
+.menu-open {
+  @apply block;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+}
