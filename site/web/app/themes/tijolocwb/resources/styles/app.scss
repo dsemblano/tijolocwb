@@ -317,10 +317,12 @@ select.active_booking_form {
 }
 
 figure .lazyloading {
+  @apply border-tijolo border-t-tijolopink;
+
   margin: auto;
-  border: 20px solid #EAF0F6;
+  border: 20px solid;
   border-radius: 50%;
-  border-top: 20px solid #777777;
+  border-top: 20px solid;
   width: 120px !important;
   height: 120px !important;
   -webkit-animation: spin 4s linear infinite; /* Safari */
