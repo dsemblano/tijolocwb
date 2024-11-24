@@ -359,10 +359,14 @@ figure .lazyloading {
   }
 }
 
-.single-post {
-  p:last-of-type a {
-    @apply block whitespace-nowrap overflow-hidden text-ellipsis;
-  }
+// .single-post {
+//   p:last-of-type a {
+//     @apply block whitespace-nowrap overflow-hidden text-ellipsis;
+//   }
+// }
+
+.link-dofollow {
+  @apply block whitespace-nowrap overflow-hidden text-ellipsis;
 }
 
 // a:where(:not(.wp-element-button)) {
