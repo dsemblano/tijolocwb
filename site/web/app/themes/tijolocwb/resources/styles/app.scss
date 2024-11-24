@@ -20,10 +20,12 @@ img {
   @apply rounded-md;
 }
 
-a:hover:not(.brand) {
-  text-decoration-line: underline;
-  text-decoration: underline  ;
-}
+// .archieve article a {
+//   text-decoration: none;
+//   &:hover {
+//     @apply text-tijolopink underline;
+//   }
+// }
 
 .logohome {
     font-family: 'acumin_pro_extracondensedIt', sans-serif;
@@ -314,34 +316,27 @@ select.active_booking_form {
   }
 }
 
-// figure .lazyloading {
-//   margin: auto;
-//   border: 20px solid #EAF0F6;
-//   border-radius: 50%;
-//   border-top: 20px solid #E2AA9F;
-//   width: 5rem;
-//   height: 5rem;
-//   animation: spinner 4s linear infinite;
-// }
-// @keyframes spinner {
-//   0% { transform: rotate(0deg); }
-//   100% { transform: rotate(360deg); }
-// }
+figure .lazyloading {
+  margin: auto;
+  border: 20px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 20px solid #777777;
+  width: 120px !important;
+  height: 120px !important;
+  -webkit-animation: spin 4s linear infinite; /* Safari */
+  animation: spinner 4s linear infinite;
+}
 
-// figure .lazyloaded {
+/* Safari */
+@-webkit-keyframes spinner {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
 
-//   animation: spin 1s linear infinite;
-
-//   @keyframes spin {
-//     from {
-//       transform: rotate(0deg);
-//     }
-//     to {
-//       transform: rotate(360deg);
-//     }
-//   }
-  
-// }
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
 figure.wp-image-3471 {
   display: inline-flex;
@@ -369,3 +364,7 @@ figure.wp-image-3471 {
     @apply block whitespace-nowrap overflow-hidden text-ellipsis;
   }
 }
+
+// a:where(:not(.wp-element-button)) {
+//   text-decoration: none !important;
+// }
