@@ -1,6 +1,6 @@
-<!-- Menu Overlay Mobile -->
+<!-- Menu Overlay Mobile with the X button -->
     <div id="menu-overlay" class="animate__animated animate__fadeInDown animate__faster fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center opacity-0 invisible transition-opacity duration-300 z-50 hidden md:hidden">
-        <button id="menu-close" class="absolute top-5 right-5 text-white text-5xl focus:outline-none">&times;</button>
+        <button id="menu-close" class="absolute top-9 right-10 text-white text-5xl focus:outline-none">&times;</button>
         
             
         <?php
@@ -17,7 +17,7 @@
             
             
             <!-- Menu Toggle Button -->
-            <button id="menu-toggle" class="lg:hidden top-9 right-5 z-60 bg-transparent border-none focus:outline-none">
+            <button id="menu-toggle" class="lg:hidden mr-4 z-60 bg-transparent border-none focus:outline-none">
                 <div class="w-8 h-1 bg-white mb-2 transform transition-transform"></div>
                 <div class="w-8 h-1 bg-white mb-2 transform transition-transform"></div>
                 <div class="w-8 h-1 bg-white transform transition-transform"></div>
