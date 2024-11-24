@@ -256,11 +256,11 @@ main .container {
 }
 
 //Efeitos hover nas imagens
-figure.wp-block-image {
+.wp-block-image {
   @apply my-4;
 }
 
-figure.imgpost, figure.wp-block-image {
+.imgpost, .wp-block-image {
   overflow: hidden;
 
   img {
@@ -338,7 +338,7 @@ figure .lazyloading {
   100% { transform: rotate(360deg); }
 }
 
-figure.wp-image-3471 {
+.wp-image-3471 {
   display: inline-flex;
 }
 
