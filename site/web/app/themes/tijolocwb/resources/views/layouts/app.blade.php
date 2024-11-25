@@ -7,10 +7,18 @@
   @php(do_action('get_header'))
   @php(wp_head())
   <?php echo \Roots\view('layouts/head/preload')->render(); ?>
-  <?php echo \Roots\view('layouts/head/favicon')->render(); ?>
+  <meta name="apple-mobile-web-app-title" content="Tijolo Restaurante" />
+  <link rel="manifest" href="@asset('images/favicon/site.webmanifest')" />
+  <link rel="icon" type="image/png" sizes="96x96" href="@asset('images/favicon/favicon-96x96.png')">
+  <link rel="apple-touch-icon" sizes="180x180" href="@asset('images/favicon/apple-touch-icon.png')">
+  <link rel="shortcut icon" href="@asset('images/favicon/favicon.ico')">
+  <link rel="icon" type="image/svg+xml" href="@asset('images/favicon/favicon.svg')">
   <?php echo \Roots\view('layouts/head/gconsole')->render(); ?>
   <?php echo \Roots\view('layouts/head/gtaghead')->render(); ?>
   <?php echo \Roots\view('partials/snippets/schema')->render(); ?>
+
+
+
   {{-- <script src="~partytown/partytown.js"></script>
 
   <script type="text/partytown">
