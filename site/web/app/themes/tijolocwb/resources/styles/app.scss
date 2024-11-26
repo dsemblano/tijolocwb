@@ -384,3 +384,16 @@ figure .lazyloading {
  .single main a {
    text-decoration: underline;
 }
+
+#menu-menu-principal {
+  a:active,
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+}
+
+#menu-mobile {
+  a:active { @apply underline text-tijolo; }
+  a:focus { @apply underline text-tijolopink;}
+}
