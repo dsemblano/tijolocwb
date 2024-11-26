@@ -1,6 +1,11 @@
 <article @php(post_class('single-post'))>
-  <header>
-    <h1 class="text-5xl text-center mt-8 animate__animated animate__fadeInDown">
+  <header class="relative">
+    
+    <figure class="featured-singleimg w-full overflow-hidden h-96">
+      {{ the_post_thumbnail('', array( 'class' => 'w-full shadow-xl h-auto lg:h-thumb mb-6') ) }}
+    </figure>
+
+    <h1 class="text-5xl text-center mt-8 animate__animated animate__fadeInDown relative bottom-24 bg-white w-10/12 m-auto p-6 rounded-t-md">
       {!! $title !!}
     </h1>
 
