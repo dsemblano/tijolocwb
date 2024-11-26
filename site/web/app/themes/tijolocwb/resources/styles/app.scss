@@ -365,9 +365,9 @@ figure .lazyloading {
 //   }
 // }
 
-.link-dofollow {
-  @apply block whitespace-nowrap overflow-hidden text-ellipsis;
-}
+// .link-dofollow {
+//   @apply block whitespace-nowrap overflow-hidden text-ellipsis;
+// }
 
 // a:where(:not(.wp-element-button)) {
 //   text-decoration: none !important;
@@ -383,6 +383,7 @@ figure .lazyloading {
 
  .single main a {
    text-decoration: underline;
+   word-break: break-all;
 }
 
 #menu-menu-principal {
