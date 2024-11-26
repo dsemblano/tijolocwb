@@ -13,50 +13,53 @@
 
   {{-- <section class="gap-4 grid grid-cols-1 md:grid-cols-2 mt-5 w-full lg:pr-8 mb-6"> --}}
     <section id="na-midia">
-    @php
-      if (is_category()) {
-        $category = get_queried_object();
-        $posts_per_page = 10;
-        $paged = max(1, get_query_var('paged'));
-        $offset = ($paged - 1) * $posts_per_page;
-
-        // Verifica se a categoria atual é pai ou filha
-        if ($category->category_parent == 0) {
-            // Se for uma categoria pai, mostramos apenas os posts da categoria pai
-            $args = array(
-                'category__in' => array($category->term_id),
-                'category__not_in' => get_term_children($category->term_id, 'category'),
-                'posts_per_page' => $posts_per_page,
-                'offset' => $offset,
-                'paged' => $paged,
-            );
-        } else {
-            // Se for uma subcategoria, mostramos apenas os posts da subcategoria
-            $args = array(
-                'category__in' => array($category->term_id),
-                'posts_per_page' => $posts_per_page,
-                'offset' => $offset,
-                'paged' => $paged,
-            );
+      <div class="grid grid-cols-1 gap-y-4 gap-x-10 md:grid-cols-2 mt-5 w-full lg:pr-8 mb-6">
+        @php
+        if (is_category()) {
+          $category = get_queried_object();
+          $posts_per_page = 10;
+          $paged = max(1, get_query_var('paged'));
+          $offset = ($paged - 1) * $posts_per_page;
+  
+          // Verifica se a categoria atual é pai ou filha
+          if ($category->category_parent == 0) {
+              // Se for uma categoria pai, mostramos apenas os posts da categoria pai
+              $args = array(
+                  'category__in' => array($category->term_id),
+                  'category__not_in' => get_term_children($category->term_id, 'category'),
+                  'posts_per_page' => $posts_per_page,
+                  'offset' => $offset,
+                  'paged' => $paged,
+              );
+          } else {
+              // Se for uma subcategoria, mostramos apenas os posts da subcategoria
+              $args = array(
+                  'category__in' => array($category->term_id),
+                  'posts_per_page' => $posts_per_page,
+                  'offset' => $offset,
+                  'paged' => $paged,
+              );
+          }
+  
+          $query = new WP_Query($args);
         }
+      @endphp
+      
+      @if ($query->have_posts())
+        @while ($query->have_posts())
+            <?php $query->the_post(); ?>
+            @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
+        @endwhile
+  
+      @else
+        @while (have_posts())
+            <?php the_post(); ?>
+            @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
+        @endwhile
+  
+      @endif
+      </div>
 
-        $query = new WP_Query($args);
-      }
-    @endphp
-    
-    @if ($query->have_posts())
-      @while ($query->have_posts())
-          <?php $query->the_post(); ?>
-          @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
-      @endwhile
-
-    @else
-      @while (have_posts())
-          <?php the_post(); ?>
-          @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
-      @endwhile
-
-    @endif
   </section>
 
   @if ($query->max_num_pages > 1)
