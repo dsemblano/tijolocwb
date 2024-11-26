@@ -1,11 +1,11 @@
-<article @php(post_class('nossodiaadia'))>
+<article @php(post_class('nossodiaadia relative'))>
   <a class="img-link lg:w-1/3" href="{{ get_permalink() }}">
-    <figure class="imgpost rounded">
+    <figure class="imgpost rounded overflow-hidden h-60">
       {{ the_post_thumbnail('medium_large', array( 'class' => 'w-full rounded' ) ) }}
     </figure>
   </a>
-  <header>
-      <h2 class="text-left mt-0">
+  <header class="nossodia-header relative bottom-20 w-3/4 m-auto p-4 rounded-t-md bg-white">
+      <h2 class="text-center mt-0">
         <a class="postslinks" href="{{ get_permalink() }}">
           {!! $title !!}
         </a>
