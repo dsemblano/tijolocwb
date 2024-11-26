@@ -4,7 +4,7 @@
       {{ the_post_thumbnail('medium_large', array( 'class' => 'w-full rounded' ) ) }}
     </figure>
   </a>
-  <header class="nossodia-header relative bottom-20 w-3/4 m-auto p-4 rounded-t-md bg-white">
+  <header class="nossodia-header relative bottom-20 w-4/5 m-auto p-4 rounded-t-md bg-white">
       <h2 class="text-center mt-0">
         <a class="postslinks" href="{{ get_permalink() }}">
           {!! $title !!}
