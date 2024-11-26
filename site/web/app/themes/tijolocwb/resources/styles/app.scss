@@ -372,3 +372,15 @@ figure .lazyloading {
 // a:where(:not(.wp-element-button)) {
 //   text-decoration: none !important;
 // }
+
+.archive, .single {
+  main a {
+    &:hover {
+      @apply underline text-tijolopink
+    }
+  } 
+}
+
+ .single main a {
+   text-decoration: underline;
+}
