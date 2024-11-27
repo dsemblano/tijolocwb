@@ -24,6 +24,10 @@ export default async (app) => {
    * @see {@link https://bud.js.org/reference/bud.setPublicPath}
    */
   app.setPublicPath('/app/themes/tijolocwb/public/');
+  app.copy({
+    from: app.path('@src/static'), // Ensure '@src' alias resolves to 'resources'
+    to: app.path('@dist'),
+  })
 
   /**
    * Development server settings
