@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c21db491802161a5ddba4a8e39619b0",
+    "content-hash": "89fc4e65ff79a67b434f4d55bb90c17e",
     "packages": [
         {
             "name": "brick/math",
@@ -6596,6 +6596,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/favicon-by-realfavicongenerator/"
+        },
+        {
+            "name": "wpackagist-plugin/humanstxt",
+            "version": "1.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/humanstxt/",
+                "reference": "tags/1.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/humanstxt.1.3.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/humanstxt/"
         },
         {
             "name": "wpackagist-plugin/loco-translate",
