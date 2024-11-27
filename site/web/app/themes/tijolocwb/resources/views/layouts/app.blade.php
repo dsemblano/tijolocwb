@@ -7,6 +7,7 @@
   @php(do_action('get_header'))
   @php(wp_head())
   <?php echo \Roots\view('layouts/head/preload')->render(); ?>
+  <link rel="author" type="text/plain" href="{{ asset('humans.txt') }}" />
   <meta name="apple-mobile-web-app-title" content="Tijolo Restaurante" />
   <link rel="manifest" href="@asset('images/favicon/site.webmanifest')" />
   <link rel="icon" type="image/png" sizes="96x96" href="@asset('images/favicon/favicon-96x96.png')">
@@ -31,7 +32,6 @@
   <?php echo \Roots\view('partials/snippets/gtagbody')->render(); ?>
 
   <div id="app">
-    teste666
     <a class="sr-only focus:not-sr-only" href="#main">
       {{ __('Skip to content') }}
     </a>
