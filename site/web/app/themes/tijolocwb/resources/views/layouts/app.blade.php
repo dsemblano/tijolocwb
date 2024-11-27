@@ -8,7 +8,7 @@
   @php(wp_head())
   <?php echo \Roots\view('layouts/head/preload')->render(); ?>
   
-  <link rel="author" type="text/plain" href="{{ asset('humans.txt') }}" />
+  <link rel="author" type="text/plain" href="humans.txt')" />
   <meta name="apple-mobile-web-app-title" content="Tijolo Restaurante" />
   <link rel="manifest" href="@asset('images/favicon/site.webmanifest')" />
   <link rel="icon" type="image/png" sizes="96x96" href="@asset('images/favicon/favicon-96x96.png')">
