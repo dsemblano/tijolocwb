@@ -1,16 +1,19 @@
 <a class="brand relative" href="{{ home_url('/') }}">
     @php
-    $current = (! is_front_page() ? "div" : 'h1');
+    $current = (! is_front_page() ||! is_woocommerce() || ! is_shop() ? "div" : 'h1');
 
     if (is_category()) {
       $current_page = single_cat_title('', false);
-    } elseif (is_page()) {
+    } elseif (is_page() || is_woocommerce() || is_shop()) {
       $current_page = get_the_title();
     } elseif (is_single()) {
       $category = get_the_category();
         if ( ! empty( $category ) ) {
           $current_page = $category[0]->name;
         }
+      }
+        else {
+          $current_page = single_cat_title('', false);
     }
 
     // $current_page = (! is_category() ? get_the_title() : single_cat_title('', false) );
