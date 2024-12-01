@@ -1,9 +1,7 @@
-@include('partials/snippets.appheightjs')
-
 <section id="tela1" class="home-section bg-neutral-700 bg-no-repeat bg-bottom lg:bg-right-top py-6">
   <div class="container mx-auto">
     <div class="flex flex-col lg:flex-row gap-x-10 text-tijolo">
-      <div class="left flex flex-col w-full lg:w-1/2">
+      <div class="left flex flex-col w-full lg:w-1/3">
 
         <article class="text-center lg:text-left text-lg lg:text-2xl">
           <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast">
@@ -30,12 +28,16 @@
           {{-- @include('partials/snippets/reservation') --}}
         </div>
       </div>
-      <picture class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow lg:w-1/2">
+      <div class="right mt-8 lg:mt-0 lg:w-2/3">
+        @include('partials/home.carousel')
+      </div>
+      {{-- <picture class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow lg:w-1/2">
         <source media="(max-width: 600px)" srcset="@asset('images/TijoloEntrada.webp')" width="570" height="545">
         <source media="(min-width: 601px)" srcset="@asset('images/TijoloEntrada.webp')" width="604" height="650">
         <img src="@asset('images/TijoloEntrada.webp')" alt="Tijolo CWB restaurante foto interior" width="604"
           height="650">
-      </picture>
+      </picture> --}}
+      
     </div>
 
   </div>
