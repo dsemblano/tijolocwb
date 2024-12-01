@@ -387,13 +387,14 @@ figure .lazyloading {
 // }
 
 .carousel-slider .carousel-slider__item img {
-  max-height: 15rem;
+  height: 25rem;
   width: auto;
   object-fit: cover;
 }
 
 @screen lg {
   .carousel-slider .carousel-slider__item img {
+    height: auto;
     max-height: 35rem;
     width: auto;
     object-fit: cover;
