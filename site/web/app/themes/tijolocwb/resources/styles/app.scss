@@ -350,29 +350,6 @@ figure .lazyloading {
   height: 100vh;
 }
 
-.nossodiaadia {
-  @apply text-base mt-2 flex flex-col lg:flex-row gap-x-4;
-
-  header {
-    display: flex;
-    align-items: center;
-  }
-}
-
-// .single-post {
-//   p:last-of-type a {
-//     @apply block whitespace-nowrap overflow-hidden text-ellipsis;
-//   }
-// }
-
-// .link-dofollow {
-//   @apply block whitespace-nowrap overflow-hidden text-ellipsis;
-// }
-
-// a:where(:not(.wp-element-button)) {
-//   text-decoration: none !important;
-// }
-
 .archive, .single {
   main a {
     &:hover {
@@ -397,4 +374,28 @@ figure .lazyloading {
 #menu-mobile {
   a:active { @apply underline text-tijolo; }
   a:focus { @apply underline text-tijolopink;}
+}
+
+// Carousel slider plugin
+
+// @screen lg {
+//   .carousel-slider .carousel-slider__item {
+//     img {
+//       @apply h-auto w-full object-cover;
+//     }
+//   } 
+// }
+
+.carousel-slider .carousel-slider__item img {
+  max-height: 22rem;
+  width: auto;
+  object-fit: cover;
+}
+
+@screen lg {
+  .carousel-slider .carousel-slider__item img {
+    max-height: 35rem;
+    width: auto;
+    object-fit: cover;
+  }
 }

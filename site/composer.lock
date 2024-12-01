@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c21db491802161a5ddba4a8e39619b0",
+    "content-hash": "c5602b9e05696fbff1fcddc2cf19700c",
     "packages": [
         {
             "name": "brick/math",
@@ -4690,16 +4690,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v7.1.6",
+            "version": "v7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "87254c78dd50721cfd015b62277a8281c5589702"
+                "reference": "910c5db85a5356d0fea57680defec4e99eb9c8c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/87254c78dd50721cfd015b62277a8281c5589702",
-                "reference": "87254c78dd50721cfd015b62277a8281c5589702",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/910c5db85a5356d0fea57680defec4e99eb9c8c1",
+                "reference": "910c5db85a5356d0fea57680defec4e99eb9c8c1",
                 "shasum": ""
             },
             "require": {
@@ -4750,7 +4750,7 @@
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.6"
+                "source": "https://github.com/symfony/event-dispatcher/tree/v7.2.0"
             },
             "funding": [
                 {
@@ -4766,7 +4766,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:20:29+00:00"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -5970,16 +5970,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v7.1.8",
+            "version": "v7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "591ebd41565f356fcd8b090fe64dbb5878f50281"
+                "reference": "446e0d146f991dde3e73f45f2c97a9faad773c82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/591ebd41565f356fcd8b090fe64dbb5878f50281",
-                "reference": "591ebd41565f356fcd8b090fe64dbb5878f50281",
+                "url": "https://api.github.com/repos/symfony/string/zipball/446e0d146f991dde3e73f45f2c97a9faad773c82",
+                "reference": "446e0d146f991dde3e73f45f2c97a9faad773c82",
                 "shasum": ""
             },
             "require": {
@@ -6037,7 +6037,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v7.1.8"
+                "source": "https://github.com/symfony/string/tree/v7.2.0"
             },
             "funding": [
                 {
@@ -6053,7 +6053,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-13T13:31:21+00:00"
+            "time": "2024-11-13T13:31:26+00:00"
         },
         {
             "name": "symfony/translation",
@@ -6544,6 +6544,24 @@
             "homepage": "https://wordpress.org/plugins/block-options/"
         },
         {
+            "name": "wpackagist-plugin/carousel-slider",
+            "version": "2.2.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/carousel-slider/",
+                "reference": "tags/2.2.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/carousel-slider.2.2.15.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/carousel-slider/"
+        },
+        {
             "name": "wpackagist-plugin/classic-editor",
             "version": "1.6.6",
             "source": {
@@ -6785,12 +6803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "4b0583eef37941e72c51ea847d0e03ef52a302d9"
+                "reference": "fff26f7a91a7458bf6eea5afdd71b4aba1f1d3ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/4b0583eef37941e72c51ea847d0e03ef52a302d9",
-                "reference": "4b0583eef37941e72c51ea847d0e03ef52a302d9",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/fff26f7a91a7458bf6eea5afdd71b4aba1f1d3ea",
+                "reference": "fff26f7a91a7458bf6eea5afdd71b4aba1f1d3ea",
                 "shasum": ""
             },
             "conflict": {
@@ -7371,6 +7389,7 @@
                 "socialiteproviders/steam": "<1.1",
                 "spatie/browsershot": "<3.57.4",
                 "spatie/image-optimizer": "<1.7.3",
+                "spencer14420/sp-php-email-handler": "<1",
                 "spipu/html2pdf": "<5.2.8",
                 "spoon/library": "<1.4.1",
                 "spoonity/tcpdf": "<6.2.22",
@@ -7619,7 +7638,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-26T22:05:25+00:00"
+            "time": "2024-11-27T22:05:07+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
