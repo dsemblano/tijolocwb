@@ -141,7 +141,8 @@ section.cardapio-pratos {
 
 .horarios,
 .hora-que-feliz,
-.happy-hour {
+.happy-hour,
+.happy-hour cite {
     @apply bg-tijolohorarios text-white;
 
     .wp-block-image.invert img {
