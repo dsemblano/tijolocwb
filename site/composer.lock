@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8bec234934d39dc15c147bc979213e2",
+    "content-hash": "9d358bea8a64efe862e577b49f033079",
     "packages": [
         {
             "name": "brick/math",
@@ -6477,24 +6477,6 @@
             "homepage": "https://wordpress.org/plugins/autodescription/"
         },
         {
-            "name": "wpackagist-plugin/automatic-translator-addon-for-loco-translate",
-            "version": "2.4.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/automatic-translator-addon-for-loco-translate/",
-                "reference": "tags/2.4.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/automatic-translator-addon-for-loco-translate.2.4.7.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/automatic-translator-addon-for-loco-translate/"
-        },
-        {
             "name": "wpackagist-plugin/block-navigation",
             "version": "4.1.1",
             "source": {
@@ -6603,24 +6585,6 @@
             "homepage": "https://wordpress.org/plugins/favicon-by-realfavicongenerator/"
         },
         {
-            "name": "wpackagist-plugin/loco-translate",
-            "version": "2.7.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/loco-translate/",
-                "reference": "tags/2.7.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.7.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/loco-translate/"
-        },
-        {
             "name": "wpackagist-plugin/permalink-manager",
             "version": "2.5.0",
             "source": {
@@ -6709,24 +6673,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/responsive-block-editor-addons/"
-        },
-        {
-            "name": "wpackagist-plugin/responsive-lightbox",
-            "version": "2.5.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/responsive-lightbox/",
-                "reference": "tags/2.5.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/responsive-lightbox.2.5.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/responsive-lightbox/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
