@@ -65,6 +65,7 @@
     "wpackagist-plugin/favicon-by-realfavicongenerator":"^1.3.37",
     "wpackagist-plugin/carousel-slider":"^2.2.15",
     "wpackagist-plugin/permalink-manager":"^2.4.4.2",
+    "wpackagist-plugin/foobox-image-lightbox":"^2.7.34",
     "roots/acorn-prettify": "^1.0",
     "roots/acorn": "^4.3"
   },
