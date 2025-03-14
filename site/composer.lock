@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d358bea8a64efe862e577b49f033079",
+    "content-hash": "82db49afbaa693ef6045e682fce51e71",
     "packages": [
         {
             "name": "brick/math",
@@ -6583,6 +6583,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/favicon-by-realfavicongenerator/"
+        },
+        {
+            "name": "wpackagist-plugin/foobox-image-lightbox",
+            "version": "2.7.34",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/foobox-image-lightbox/",
+                "reference": "tags/2.7.34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/foobox-image-lightbox.2.7.34.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/foobox-image-lightbox/"
         },
         {
             "name": "wpackagist-plugin/permalink-manager",
