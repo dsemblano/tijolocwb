@@ -1,7 +1,7 @@
 <article @php(post_class('single-post'))>
   <header class="relative">
     
-    <figure class="featured-singleimg w-full overflow-hidden h-96">
+    <figure class="featured-singleimg w-full overflow-hidden">
       {{ the_post_thumbnail('', array( 'class' => 'w-full shadow-xl h-auto lg:h-thumb mb-6') ) }}
     </figure>
 
