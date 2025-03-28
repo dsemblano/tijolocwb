@@ -12,7 +12,7 @@
                "addressLocality": "Curitiba",
                "addressRegion": "Paraná",
                "postalCode": "80020-190",
-               "addressCountry": "BRA"
+               "addressCountry": "BR"
           },
           "review": {
                "@type": "Review",
