@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11f43c285ec75b175331de47cb41645b",
+    "content-hash": "7f9db361dba4f7e53174d5adb2968989",
     "packages": [
         {
             "name": "brick/math",
@@ -6513,24 +6513,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/block-options/"
-        },
-        {
-            "name": "wpackagist-plugin/carousel-slider",
-            "version": "2.2.16",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/carousel-slider/",
-                "reference": "tags/2.2.16"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/carousel-slider.2.2.16.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/carousel-slider/"
         },
         {
             "name": "wpackagist-plugin/classic-editor",
