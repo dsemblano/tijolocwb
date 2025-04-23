@@ -3,6 +3,7 @@ web/app/plugins/*
 !web/app/plugins/booking.bs.9.9.1
 !web/app/plugins/wayfinder
 !web/app/plugins/.gitkeep
+!web/app/plugins/carousel-slider/
 web/app/mu-plugins/*/
 web/app/themes/twentytwentytwo/
 web/app/upgrade
