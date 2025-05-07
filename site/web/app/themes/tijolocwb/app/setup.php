@@ -153,3 +153,65 @@ add_action ('wp_enqueue_scripts', function () {
         true
     );
 });
+
+// 1. Remove '/category/' from the permastruct
+add_action('init', function() {
+    global $wp_rewrite;
+    $wp_rewrite->extra_permastructs['category']['struct'] = '%category%';
+});
+
+// 2. Generate custom rewrite rules for each category (and redirect old URLs)
+add_filter('category_rewrite_rules', function($category_rewrite) {
+    $category_rewrite = [];
+    $categories = get_categories(['hide_empty' => false]);
+
+    foreach ($categories as $category) {
+        // Build full slug (including parents)
+        $slug = $category->slug;
+        if ($category->parent) {
+            $slug = get_category_parents($category->parent, false, '/', true) . $slug;
+        }
+
+        // Feeds
+        $category_rewrite["({$slug})/(?:feed/)?(feed|rdf|rss|rss2|atom)/?$"] = 
+            "index.php?category_name=\$matches[1]&feed=\$matches[2]";
+
+        // Pagination
+        $category_rewrite["({$slug})/page/?([0-9]{1,})/?$"] =
+            "index.php?category_name=\$matches[1]&paged=\$matches[2]";
+
+        // Category archive
+        $category_rewrite["({$slug})/?$"] =
+            "index.php?category_name=\$matches[1]";
+    }
+
+    // Redirect from old /category/... URLs
+    $old_base = trim(get_option('category_base') ?: 'category', '/');
+    $category_rewrite["{$old_base}/(.*)$"] =
+        'index.php?category_redirect=$matches[1]';
+
+    return $category_rewrite;
+});
+
+// 3. Allow our redirect query var
+add_filter('query_vars', function($vars) {
+    $vars[] = 'category_redirect';
+    return $vars;
+});
+
+// 4. Perform the 301 redirect from /category/... to new URL
+add_filter('request', function($query_vars) {
+    if (!empty($query_vars['category_redirect'])) {
+        wp_redirect(
+            home_url(user_trailingslashit($query_vars['category_redirect'])),
+            301
+        );
+        exit;
+    }
+    return $query_vars;
+});
+
+// 5. Strip '/category/' from all generated category links
+add_filter('category_link', function($link, $term_id) {
+    return str_replace('/category/', '/', $link);
+}, 10, 2);
