@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f394e27ed2819cf34feb9e05289ad397",
+    "content-hash": "499292e41f4aa1563b7a2cc85471e3dc",
     "packages": [
         {
             "name": "brick/math",
@@ -6480,60 +6480,6 @@
             "homepage": "https://wordpress.org/plugins/autodescription/"
         },
         {
-            "name": "wpackagist-plugin/block-navigation",
-            "version": "4.1.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/block-navigation/",
-                "reference": "tags/4.1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-navigation.4.1.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/block-navigation/"
-        },
-        {
-            "name": "wpackagist-plugin/block-options",
-            "version": "1.40.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/block-options/",
-                "reference": "tags/1.40.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-options.1.40.6.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/block-options/"
-        },
-        {
-            "name": "wpackagist-plugin/classic-editor",
-            "version": "1.6.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/classic-editor/",
-                "reference": "tags/1.6.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.7.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/classic-editor/"
-        },
-        {
             "name": "wpackagist-plugin/ewww-image-optimizer",
             "version": "8.1.3",
             "source": {
@@ -6568,24 +6514,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/foobox-image-lightbox/"
-        },
-        {
-            "name": "wpackagist-plugin/permalink-manager",
-            "version": "2.5.1.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/permalink-manager/",
-                "reference": "tags/2.5.1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/permalink-manager.2.5.1.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/permalink-manager/"
         },
         {
             "name": "wpackagist-plugin/redirection",
