@@ -28,8 +28,9 @@
         <section id="endereco" class="text-center text-sm lg:text-lg">          
           <p>
             {{-- <span>📍</span> --}}
-             R. São Francisco, 179, lojas 2 e 3 – dentro da <a class="hover:underline" href="https://sfco179.com.br/"
-              target="_blank">SFCO179</a> <br> Centro Histórico, Curitiba - PR</p>
+             Tijolo Cozinha Contemporânea, dentro do <a class="hover:underline" href="https://sfco179.com.br/"
+              target="_blank">Multiespaço SFCO179</a> <br>R. São Francisco, 179  Centro Histórico, Curitiba - PR CEP: 80020-190
+</p>
           <p class="text-sm lg:text-lg">
             <a title="Clique para a página dos horários" href="/horarios/">> Horários</a>
           </p>
