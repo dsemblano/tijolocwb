@@ -7,7 +7,8 @@
 @import "./arrowcdtop.scss";
 @import 'animate.css';
 
-body {
+body,
+main p {
   font-family: 'cuprumregular', sans-serif;
   // font-family: var(--font-sans);
 }
