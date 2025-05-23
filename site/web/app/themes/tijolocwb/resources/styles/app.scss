@@ -126,7 +126,7 @@ section.cardapio-pratos {
 .hora-que-feliz,
 .happy-hour,
 .happy-hour cite {
-    @apply bg-tijolohorarios text-white;
+    @apply bg-tijolohorarios text-black;
 
     .wp-block-image.invert img {
         filter: invert(100%);
@@ -186,24 +186,24 @@ picture {
   justify-content: inherit;
 }
 
-.page:not(.home, .horarios, .happy-hour), .single-post, .category {
+.page:not(.home), .single-post, .category {
   .main .container p {
     @apply text-xl lg:text-2xl text-gray-800 mb-6;
   }
 } 
 
-.page.horarios, .page.happy-hour .main .container {
-  h1,
-  h2,
-  h3,
-  h4,
-  figcaption,
-  a,
-  strong,
-  p {
-    @apply text-gray-100;
-  }
-}
+// .page.horarios, .page.happy-hour .main .container {
+//   h1,
+//   h2,
+//   h3,
+//   h4,
+//   figcaption,
+//   a,
+//   strong,
+//   p {
+//     @apply text-gray-100;
+//   }
+// }
 
 main .container {
   padding-bottom: 2rem;
