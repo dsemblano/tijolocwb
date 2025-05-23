@@ -16,7 +16,7 @@
 
     @endphp
     <{{$current}}>
-      <img id="logoname" class="w-auto h-16 hover:scale-105 transition duration-300 ease-in-out" src="@asset('images/logo/tijolologo.png')" alt="Tijolo logo">
+      <img id="logoname" class="hover:scale-105 transition duration-300 ease-in-out" src="@asset('images/logo/tijolologo.png')" alt="Tijolo logo" width="104" height="108">
 
     </{{$current}}>
   </a>
