@@ -4,8 +4,10 @@
 
 server {
   {% block server_id -%}
-  listen {{ ssl_enabled | ternary('[::]:443 ssl http2', '[::]:80') }};
-  listen {{ ssl_enabled | ternary('443 ssl http2', '80') }};
+  listen {{ ssl_enabled | ternary('[::]:443 ssl', '[::]:80') }};
+  listen {{ ssl_enabled | ternary('443 ssl', '80') }};
+  http2 {{ nginx_http2_enabled | default(false) | ternary('on', 'off') }};
+  http3 {{ nginx_http3_enabled | default(false) | ternary('on', 'off') }};
   server_name {{ site_hosts_canonical | union(multisite_subdomains_wildcards) | join(' ') }};
   {% endblock %}
 
@@ -77,9 +79,6 @@ server {
   {% if ssl_enabled -%}
   # SSL configuration
   include h5bp/directive-only/ssl.conf;
-  {% if ssl_stapling_enabled -%}
-  include h5bp/directive-only/ssl-stapling.conf;
-  {% endif -%}
 
   ssl_buffer_size 1400; # 1400 bytes to fit in one MTU
 
@@ -253,6 +252,7 @@ server {
 
     {% block fastcgi_basic -%}
     include fastcgi_params;
+    fastcgi_param SERVER_NAME $host;
     fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
     fastcgi_param DOCUMENT_ROOT $realpath_root;
     fastcgi_pass unix:/var/run/php-fpm-wordpress.sock;
@@ -290,11 +290,13 @@ server {
 {% for host in item.value.site_hosts if host.redirects | default([]) %}
 server {
   {% if ssl_enabled -%}
-  listen [::]:443 ssl http2;
-  listen 443 ssl http2;
+  listen [::]:443 ssl;
+  listen 443 ssl;
   {% endif -%}
   listen [::]:80;
   listen 80;
+  http2 {{ nginx_http2_enabled | default(false) | ternary('on', 'off') }};
+  http3 {{ nginx_http3_enabled | default(false) | ternary('on', 'off') }};
   server_name {{ host.redirects | join(' ') }};
 
   {{ self.https() -}}
