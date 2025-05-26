@@ -9,11 +9,16 @@
 
 body,
 main p {
-  font-family: 'cuprumregular', sans-serif;
+  font-family: ui-sans-serif, system-ui, sans-serif;
   // font-family: var(--font-sans);
 }
 
-.nav-primary {
+.nav-primary,
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'cuprumregular', sans-serif;
 }
 
