@@ -8,6 +8,10 @@
   apt_repository:
     repo: "{{ mariadb_ppa }}"
     update_cache: yes
+  register: result
+  until: result is success
+  retries: 3
+  delay: 5
 
 - name: Install MySQL client
   ansible.builtin.apt:
@@ -66,11 +70,11 @@
       user: ""
       host: "{{ item }}"
       state: absent
-    no_log: false
+    no_log: true
     loop:
       - localhost
       - "{{ inventory_hostname }}"
-      #- "{{ ansible_hostname }}"
+      - "{{ ansible_hostname }}"
 
   - name: Remove the test database
     mysql_db:
