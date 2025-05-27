@@ -4,7 +4,7 @@
       <div class="left-footer">
         <div class="logo-icons flex flex-col items-center justify-between gap-y-10">
           <a class="brand" href="{{ home_url('/') }}">
-            <img id="logoname" class="hover:scale-105 transition duration-300 ease-in-out" src="@asset('images/logo/tijolologopreto.png')" alt="Tijolo logo" width="134" height="138">
+            <img id="logoname" class="hover:scale-105 transition duration-300 ease-in-out" src="@asset('images/logo/tijolologopreto.webp')" alt="Tijolo logo" width="134" height="138">
           </a>
           <div id="social-icons" class="flex flex-row justify-between fill-neutral-700 gap-x-12">
             @include ('partials.socialicons')
