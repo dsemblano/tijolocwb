@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Your base production configuration goes in this file. Environment-specific
  * overrides go in their respective config/environments/{{WP_ENV}}.php file.
@@ -9,6 +10,7 @@
  */
 
 use Roots\WPConfig\Config;
+
 use function Env\env;
 
 // USE_ENV_ARRAY + CONVERT_* + STRIP_QUOTES
@@ -34,11 +36,16 @@ $webroot_dir = $root_dir . '/web';
  */
 if (file_exists($root_dir . '/.env')) {
     $env_files = file_exists($root_dir . '/.env.local')
-        ? ['.env', '.env.local']
-        : ['.env'];
+    ? ['.env', '.env.local']
+    : ['.env'];
 
-    $dotenv = Dotenv\Dotenv::createImmutable($root_dir, $env_files, false);
+    $repository = Dotenv\Repository\RepositoryBuilder::createWithNoAdapters()
+    ->addAdapter(Dotenv\Repository\Adapter\EnvConstAdapter::class)
+    ->addAdapter(Dotenv\Repository\Adapter\PutenvAdapter::class)
+    ->immutable()
+    ->make();
 
+    $dotenv = Dotenv\Dotenv::create($repository, $root_dir, $env_files, false);
     $dotenv->load();
 
     $dotenv->required(['WP_HOME', 'WP_SITEURL']);
@@ -124,12 +131,14 @@ Config::define('DISALLOW_FILE_MODS', true);
 // Limit the number of post revisions
 Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?? true);
 
+// Disable script concatenation
+Config::define('CONCATENATE_SCRIPTS', false);
+
 /**
  * Debugging Settings
  */
-Config::define('WP_DEBUG_DISPLAY', true);
-Config::define('WP_DEBUG', true);
-Config::define('WP_DEBUG_LOG', true);
+Config::define('WP_DEBUG_DISPLAY', false);
+Config::define('WP_DEBUG_LOG', false);
 Config::define('SCRIPT_DEBUG', false);
 ini_set('display_errors', '0');
 
