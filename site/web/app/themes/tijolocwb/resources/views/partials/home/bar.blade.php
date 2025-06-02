@@ -4,7 +4,7 @@
       <div class="left flex flex-col w-full lg:w-1/2 lourdinha-wrap items-center justify-around">
 
         <div class="text-center lg:text-left">
-          <article class="text-lg lg:text-2xl">
+          <article class="text-lg">
             <p class="mb-6">
               Nosso cantinho “Lourdinha tô pronto” é uma lembrança da minha infância. A expressão era verbalizada pelo meu
               avô, o Lutegardes, para a minha avó Lourdinha, nas intermináveis festas e eventos de família, quando ele já

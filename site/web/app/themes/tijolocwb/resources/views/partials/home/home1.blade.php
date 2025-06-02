@@ -3,7 +3,7 @@
     <div class="flex flex-col lg:flex-row gap-x-10 text-white">
       <div class="left flex flex-col w-full lg:w-1/3">
 
-        <article class="text-center lg:text-left text-lg lg:text-2xl">
+        <article class="text-center lg:text-left text-lg">
           <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast">
             O Tijolo Restaurante é um projeto de comida descomplicada, no centro histórico de Curitiba. Nosso conceito é baseado no slow food, na experiência, na produção com cuidado e atenção plena, sem a pressa do fast food e do cotidiano.
           </p>
@@ -18,7 +18,7 @@
           </p>
         </article>
 
-        <div class="grid justify-center lg:justify-start mt-2 animate__animated animate__headShake animate__delay-3s">
+        <div class="grid justify-center lg:justify-start mt-6 animate__animated animate__headShake animate__delay-3s">
           <div
             class="bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded lg:w-auto w-full">
             <a href="/reservas/" class="w-full flex">
