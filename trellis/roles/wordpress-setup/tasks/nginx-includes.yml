@@ -6,20 +6,14 @@
   register: nginx_includes_local_directory
 
 - block:
-  - name: Loop through site keys to build a list of Nginx includes templates per folder
+  - name: Build list of Nginx includes templates
     find:
-      paths: "{{ nginx_includes_templates_path }}/{{ item }}"
-      patterns: "*.conf.j2"
+      paths: "{{ nginx_includes_templates_path }}"
+      pattern: "*.conf.j2"
       recurse: yes
-    loop: "{{ wordpress_sites.keys() | list + ['all'] }}"
     become: no
     delegate_to: localhost
-    register: nginx_includes_folder_results
-
-  - name: Flatten include template files into one list
-    set_fact:
-      nginx_includes_templates:
-        files: "{{ nginx_includes_folder_results.results | map(attribute='files') | flatten }}"
+    register: nginx_includes_templates
 
   - name: Create includes.d directories
     file:
