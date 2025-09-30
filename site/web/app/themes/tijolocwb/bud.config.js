@@ -82,9 +82,4 @@ export default async (app) => {
     .useTailwindFontFamily()
     .useTailwindFontSize();
 
-    // Add the Partytown alias
-    // app.provide({
-    //   'partytown$': '@builder.io/partytown/dist/partytown',
-    // });
-
 };
