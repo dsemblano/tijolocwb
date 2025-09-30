@@ -59,7 +59,7 @@
     "wpackagist-plugin/schema-and-structured-data-for-wp":"^1.44",
     "wpackagist-plugin/zoloblocks":"^2.2.7",
     "wpackagist-plugin/foobox-image-lightbox":"^2.7.34",
-    "wpackagist-plugin/greenshift-animation-and-page-builder-blocks":"^11.5.2",
+    "wpackagist-plugin/greenshift-animation-and-page-builder-blocks":"^12",
     "wpackagist-plugin/simply-gallery-block":"^3.2.6",
     "wpackagist-plugin/responsive-block-editor-addons":"^2.0.5",
     "roots/acorn-prettify": "^1.0",
