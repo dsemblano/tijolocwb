@@ -26,7 +26,6 @@
     "@tailwindcss/typography": "^0.5.13"
   },
   "dependencies": {
-    "@builder.io/partytown": "^0.10.2",
     "animate.css": "^4.1.1",
     "flowbite": "^2.3.0",
     "moment": "^2.30.1"
