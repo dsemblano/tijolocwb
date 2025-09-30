@@ -379,7 +379,7 @@ figure .lazyloading {
 .carousel-slider .carousel-slider__item img {
   height: 25rem;
   width: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @screen lg {
