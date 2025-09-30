@@ -1,15 +1,7 @@
 import domReady from '@roots/sage/client/dom-ready';
 import 'flowbite/dist/flowbite.js';
+import './arrowtop.js'
 import './logoscroll.js';
-import './arrowtop.js';
-
-const images = document.querySelectorAll('img');
-
-images.forEach(image => {
-  image.addEventListener('load', () => {
-    image.classList.remove('image-loading');
-  });
-});
 
 /**
  * Application entrypoint

@@ -18,13 +18,6 @@
   <?php echo \Roots\view('layouts/head/gtaghead')->render(); ?>
   <?php echo \Roots\view('partials/snippets/schema')->render(); ?>
 
-
-
-  {{-- <script src="~partytown/partytown.js"></script>
-
-  <script type="text/partytown">
-    for (let i = 0; i < 999999; i++) console.log(i);
-  </script> --}}
 </head>
 
 <body @php(body_class())>
