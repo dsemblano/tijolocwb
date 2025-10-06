@@ -4117,7 +4117,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.8.2",
+            "version": "6.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -4148,7 +4148,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.8.2"
+                "source": "https://github.com/roots/wordpress/tree/6.8.3"
             },
             "funding": [
                 {
@@ -4227,23 +4227,23 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.8.2",
+            "version": "6.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.8.2"
+                "reference": "6.8.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.8.2-no-content.zip",
-                "reference": "6.8.2",
-                "shasum": "7d8dcb839f4754e331d93b86f9adc8c171d81e97"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.8.3-no-content.zip",
+                "reference": "6.8.3",
+                "shasum": "2c34ba506afd8061d96cde50b2c92f109c10d2c8"
             },
             "require": {
                 "php": ">= 7.2.24"
             },
             "provide": {
-                "wordpress/core-implementation": "6.8.2"
+                "wordpress/core-implementation": "6.8.3"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -4294,7 +4294,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2025-07-15T15:29:08+00:00"
+            "time": "2025-09-30T18:16:31+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -6572,15 +6572,15 @@
         },
         {
             "name": "wpackagist-plugin/greenshift-animation-and-page-builder-blocks",
-            "version": "12.2.4",
+            "version": "12.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/greenshift-animation-and-page-builder-blocks/",
-                "reference": "tags/12.2.4"
+                "reference": "tags/12.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/greenshift-animation-and-page-builder-blocks.12.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/greenshift-animation-and-page-builder-blocks.12.2.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6740,12 +6740,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "684ef27cdce62b6562f77a92dc76bdfb46542a2d"
+                "reference": "60ac6a710b7b0527786041ba96200bd49aa8de7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/684ef27cdce62b6562f77a92dc76bdfb46542a2d",
-                "reference": "684ef27cdce62b6562f77a92dc76bdfb46542a2d",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/60ac6a710b7b0527786041ba96200bd49aa8de7e",
+                "reference": "60ac6a710b7b0527786041ba96200bd49aa8de7e",
                 "shasum": ""
             },
             "conflict": {
@@ -6787,10 +6787,10 @@
                 "athlon1600/php-proxy-app": "<=3",
                 "athlon1600/youtube-downloader": "<=4",
                 "austintoddj/canvas": "<=3.4.2",
-                "auth0/auth0-php": ">=8.0.0.0-beta1,<8.14",
-                "auth0/login": "<7.17",
-                "auth0/symfony": "<5.4",
-                "auth0/wordpress": "<5.3",
+                "auth0/auth0-php": ">=3.3,<=8.16",
+                "auth0/login": "<=7.18",
+                "auth0/symfony": "<=5.4.1",
+                "auth0/wordpress": "<=5.3",
                 "automad/automad": "<2.0.0.0-alpha5",
                 "automattic/jetpack": "<9.8",
                 "awesome-support/awesome-support": "<=6.0.7",
@@ -6907,7 +6907,7 @@
                 "doctrine/mongodb-odm": "<1.0.2",
                 "doctrine/mongodb-odm-bundle": "<3.0.1",
                 "doctrine/orm": ">=1,<1.2.4|>=2,<2.4.8|>=2.5,<2.5.1|>=2.8.3,<2.8.4",
-                "dolibarr/dolibarr": "<=21.0.2",
+                "dolibarr/dolibarr": "<21.0.3",
                 "dompdf/dompdf": "<2.0.4",
                 "doublethreedigital/guest-entries": "<3.1.2",
                 "drupal/admin_audit_trail": "<1.0.5",
@@ -7096,7 +7096,7 @@
                 "joomla/archive": "<1.1.12|>=2,<2.0.1",
                 "joomla/database": ">=1,<2.2|>=3,<3.4",
                 "joomla/filesystem": "<1.6.2|>=2,<2.0.1",
-                "joomla/filter": "<1.4.4|>=2,<2.0.1",
+                "joomla/filter": "<2.0.6|>=3,<3.0.5|==4",
                 "joomla/framework": "<1.5.7|>=2.5.4,<=3.8.12",
                 "joomla/input": ">=2,<2.0.2",
                 "joomla/joomla-cms": "<3.9.12|>=4,<4.4.13|>=5,<5.2.6",
@@ -7514,7 +7514,7 @@
                 "thelia/thelia": ">=2.1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "thinkcmf/thinkcmf": "<6.0.8",
-                "thorsten/phpmyfaq": "<=4.0.1",
+                "thorsten/phpmyfaq": "<=4.0.1|>=4.0.7,<4.0.13",
                 "tikiwiki/tiki-manager": "<=17.1",
                 "timber/timber": ">=0.16.6,<1.23.1|>=1.24,<1.24.1|>=2,<2.1",
                 "tinymce/tinymce": "<7.2",
@@ -7706,7 +7706,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-09-24T21:05:21+00:00"
+            "time": "2025-10-03T15:05:30+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
