@@ -1266,6 +1266,11 @@
           "slug": "tijologreentext"
         },
         {
+          "color": "#333333",
+          "name": "Tijolotext",
+          "slug": "tijolotext"
+        },
+        {
           "color": "#e2cb9f",
           "name": "Tijoloyellow",
           "slug": "tijoloyellow"
@@ -1284,6 +1289,11 @@
           "color": "#d68778",
           "name": "Tijolopink",
           "slug": "tijolopink"
+        },
+        {
+          "color": "#c76a5d",
+          "name": "Tijolopinkhover",
+          "slug": "tijolopinkhover"
         },
         {
           "color": "85%",

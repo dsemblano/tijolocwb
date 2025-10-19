@@ -1,5 +1,5 @@
-<section id="tela3" class="home-section bg-tijoloyellow flex py-10">
-  <div class="container flex flex-col justify-center items-center">
+<section id="tela3" class="home-section bg-tijolopink flex py-10">
+  <div class="container flex flex-col justify-center items-center text-tijolotext">
     <h2 class="mb-6">Como chegar</h2>
     @include('partials/snippets.gmaps')
     {{-- @include('partials/snippets/reservation') --}}

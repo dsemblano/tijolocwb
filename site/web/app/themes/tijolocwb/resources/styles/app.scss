@@ -14,12 +14,19 @@ main p {
 }
 
 .nav-primary,
+.wp-block-vayu-blocks-advance-heading,
 h1,
 h2,
 h3,
 h4,
 h5 {
   font-family: 'cuprumregular', sans-serif;
+}
+
+.wp-block-vayu-blocks-advance-heading,
+.th-button {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 img {
@@ -132,7 +139,7 @@ section.cardapio-pratos {
 .hora-que-feliz,
 .happy-hour,
 .happy-hour cite {
-    @apply bg-tijolohorarios text-black;
+    @apply bg-tijolohorarios text-tijolotext;
 
     .wp-block-image.invert img {
         filter: invert(100%);
