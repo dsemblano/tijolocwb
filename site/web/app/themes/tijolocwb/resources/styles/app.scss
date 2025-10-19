@@ -405,3 +405,12 @@ figure .lazyloading {
 :root :where(a:where(:not(.wp-element-button))) {
   text-decoration: inherit;
 }
+
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  // list-style: none;
+  padding-right: 1.5rem;
+}
