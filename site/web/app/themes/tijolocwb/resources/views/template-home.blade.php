@@ -11,6 +11,6 @@
     @include('partials/home.home2')
     @include('partials/home.bar')
     @include('partials/home.home3')
-    {{-- @include('partials.content-page') --}}
+    @include('partials.content-page')
   @endwhile
 @endsection
