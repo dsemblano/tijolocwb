@@ -4,7 +4,7 @@
         <div class="flex flex-col lg:flex-row gap-x-10 text-white">
             <div class="left flex flex-col w-full lg:w-1/3">
 
-                <article class="text-center lg:text-left text-lg">
+                <article class="text-left text-lg">
                     <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast">
                         O Tijolo Restaurante é um projeto de comida descomplicada, no centro histórico de Curitiba.
                         Cozinha contemporânea num ambiente único, numa das ruas mais antigas da cidade, dentro de um
