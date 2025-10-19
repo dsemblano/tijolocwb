@@ -1,4 +1,4 @@
-<section id="tela1" class="home-section bg-neutral-700 bg-no-repeat bg-bottom lg:bg-right-top py-6">
+<section id="tela1" class="home-section bg-neutral-700 bg-no-repeat bg-bottom lg:bg-right-top py-6 prose-h2:text-4xl">
     <div class="container mx-auto">
         <div class="flex flex-col lg:flex-row gap-x-10 text-white">
             <div class="left flex flex-col w-full lg:w-1/3">
@@ -6,15 +6,16 @@
                 <article class="text-center lg:text-left text-lg">
                     <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast">
                         O Tijolo Restaurante é um projeto de comida descomplicada, no centro histórico de Curitiba.
-                        Cozinha contemporânea, baseado no slow food, na produção com cuidado e atenção plena.
+                        Cozinha contemporânea num ambiente único, numa das ruas mais antigas da cidade, dentro de um
+                        prédio que ja foi casa do artista Ricardo Tod, autor do “Cavalo Bobão”, a Fonte da Memória, obra
+                        situada no coração do Largo da Ordem, em Curitiba.
                     </p>
                     <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast animate__delay-1s">
-                        Servimos carnes, vinhos, massas, bocaditos, sanduíches, pastas e molhos especiais, produzidos
-                        com insumos não refinados e minimamente processados.
+                        Gastronomia , arte e história juntas.
+                        Servimos carnes, vinhos, massas, petiscos com opções vegetariana e veganas. Pratos tradicionais
+                        do estado e uma carta de vinhos brasileiros dão o tom da cultura local, dentro do nosso refúgio
+                        urbano. Venha com calma, seja sempre muito bem vinda.
                     </p>
-                    <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast animate__delay-2s">
-                        Grande parte do nosso cardápio é vegano, e nossa confeitaria preza por doces plant based (à base
-                        de plantas).</p>
 
                     Faça sua reserva abaixo!
                     </p>
