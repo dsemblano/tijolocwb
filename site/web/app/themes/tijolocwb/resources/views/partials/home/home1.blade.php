@@ -7,7 +7,7 @@
                     <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast">
                         O Tijolo Restaurante é um projeto de comida descomplicada, no centro histórico de Curitiba.
                         Cozinha contemporânea num ambiente único, numa das ruas mais antigas da cidade, dentro de um
-                        prédio que ja foi casa do artista Ricardo Tod, autor do “Cavalo Bobão”, a Fonte da Memória, obra
+                        prédio que ja foi casa do artista Ricardo Tod, autor do “Cavalo Babão”, a Fonte da Memória, obra
                         situada no coração do Largo da Ordem, em Curitiba.
                     </p>
                     <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast animate__delay-1s">
