@@ -11,16 +11,19 @@
                         prédio que ja foi casa do artista Ricardo Tod, autor do “Cavalo Babão”, a Fonte da Memória, obra
                         situada no coração do Largo da Ordem, em Curitiba.
                     </p>
-                    <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast animate__delay-1s">
-                        Gastronomia , arte e história juntas.
-                        Servimos carnes, vinhos, massas, petiscos com opções vegetariana e veganas. Pratos tradicionais
-                        do estado e uma carta de vinhos brasileiros dão o tom da cultura local, dentro do nosso refúgio
-                        urbano. Venha com calma, seja sempre muito bem vinda.
-                    </p>
-
-                    Faça sua reserva abaixo!
+                        <details>
+                            <summary>Mais</summary>
+                            <p> Gastronomia , arte e história juntas.
+                                Servimos carnes, vinhos, massas, petiscos com opções vegetariana e veganas. Pratos
+                                tradicionais
+                                do estado e uma carta de vinhos brasileiros dão o tom da cultura local, dentro do nosso
+                                refúgio
+                                urbano. Venha com calma, seja sempre muito bem vinda.</p>
+                        </details>
                     </p>
                 </article>
+
+
 
                 <div
                     class="grid justify-center lg:justify-start mt-6 animate__animated animate__headShake animate__delay-3s">
