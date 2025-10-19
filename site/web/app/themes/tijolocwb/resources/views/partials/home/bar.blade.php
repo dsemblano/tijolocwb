@@ -3,7 +3,7 @@
     <div class="flex flex-col lg:flex-row gap-x-10 text-tijolotext w-full">
       <div class="left flex flex-col w-full lg:w-1/2 lourdinha-wrap items-center justify-around">
 
-        <div class="text-center lg:text-left">
+        <div class="text-left">
           <article class="text-lg">
             <p class="mb-6">
               Nosso cantinho “Lourdinha tô pronto” é uma lembrança da minha infância. A expressão era verbalizada pelo meu
