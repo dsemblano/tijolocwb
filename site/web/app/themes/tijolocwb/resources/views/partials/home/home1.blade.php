@@ -1,4 +1,5 @@
-<section id="tela1" class="home-section bg-neutral-700 bg-no-repeat bg-bottom lg:bg-right-top py-6 prose-h2:text-4xl">
+<section id="tela1"
+    class="home-section bg-tijologreentext bg-no-repeat bg-bottom lg:bg-right-top py-6 prose-h2:text-4xl">
     <div class="container mx-auto">
         <div class="flex flex-col lg:flex-row gap-x-10 text-white">
             <div class="left flex flex-col w-full lg:w-1/3">
@@ -24,7 +25,7 @@
                 <div
                     class="grid justify-center lg:justify-start mt-6 animate__animated animate__headShake animate__delay-3s">
                     <div
-                        class="bg-tijolo hover:bg-tijolopink text-2xl text-neutral-700 font-bold hover:text-white py-4 px-8 border border-tijolopink hover:border-transparent rounded lg:w-auto w-full">
+                        class="bg-tijolopink hover:bg-tijolopinkhover text-2xl text-white hover:text-tijolotext font-bold py-4 px-8 rounded lg:w-auto w-full">
                         <a href="/reservas/" class="w-full flex">
                             Reservas
                         </a>
