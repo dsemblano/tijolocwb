@@ -14,7 +14,7 @@
                         <details>
                             <summary>Mais</summary>
                             <p> Gastronomia , arte e história juntas.
-                                Servimos carnes, vinhos, massas, petiscos com opções vegetariana e veganas. Pratos
+                                Servimos carnes, vinhos, massas, petiscos com opções vegetarianas e veganas. Pratos
                                 tradicionais
                                 do estado e uma carta de vinhos brasileiros dão o tom da cultura local, dentro do nosso
                                 refúgio
