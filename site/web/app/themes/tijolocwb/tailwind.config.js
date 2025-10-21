@@ -25,13 +25,16 @@ const config = {
         tijolo: '#E2AA9F',
         tijologreen: '#A5AB9D',
         tijologreentext: '#666A55',
+        tijologreentextp: '#e7e7e7',
         tijolotext: '#333333',
+        tijolop: '#717171',
         // tijologreentext: '#1C1C1C', //WCAG AAA compliance
         tijoloyellow: '#E2CB9F',
+        tijoloyellowp: '#575757',
         tijolocardapio: '#dbc8b2',
         tijolohorarios: '#666b54',
         tijolopink: '#D68778',
-        tijolopinkhover: '#C76A5D',
+        tijolopinkhover: '#BF5545',
         top: {
           '85': '85%',
         }

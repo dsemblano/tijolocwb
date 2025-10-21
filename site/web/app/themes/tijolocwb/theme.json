@@ -1266,14 +1266,29 @@
           "slug": "tijologreentext"
         },
         {
+          "color": "#e7e7e7",
+          "name": "Tijologreentextp",
+          "slug": "tijologreentextp"
+        },
+        {
           "color": "#333333",
           "name": "Tijolotext",
           "slug": "tijolotext"
         },
         {
+          "color": "#717171",
+          "name": "Tijolop",
+          "slug": "tijolop"
+        },
+        {
           "color": "#e2cb9f",
           "name": "Tijoloyellow",
           "slug": "tijoloyellow"
+        },
+        {
+          "color": "#575757",
+          "name": "Tijoloyellowp",
+          "slug": "tijoloyellowp"
         },
         {
           "color": "#dbc8b2",
@@ -1291,7 +1306,7 @@
           "slug": "tijolopink"
         },
         {
-          "color": "#c76a5d",
+          "color": "#bf5545",
           "name": "Tijolopinkhover",
           "slug": "tijolopinkhover"
         },
