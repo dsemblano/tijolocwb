@@ -22,7 +22,7 @@
 }
 
 .menu-menu-principal-container {
-  @apply bg-tijolo w-full;
+  @apply bg-tijolopinkhover w-full;
 
   // box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 
@@ -34,7 +34,7 @@
     }
 
     .sub-menu {
-      @apply bg-tijolo pl-2;
+      @apply bg-tijolopinkhover pl-2;
 
     }
 
@@ -62,7 +62,7 @@
         // @apply hover:text-neutral-700;
 
           &:hover {
-            @apply rounded opacity-100 bg-tijolopink no-underline;
+            @apply rounded opacity-100 bg-tijolopinkhover no-underline;
           }
         }
       }
