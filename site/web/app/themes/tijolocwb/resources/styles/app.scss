@@ -421,4 +421,8 @@ summary {
   .wpcf7-submit {
     @apply py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-tijolopinkhover sm:w-fit hover:bg-tijolo focus:ring-4 focus:outline-none focus:ring-tijolopinkhover dark:hover:bg-tijolo;
   }
+
+  .wpcf7-response-output {
+    @apply py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-green-500 sm:w-fit focus:ring-4 focus:outline-none;
+  }
 }
