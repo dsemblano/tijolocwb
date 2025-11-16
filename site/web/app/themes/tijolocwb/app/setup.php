@@ -215,3 +215,32 @@ add_filter('request', function($query_vars) {
 add_filter('category_link', function($link, $term_id) {
     return str_replace('/category/', '/', $link);
 }, 10, 2);
+
+/**
+ * Verifies that a given file path is under the directories that WordPress
+ * manages for user contents.
+ *
+ * Returns false if the file at the given path does not exist yet.
+ *
+ * @param string $path A file path.
+ * @return bool True if the path is under the content directories,
+ *              false otherwise.
+ */
+function wpcf7_is_file_path_in_content_dir( $path ) {
+	if ( $real_path = realpath( $path ) ) {
+		$path = $real_path;
+	} else {
+		return false;
+	}
+
+	if ( 0 === strpos( $path, realpath( WP_CONTENT_DIR ) ) ) {
+		return true;
+	}
+
+	if ( defined( 'UPLOADS' )
+	and 0 === strpos( $path, realpath( ABSPATH . UPLOADS ) ) ) {
+		return true;
+	}
+
+	return false;
+}
