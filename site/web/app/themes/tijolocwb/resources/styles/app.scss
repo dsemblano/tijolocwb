@@ -402,3 +402,23 @@ summary {
   // list-style: none;
   padding-right: 1.5rem;
 }
+
+// Form
+.wpcf7-form {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+  textarea {
+    @apply block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300;
+  }
+
+  input {
+    @apply block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm;
+  }
+
+  .wpcf7-submit {
+    @apply py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-tijolopinkhover sm:w-fit hover:bg-tijolo focus:ring-4 focus:outline-none focus:ring-tijolopinkhover dark:hover:bg-tijolo;
+  }
+}
