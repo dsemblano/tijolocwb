@@ -423,6 +423,10 @@ summary {
   }
 
   .wpcf7-response-output {
-    @apply py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-green-500 sm:w-fit focus:ring-4 focus:outline-none;
+    @apply py-3 px-5 text-sm p-4 font-medium text-center text-white rounded-lg bg-green-500 sm:w-fit focus:ring-4 focus:outline-none;
   }
 }
+
+  .wpcf7 form.invalid .wpcf7-response-output {
+    @apply py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-red-500 border-transparent sm:w-fit focus:ring-4 focus:outline-none;
+  }
