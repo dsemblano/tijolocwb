@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47387503d8f7b39b94c4452e16339034",
+    "content-hash": "aef6e7159f5cd2c64cdf1507dd85f2e9",
     "packages": [
         {
             "name": "brick/math",
@@ -6545,24 +6545,6 @@
             "homepage": "https://wordpress.org/plugins/autodescription/"
         },
         {
-            "name": "wpackagist-plugin/boxzilla",
-            "version": "3.4.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/boxzilla/",
-                "reference": "tags/3.4.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/boxzilla.3.4.5.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/boxzilla/"
-        },
-        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "6.1.4",
             "source": {
@@ -6633,6 +6615,78 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/greenshift-animation-and-page-builder-blocks/"
+        },
+        {
+            "name": "wpackagist-plugin/instant-popup-builder",
+            "version": "1.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/instant-popup-builder/",
+                "reference": "tags/1.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/instant-popup-builder.1.1.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/instant-popup-builder/"
+        },
+        {
+            "name": "wpackagist-plugin/poper",
+            "version": "1.0.14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/poper/",
+                "reference": "tags/1.0.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/poper.1.0.14.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/poper/"
+        },
+        {
+            "name": "wpackagist-plugin/popup-box",
+            "version": "3.2.13",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/popup-box/",
+                "reference": "tags/3.2.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/popup-box.3.2.13.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/popup-box/"
+        },
+        {
+            "name": "wpackagist-plugin/popup-maker",
+            "version": "1.21.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/popup-maker/",
+                "reference": "tags/1.21.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/popup-maker.1.21.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/popup-maker/"
         },
         {
             "name": "wpackagist-plugin/redirection",
