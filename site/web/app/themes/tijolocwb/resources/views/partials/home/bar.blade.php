@@ -18,16 +18,16 @@
           </div>
 
         <picture id="lourdinha-logo" class="w-2/4 py-4">
-          <source media="(min-width: 600px)" srcset="@asset('images/Lourdinha-logo.webp')" width="509" height="300">
+          <source media="(min-width: 600px)" srcset="@asset('images/Lourdinha.webp')" width="509" height="300">
           <img src="@asset('images/Lourdinha-logo.webp')" alt="Lourdinha logo" width="509" height="300">
         </picture>
 
       </div>
 
       <picture class="right mt-8 lg:mt-0 lg:w-1/2">
-        <source media="(max-width: 600px)" srcset="@asset('images/lourdinha-bar-taca-mobile.webp')" width="380" height="380">
-        <source media="(min-width: 601px)" srcset="@asset('images/lourdinha-bar-taca-desktop.webp')" width="604" height="604">
-        <img src="@asset('images/lourdinha-bar-taca-desktop.webp')" alt="Foto Bar Lourdinha tô Pronto, dentro do Tijolo Restaurante" width="604" height="604">
+        <source media="(max-width: 600px)" srcset="@asset('images/lourdinha-mobile.webp')" width="380" height="380">
+        <source media="(min-width: 601px)" srcset="@asset('images/lourdinha-desktop.webp')" width="604" height="604">
+        <img src="@asset('images/lourdinha-desktop.webp')" alt="Foto Bar Lourdinha tô Pronto, dentro do Tijolo Restaurante" width="604" height="604">
       </picture>
 
     </div>
