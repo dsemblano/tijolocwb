@@ -5,8 +5,8 @@ wordpress_sites:
   tijolocwb.com.br:
     site_hosts:
     - canonical: tijolocwb.com.br
-      redirects:
-      - www.tijolocwb.com.br
+      # redirects:
+      # - www.tijolocwb.com.br
     local_path: ../site
     branch: master
     repo: git@github.com:dsemblano/tijolocwb.git
@@ -14,7 +14,7 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: true
+      enabled: false
       provider: letsencrypt
     cache:
       enabled: true

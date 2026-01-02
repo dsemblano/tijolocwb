@@ -26,7 +26,7 @@ $root_dir = dirname(__DIR__);
 /**
  * Document Root
  *
- * @var string
+ * @var non-falsy-string
  */
 $webroot_dir = $root_dir . '/web';
 
@@ -164,5 +164,3 @@ Config::apply();
 if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
-
-define('UPLOADS', '../app/uploads');
