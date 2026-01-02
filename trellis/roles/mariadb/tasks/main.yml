@@ -70,11 +70,11 @@
       user: ""
       host: "{{ item }}"
       state: absent
-    no_log: true
+    no_log: false
     loop:
       - localhost
       - "{{ inventory_hostname }}"
-      - "{{ ansible_hostname }}"
+
 
   - name: Remove the test database
     mysql_db:
