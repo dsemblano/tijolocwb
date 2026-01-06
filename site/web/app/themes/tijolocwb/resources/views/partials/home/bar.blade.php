@@ -19,7 +19,7 @@
 
         <picture id="lourdinha-logo" class="w-2/4 py-4">
           <source media="(min-width: 600px)" srcset="@asset('images/Lourdinha.webp')" width="509" height="300">
-          <img src="@asset('images/Lourdinha-logo.webp')" alt="Lourdinha logo" width="509" height="300">
+          <img src="@asset('images/Lourdinha.webp')" alt="Lourdinha logo" width="509" height="300">
         </picture>
 
       </div>
