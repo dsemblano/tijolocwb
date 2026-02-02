@@ -48,18 +48,18 @@ h6 {
   @apply text-3xl;
 }
 
-  // .main {
-  //   display: flex;
-  //   flex-direction: column;
-  //   flex-wrap: nowrap;
-  //   justify-content: flex-start;
-  //   overflow: hidden;
-  //   position: relative;
-  // }
+// .main {
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: nowrap;
+//   justify-content: flex-start;
+//   overflow: hidden;
+//   position: relative;
+// }
 
-  // .home {
-  //   @apply bg-tijolo;
-  // }
+// .home {
+//   @apply bg-tijolo;
+// }
 
 .home-section {
   min-height: 100svh;
@@ -74,29 +74,30 @@ h6 {
 // }
 
 .top-10 {
-    top: 2.5rem;
-    position: relative;
+  top: 2.5rem;
+  position: relative;
 }
 
 .qrr-booking-form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
 
-    input,
-    select,
-    textarea {
-        @apply text-gray-800;
-    }
+  input,
+  select,
+  textarea {
+    @apply text-gray-800;
+  }
 }
 
 // Pages
 // Cardapio
-.cardapio, .reservas {
-    @apply bg-tijolocardapio;
+.cardapio,
+.reservas {
+  @apply bg-tijolocardapio;
 }
 
 section.cardapio-pratos {
@@ -113,7 +114,7 @@ section.cardapio-pratos {
   h3 {
     @apply text-3xl mt-4 mb-8 lg:mt-0 font-bold;
   }
-  
+
   p {
     margin-top: 1rem;
   }
@@ -128,7 +129,7 @@ section.cardapio-pratos {
 // .wp-block-media-text__content {
 //   .wp-block-heading {
 //     @apply text-5xl lg:text-6xl my-4;
-    
+
 //     strong {
 //       font-weight: normal;
 //     }
@@ -138,11 +139,11 @@ section.cardapio-pratos {
 // Cardapio
 
 .reservas-data {
-    @apply bg-tijologreen;
+  @apply bg-tijologreen;
 
-    form {
-        @apply text-gray-200;
-    }
+  form {
+    @apply text-gray-200;
+  }
 }
 
 // Pagination
@@ -169,7 +170,7 @@ section.cardapio-pratos {
 
       padding: 0 1rem 0 1rem;
     }
-    
+
     .next.page-numbers {
       padding-left: 1rem;
     }
@@ -186,12 +187,15 @@ picture {
   justify-content: inherit;
 }
 
-.page:not(.home), .single-post, .category {
+.page:not(.home),
+.single-post,
+.category {
   @apply bg-tijolocardapio;
+
   .main .container p {
     @apply text-lg text-gray-800 mb-6;
   }
-} 
+}
 
 // .page.horarios, .page.happy-hour .main .container {
 //   h1,
@@ -245,12 +249,13 @@ main .container {
   @apply my-4;
 }
 
-.imgpost, .wp-block-image {
+.imgpost,
+.wp-block-image {
   overflow: hidden;
 
   img {
     @apply rounded;
-    
+
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;
@@ -268,6 +273,7 @@ main .container {
 .wp-block-image {
   @apply rounded;
 }
+
 //
 
 select.active_booking_form {
@@ -296,6 +302,7 @@ select.active_booking_form {
   from {
     background-position: 0 0;
   }
+
   to {
     background-position: 200% 0;
   }
@@ -308,19 +315,30 @@ figure .lazyloading {
   border-top: 20px solid #D68778;
   width: 120px !important;
   height: 120px !important;
-  -webkit-animation: spin 4s linear infinite; /* Safari */
+  -webkit-animation: spin 4s linear infinite;
+  /* Safari */
   animation: spinner 4s linear infinite;
 }
 
 /* Safari */
 @-webkit-keyframes spinner {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spinner {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .wp-image-3471 {
@@ -335,20 +353,22 @@ figure .lazyloading {
   height: 100vh;
 }
 
-.archive, .single {
+.archive,
+.single {
   main a {
     &:hover {
       @apply underline text-tijolopink
     }
-  } 
+  }
 }
 
- .single main a {
-   text-decoration: underline;
-   word-break: break-all;
+.single main a {
+  text-decoration: underline;
+  word-break: break-all;
 }
 
 #menu-menu-principal {
+
   a:active,
   a:hover,
   a:focus {
@@ -357,8 +377,13 @@ figure .lazyloading {
 }
 
 #menu-mobile {
-  a:active { @apply underline text-tijolo; }
-  a:focus { @apply underline text-tijolopink;}
+  a:active {
+    @apply underline text-tijolo;
+  }
+
+  a:focus {
+    @apply underline text-tijolopink;
+  }
 }
 
 // Carousel slider plugin
@@ -405,10 +430,10 @@ summary {
 
 // Form
 .wpcf7-form {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 
   textarea {
     @apply block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300;
@@ -427,6 +452,13 @@ summary {
   }
 }
 
-  .wpcf7 form.invalid .wpcf7-response-output {
-    @apply py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-red-500 border-transparent sm:w-fit focus:ring-4 focus:outline-none;
-  }
+.wpcf7 form.invalid .wpcf7-response-output {
+  @apply py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-red-500 border-transparent sm:w-fit focus:ring-4 focus:outline-none;
+}
+
+.featured-singleimg img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: auto;
+  margin: 0 auto;
+}
