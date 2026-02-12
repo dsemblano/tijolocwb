@@ -36,7 +36,7 @@
                     {{-- @include('partials/snippets/reservation') --}}
                 </div>
             </div>
-            <div class="right mt-8 lg:mt-0 lg:w-2/3 order-1 lg:order-2">
+            <div class="right mt-8 lg:mt-0 lg:w-2/3 order-1 lg:order-2 mb-6 lg:mb-0">
                 {{-- {!! do_shortcode('[carousel_slide id="3832"]') !!} --}}
                 <video id="carnaval-video" src="@asset('images/Video_carnaval_Tijolo.mp4')" autoplay loop muted controls
                     class="aspect-square object-contain mx-auto rounded animate__animated animate__wobble animate__slow">
