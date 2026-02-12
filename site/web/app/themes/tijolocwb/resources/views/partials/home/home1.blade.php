@@ -11,15 +11,15 @@
                         prédio que ja foi casa do artista Ricardo Tod, autor do “Cavalo Babão”, a Fonte da Memória, obra
                         situada no coração do Largo da Ordem, em Curitiba.
                     </p>
-                        <details>
-                            <summary>Mais</summary>
-                            <p> Gastronomia , arte e história juntas.
-                                Servimos carnes, vinhos, massas, petiscos com opções vegetarianas e veganas. Pratos
-                                tradicionais
-                                do estado e uma carta de vinhos brasileiros dão o tom da cultura local, dentro do nosso
-                                refúgio
-                                urbano. Venha com calma, seja sempre muito bem vinda.</p>
-                        </details>
+                    <details>
+                        <summary>Mais</summary>
+                        <p> Gastronomia , arte e história juntas.
+                            Servimos carnes, vinhos, massas, petiscos com opções vegetarianas e veganas. Pratos
+                            tradicionais
+                            do estado e uma carta de vinhos brasileiros dão o tom da cultura local, dentro do nosso
+                            refúgio
+                            urbano. Venha com calma, seja sempre muito bem vinda.</p>
+                    </details>
                     </p>
                 </article>
 
@@ -38,9 +38,10 @@
             </div>
             <div class="right mt-8 lg:mt-0 lg:w-2/3">
                 {{-- {!! do_shortcode('[carousel_slide id="3832"]') !!} --}}
-                <video id="carnaval-video" src="@asset('images/Video_carnaval_Tijolo.mp4')" autoplay loop muted class="aspect-square object-contain mx-auto rounded animate__animated animate__fadeInUp animate__slow">
+                <video id="carnaval-video" src="@asset('images/Video_carnaval_Tijolo.mp4')" autoplay loop muted controls
+                    class="aspect-square object-contain mx-auto rounded animate__animated animate__fadeInUp animate__slow">
                     Seu navegador não suporta o elemento de vídeo.
-                    
+
                 </video>
             </div>
             {{-- <picture class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow lg:w-1/2">
