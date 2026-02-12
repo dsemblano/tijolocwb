@@ -37,7 +37,11 @@
                 </div>
             </div>
             <div class="right mt-8 lg:mt-0 lg:w-2/3">
-                {!! do_shortcode('[carousel_slide id="3832"]') !!}
+                {{-- {!! do_shortcode('[carousel_slide id="3832"]') !!} --}}
+                <video id="carnaval-video" src="@asset('images/Video_carnaval_Tijolo.mp4')" autoplay loop muted class="aspect-square object-contain mx-auto rounded animate__animated animate__fadeInUp animate__slow">
+                    Seu navegador não suporta o elemento de vídeo.
+                    
+                </video>
             </div>
             {{-- <picture class="right mt-8 lg:mt-0 animate__animated animate__fadeInUp animate__slow lg:w-1/2">
         <source media="(max-width: 600px)" srcset="@asset('images/TijoloEntrada.webp')" width="570" height="545">
