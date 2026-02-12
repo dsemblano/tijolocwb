@@ -2,7 +2,7 @@
     class="home-section bg-tijologreentext bg-no-repeat bg-bottom lg:bg-right-top py-6 prose-h2:text-4xl">
     <div class="container mx-auto">
         <div class="flex flex-col lg:flex-row gap-x-10 text-tijologreentextp">
-            <div class="left flex flex-col w-full lg:w-1/3">
+            <div class="left flex flex-col w-full lg:w-1/3 order-2 lg:order-1">
 
                 <article class="text-left text-lg">
                     <p class="mb-6 animate__animated animate__fadeInLeftBig animate__fast">
@@ -36,7 +36,7 @@
                     {{-- @include('partials/snippets/reservation') --}}
                 </div>
             </div>
-            <div class="right mt-8 lg:mt-0 lg:w-2/3">
+            <div class="right mt-8 lg:mt-0 lg:w-2/3 order-1 lg:order-2">
                 {{-- {!! do_shortcode('[carousel_slide id="3832"]') !!} --}}
                 <video id="carnaval-video" src="@asset('images/Video_carnaval_Tijolo.mp4')" autoplay loop muted controls
                     class="aspect-square object-contain mx-auto rounded animate__animated animate__wobble animate__slow">
