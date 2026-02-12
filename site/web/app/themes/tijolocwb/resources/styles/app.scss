@@ -89,7 +89,7 @@ h6 {
   input,
   select,
   textarea {
-    @apply text-gray-800;
+    @apply text-tijolop;
   }
 }
 
@@ -97,7 +97,7 @@ h6 {
 // Cardapio
 .cardapio,
 .reservas {
-  @apply bg-tijolocardapio;
+  @apply bg-fundobege;
 }
 
 section.cardapio-pratos {
@@ -190,10 +190,10 @@ picture {
 .page:not(.home),
 .single-post,
 .category {
-  @apply bg-tijolocardapio;
+  @apply bg-fundobege;
 
   .main .container p {
-    @apply text-lg text-gray-800 mb-6;
+    @apply text-lg text-tijolop mb-6;
   }
 }
 
