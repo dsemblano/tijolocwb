@@ -1,4 +1,4 @@
-<div class="page-header not-prose mt-14 mb-12  text-center text-6xl">
+<div class="page-header not-prose mt-14 mb-12 text-tijolovermelho text-center text-6xl">
   <h1 class="text-center font-bold animate__animated animate__fadeInDown">{!! $title !!}</h1>
 </div>
 

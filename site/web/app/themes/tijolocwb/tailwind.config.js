@@ -34,6 +34,7 @@ const config = {
         tijoloyellowp: '#575757',
         fundobege: '#F0E8D1',
         tijolohorarios: '#666b54',
+        tijolovermelho: '#AB4A3B',
         tijolopink: '#D68778',
         tijolopinkhover: '#BF5545',
         top: {
