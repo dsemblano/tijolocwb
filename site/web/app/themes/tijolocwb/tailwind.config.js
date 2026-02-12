@@ -23,15 +23,16 @@ const config = {
       },
       colors: {
         tijolo: '#E2AA9F',
+        tijoloazulverde: '#6EBAA8',
         tijologreen: '#A5AB9D',
         tijologreentext: '#666A55',
         tijologreentextp: '#e7e7e7',
         tijolotext: '#333333',
-        tijolop: '#717171',
+        tijolop: '#0C2F36',
         // tijologreentext: '#1C1C1C', //WCAG AAA compliance
         tijoloyellow: '#E2CB9F',
         tijoloyellowp: '#575757',
-        tijolocardapio: '#dbc8b2',
+        fundobege: '#F0E8D1',
         tijolohorarios: '#666b54',
         tijolopink: '#D68778',
         tijolopinkhover: '#BF5545',

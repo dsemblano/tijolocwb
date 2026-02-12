@@ -1256,6 +1256,11 @@
           "slug": "tijolo"
         },
         {
+          "color": "#6ebaa8",
+          "name": "Tijoloazulverde",
+          "slug": "tijoloazulverde"
+        },
+        {
           "color": "#a5ab9d",
           "name": "Tijologreen",
           "slug": "tijologreen"
@@ -1276,7 +1281,7 @@
           "slug": "tijolotext"
         },
         {
-          "color": "#717171",
+          "color": "#0c2f36",
           "name": "Tijolop",
           "slug": "tijolop"
         },
@@ -1291,9 +1296,9 @@
           "slug": "tijoloyellowp"
         },
         {
-          "color": "#dbc8b2",
-          "name": "Tijolocardapio",
-          "slug": "tijolocardapio"
+          "color": "#f0e8d1",
+          "name": "Fundobege",
+          "slug": "fundobege"
         },
         {
           "color": "#666b54",

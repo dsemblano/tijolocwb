@@ -1,5 +1,5 @@
-<section id="bar" class="home-section bg-tijoloyellow py-6">
-    <div class="flex flex-col lg:flex-row gap-x-10 text-tijoloyellowp w-full container">
+<section id="bar" class="home-section bg-fundobege py-6">
+    <div class="flex flex-col lg:flex-row gap-x-10 text-tijolop w-full container">
         <div class="left flex flex-col w-full lg:w-1/2 lourdinha-wrap items-center justify-around">
 
             <div class="text-left">
