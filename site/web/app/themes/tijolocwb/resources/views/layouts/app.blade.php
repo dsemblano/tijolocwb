@@ -17,6 +17,7 @@
   <?php echo \Roots\view('layouts/head/gconsole')->render(); ?>
   <?php echo \Roots\view('layouts/head/gtaghead')->render(); ?>
   <?php echo \Roots\view('partials/snippets/schema')->render(); ?>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 
 </head>
 
@@ -25,6 +26,16 @@
   <?php echo \Roots\view('partials/snippets/gtagbody')->render(); ?>
 
   <div id="app">
+    <script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    confetti({
+      particleCount: 150,
+      spread: 70,
+      origin: { y: 0.6 },
+      colors: ['#BF5545', '#6EBAA8', '#F0E8D1'] // Optional: Use your brand colors!
+    });
+  });
+</script>
     <a class="sr-only focus:not-sr-only" href="#main">
       {{ __('Skip to content') }}
     </a>
