@@ -461,9 +461,23 @@ summary {
   @apply py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-red-500 border-transparent sm:w-fit focus:ring-4 focus:outline-none;
 }
 
-.featured-singleimg img {
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  width: auto;
-  margin: 0 auto;
+section#diaadia {
+    margin-top: 5rem;
 }
+
+header.relative {
+  height: 22rem;
+}
+
+.featured-singleimg {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto; 
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+}
+  
