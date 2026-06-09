@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="right mt-8 lg:mt-0 lg:w-2/3 order-1 lg:order-2 mb-6 lg:mb-0">
-                {!! do_shortcode('[carousel_slide id="3832"]') !!}
+                {{-- {!! do_shortcode('[carousel_slide id="3832"]') !!} --}}
             </div>
         </div>
 

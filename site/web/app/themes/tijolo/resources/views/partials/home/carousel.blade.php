@@ -1,1 +1,1 @@
-{!! do_shortcode( '[carousel_slide id="3717"]' ) !!}
+{{-- {!! do_shortcode( '[carousel_slide id="3717"]' ) !!} --}}
