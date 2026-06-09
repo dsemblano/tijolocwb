@@ -30,12 +30,9 @@
   },
   "repositories": [
     {
+      "name": "wp-packages",
       "type": "composer",
-      "url": "https://wpackagist.org",
-      "only": [
-        "wpackagist-plugin/*",
-        "wpackagist-theme/*"
-      ]
+      "url": "https://repo.wp-packages.org"
     }
   ],
   "require": {
@@ -48,27 +45,27 @@
     "roots/wordpress": "^6.9.4",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "wpackagist-plugin/regenerate-thumbnails": ">=3.1.5",
-    "wpackagist-plugin/wps-hide-login": ">=1.5.4.2",
-    "wpackagist-theme/twentytwentytwo": "^1.2",
-    "wpackagist-plugin/autodescription": ">=4.2.5",
-    "wpackagist-plugin/redirection": ">=5.2.3",
-    "wpackagist-plugin/ewww-image-optimizer": ">=6.6.0",
+    "wp-plugin/regenerate-thumbnails": ">=3.1.5",
+    "wp-plugin/wps-hide-login": ">=1.5.4.2",
+    "wp-theme/twentytwentytwo": "^1.2",
+    "wp-plugin/autodescription": ">=4.2.5",
+    "wp-plugin/redirection": ">=5.2.3",
+    "wp-plugin/ewww-image-optimizer": ">=6.6.0",
     "generoi/sage-woocommerce": "^1.1",
-    "wpackagist-plugin/foobox-image-lightbox":"^2.7.34",
-    "wpackagist-plugin/schema-and-structured-data-for-wp":"^1.44",
-    "wpackagist-plugin/zoloblocks":"^2.2.7",
-    "wpackagist-plugin/foobox-image-lightbox":"^2.7.34",
-    "wpackagist-plugin/greenshift-animation-and-page-builder-blocks":"^12",
-    "wpackagist-plugin/simply-gallery-block":"^3.2.6",
-    "wpackagist-plugin/responsive-block-editor-addons":"^2.0.5",
-    "wpackagist-plugin/vayu-blocks":">=1.3.11",
-    "wpackagist-plugin/contact-form-7":">=6.1.3",
-    "wpackagist-plugin/wp-mail-smtp": ">=3.10.0",
-    "wpackagist-plugin/wordpress-popup":">=7.8.9.1",
-    "wpackagist-plugin/simple-definition-list-blocks":"^6.0.1",
+    "wp-plugin/foobox-image-lightbox": "^2.7.34",
+    "wp-plugin/schema-and-structured-data-for-wp": "^1.44",
+    "wp-plugin/zoloblocks": "^2.2.7",
+    "wp-plugin/greenshift-animation-and-page-builder-blocks": "^12",
+    "wp-plugin/simply-gallery-block": "^3.2.6",
+    "wp-plugin/responsive-block-editor-addons": "^2.0.5",
+    "wp-plugin/vayu-blocks": ">=1.3.11",
+    "wp-plugin/contact-form-7": ">=6.1.3",
+    "wp-plugin/wp-mail-smtp": ">=3.10.0",
+    "wp-plugin/wordpress-popup": ">=7.8.9.1",
+    "wp-plugin/simple-definition-list-blocks": "^6.0.1",
     "roots/acorn-prettify": "^1.0",
-    "roots/acorn": "^4.3"
+    "roots/acorn": "^4.3",
+    "wp-plugin/wordpress-importer": "^0.9.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
