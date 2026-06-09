@@ -1,0 +1,2 @@
+<link rel="preload" fetchpriority="high" as="image" href={{ Vite::asset('resources/images/TijoloEntrada.webp') }} type="image/webp">
+<link rel="preload" href={{ Vite::asset('fonts/Cuprum/Cuprum-Regular-webfont.woff') }} as="font" type="font/woff" crossorigin>

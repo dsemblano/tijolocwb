@@ -1,0 +1,493 @@
+@import "tailwindcss" theme(static);
+@source "../../app/**/*.php";
+@source "../**/*.blade.php";
+@source "../**/*.js";
+
+@theme {
+  --color-primary: #E69037;
+  --color-tijolo: #E2AA9F;
+  --color-tijoloazulverde: #6EBAA8;
+  --color-tijologreen: #A5AB9D;
+  --color-tijologreentext: #666A55;
+  --color-tijologreentextp: #e7e7e7;
+  --color-tijolotext: #333333;
+  --color-tijolop: #0C2F36;
+  --color-tijoloyellow: #E2CB9F;
+  --color-tijoloyellowp: #575757;
+  --color-fundobege: #F0E8D1;
+  --color-tijolohorarios: #666b54;
+  --color-tijolovermelho: #AB4A3B;
+  --color-tijolopink: #D68778;
+  --color-tijolopinkhover: #BF5545;
+}
+
+/* @import 'common/fonts.scss';
+@import "./menu.scss";
+@import "./arrowcdtop.scss";
+@import 'animate.css'; */
+
+body,
+main p {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  /* font-family: var(--font-sans); */
+}
+
+.nav-primary,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'cuprumregular', sans-serif;
+}
+
+.wp-block-vayu-blocks-advance-heading,
+.th-button {
+  font-family: 'cuprumregular', sans-serif !important;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+/* img {
+  @apply rounded-md;
+} */
+
+h1#logo.shrink {
+  bottom: 0.5rem;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  @apply text-3xl;
+}
+
+
+@layer utility {
+  .container {
+    padding-left: var(--container-padding, 1rem);
+    padding-right: var(--container-padding, 1rem);
+    margin-inline: auto;
+
+    @variant lg {
+      padding-inline: 8rem;
+    }
+
+    @variant xl {
+      padding-inline: 10rem;
+    }
+  }
+}
+
+.home-section {
+  min-height: 100svh;
+}
+
+#cavalo-babao {
+  @apply bg-fundobege;
+}
+
+.top-10 {
+  top: 2.5rem;
+  position: relative;
+}
+
+.qrr-booking-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.qrr-booking-form input,
+.qrr-booking-form select,
+.qrr-booking-form textarea {
+  @apply text-tijolop;
+}
+
+/* Pages */
+/* Cardapio */
+.cardapio,
+.sectionpage,
+.reservas {
+  @apply bg-fundobege;
+}
+
+.cardapio h2 {
+  font-size: 2.5rem;
+}
+
+.cardapio section.cardapio-pratos figure a {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.cardapio section.cardapio-pratos figure a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* background-color: orange; */
+
+.cardapio section.cardapio-pratos .wp-block-media-text {
+  margin-bottom: 1.5rem;
+}
+
+.cardapio section.cardapio-pratos h2 {
+  @apply text-4xl lg:mt-0 font-bold;
+}
+
+.cardapio section.cardapio-pratos h3 {
+  @apply text-3xl mt-4 mb-8 lg:mt-0 font-bold;
+}
+
+.cardapio section.cardapio-pratos p {
+  margin-top: 1rem;
+}
+
+/* #vinhos {
+  background-color: purple;
+} */
+
+/* menu, páginas etc */
+
+/* .wp-block-media-text__content {
+  .wp-block-heading {
+    @apply text-5xl lg:text-6xl my-4;
+
+    strong {
+      font-weight: normal;
+    }
+  }
+} */
+
+/* Cardapio */
+
+.reservas-data {
+  @apply bg-tijologreen;
+}
+
+.reservas-data form {
+  @apply text-gray-200;
+}
+
+/* Pagination */
+.pagination {
+  @apply text-tijolopink my-14;
+}
+
+.pagination h2 {
+  color: inherit;
+}
+
+.pagination .nav-links {
+  color: inherit;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination .nav-links a {
+  color: inherit;
+}
+
+.pagination .nav-links .page-numbers:not(.prev):not(.next) {
+  @apply border-r-2 border-tijolopink;
+  padding: 0 1rem 0 1rem;
+}
+
+.pagination .nav-links .next.page-numbers {
+  padding-left: 1rem;
+}
+
+.pagination .nav-links .current {
+  font-size: large;
+  font-weight: bolder;
+}
+
+picture {
+  display: flex;
+  justify-content: inherit;
+}
+
+.page:not(.home),
+.single-post,
+.category {
+  @apply bg-fundobege;
+}
+
+.page:not(.home) .main .container p,
+.single-post .main .container p,
+.category .main .container p {
+  @apply text-lg text-tijolop mb-6;
+}
+
+/* .page.horarios, .page.happy-hour .main .container {
+  h1,
+  h2,
+  h3,
+  h4,
+  figcaption,
+  a,
+  strong,
+  p {
+    @apply text-gray-100;
+  }
+} */
+
+main .container {
+  padding-bottom: 2rem;
+}
+
+.wp-block-media-text p,
+.wp-block-group p {
+  @apply text-lg lg:text-3xl;
+}
+
+/* .home {
+  section div p {
+    @apply text-lg lg:text-3xl;
+  }
+} */
+
+.wp-block-media-text.alignwide.is-stacked-on-mobile {
+  margin-bottom: 3rem;
+}
+
+/* Reservas page */
+.wp-block-booking-booking {
+  @apply text-center;
+}
+
+.wp-block-booking-booking .resource_selection_div {
+  @apply text-2xl;
+}
+
+.wp-block-booking-booking .resource_selection_div .active_booking_form {
+  @apply text-2xl pr-12 pl-4;
+}
+
+/* Efeitos hover nas imagens */
+.wp-block-image {
+  @apply my-4;
+}
+
+.imgpost,
+.wp-block-image {
+  overflow: hidden;
+}
+
+.imgpost img,
+.wp-block-image img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.imgpost img:hover,
+.wp-block-image img:hover {
+  @apply rounded;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* .wp-block-image {
+  @apply rounded;
+} */
+
+/* select.active_booking_form {
+  border-radius: 0.25rem;
+} */
+
+.image-loading {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+}
+
+.image-loading::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #f0f0f0 50%, transparent 50%);
+  animation: skeleton-animation 2s infinite alternate;
+}
+
+@keyframes skeleton-animation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+
+figure .lazyloading {
+  margin: auto;
+  border: 20px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 20px solid #D68778;
+  width: 120px !important;
+  height: 120px !important;
+  -webkit-animation: spin 4s linear infinite;
+  /* Safari */
+  animation: spinner 4s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wp-image-3471 {
+  display: inline-flex;
+}
+
+.wp-block-image.aligncenter {
+  margin: 0 auto;
+}
+
+.wp-block-video video {
+  height: 100vh;
+}
+
+.archive main a:hover,
+.single main a:hover {
+  @apply underline text-tijolopink;
+}
+
+.single main a {
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+#menu-menu-principal a:active,
+#menu-menu-principal a:hover,
+#menu-menu-principal a:focus {
+  text-decoration: underline;
+}
+
+#menu-mobile a:active {
+  @apply underline text-tijolo;
+}
+
+#menu-mobile a:focus {
+  @apply underline text-tijolopink;
+}
+
+/* Carousel slider plugin */
+
+/* @screen lg {
+  .carousel-slider .carousel-slider__item {
+    img {
+      @apply h-auto w-full object-cover;
+    }
+  } 
+} */
+
+.carousel-slider .carousel-slider__item img {
+  height: 25rem;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (min-width: 1024px) {
+  .carousel-slider .carousel-slider__item img {
+    height: auto;
+    max-height: 35rem;
+    width: auto;
+    object-fit: cover;
+  }
+}
+
+.img.responsive-blocks-image-block {
+  height: 100% !important;
+}
+
+:root :where(a:where(:not(.wp-element-button))) {
+  text-decoration: inherit;
+}
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  /* list-style: none; */
+  padding-right: 1.5rem;
+}
+
+/* Form */
+.wpcf7-form {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.wpcf7-form textarea {
+  @apply block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300;
+}
+
+.wpcf7-form input {
+  @apply block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm;
+}
+
+.wpcf7-form .wpcf7-submit {
+  @apply py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-tijolopinkhover sm:w-fit hover:bg-tijolo focus:ring-4 focus:outline-none focus:ring-tijolopinkhover dark:hover:bg-tijolo;
+}
+
+.wpcf7-form .wpcf7-response-output {
+  @apply py-3 px-5 text-sm p-4 font-medium text-center text-white rounded-lg bg-green-500 sm:w-fit focus:ring-4 focus:outline-none;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output {
+  @apply py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-red-500 border-transparent sm:w-fit focus:ring-4 focus:outline-none;
+}
+
+section#diaadia {
+  margin-top: 5rem;
+}
+
+header.relative {
+  height: auto;
+}
+
+.featured-singleimg {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.featured-singleimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

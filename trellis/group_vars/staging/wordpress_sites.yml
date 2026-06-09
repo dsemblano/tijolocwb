@@ -4,12 +4,12 @@
 wordpress_sites:
   tijolocwb.com.br:
     site_hosts:
-    - canonical: tijolocwb.com.br
-      redirects:
-      - www.tijolocwb.com.br
+    - canonical: staging.tijolocwb.com.br
+      # redirects:
+      # - www.tijolocwb.com.br
     local_path: ../site
     branch: master
-    repo: git@github.com:example/example.com.git
+    repo: git@github.com:dsemblano/tijolocwb.git
     repo_subtree_path: site
     multisite:
       enabled: false
