@@ -1,5 +1,5 @@
 <div x-data="{ mobileOpen: false }" class="relative" x-cloak>
-    <ul id="menu-menu-principal" class="hidden lg:flex text-sm justify-around font-heading relative items-center">
+    <ul id="menu-menu-principal" class="hidden lg:flex text-lg justify-around font-heading relative items-center">
         @foreach ($primary_navigation as $item)
             {{-- Parent Menu Item Container --}}
             <li class="{{ $item->classes }} relative group transition-all duration-500 ease-in-out py-4">

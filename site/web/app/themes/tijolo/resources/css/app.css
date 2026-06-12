@@ -3,6 +3,8 @@
 @source "../**/*.blade.php";
 @source "../**/*.js";
 
+@plugin "@tailwindcss/typography";
+
 @theme {
   --color-primary: #E69037;
   --color-tijolo: #E2AA9F;
@@ -20,6 +22,12 @@
   --color-tijolopink: #D68778;
   --color-tijolopinkhover: #BF5545;
 }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'cuprumregular';
+    src: url('@fonts/Cuprum/Cuprum-VariableFont_wght.ttf') format('truetype');
+  }
 
 /* @import 'common/fonts.scss';
 @import "./menu.scss";
