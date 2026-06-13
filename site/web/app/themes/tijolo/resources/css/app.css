@@ -23,11 +23,24 @@
   --color-tijolopinkhover: #BF5545;
 }
 
-  @font-face {
-    font-display: swap;
-    font-family: 'cuprumregular';
-    src: url('@fonts/Cuprum/Cuprum-VariableFont_wght.ttf') format('truetype');
-  }
+@font-face {
+  font-display: swap;
+  font-family: 'cuprumregular';
+  src: url('@fonts/Cuprum/Cuprum-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Mapeamento de alinhamento do Gutenberg para Tailwind */
+.has-text-align-left {
+    @apply text-left;
+}
+
+.has-text-align-center {
+    @apply text-center;
+}
+
+.has-text-align-right {
+    @apply text-right;
+}
 
 /* @import 'common/fonts.scss';
 @import "./menu.scss";
@@ -64,16 +77,16 @@ h1#logo.shrink {
   bottom: 0.5rem;
 }
 
-h2 {
+/* h2 {
   @apply text-4xl;
-}
+} */
 
-h3,
+/* h3,
 h4,
 h5,
 h6 {
   @apply text-3xl;
-}
+} */
 
 
 @layer utility {
@@ -143,8 +156,6 @@ h6 {
   object-fit: contain;
 }
 
-/* background-color: orange; */
-
 .cardapio section.cardapio-pratos .wp-block-media-text {
   margin-bottom: 1.5rem;
 }
@@ -159,6 +170,11 @@ h6 {
 
 .cardapio section.cardapio-pratos p {
   margin-top: 1rem;
+}
+
+.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
+.is-layout-constrained > .alignwide {
+  max-width: none;
 }
 
 /* #vinhos {
@@ -255,10 +271,10 @@ main .container {
   padding-bottom: 2rem;
 }
 
-.wp-block-media-text p,
+/* .wp-block-media-text p,
 .wp-block-group p {
   @apply text-lg lg:text-3xl;
-}
+} */
 
 /* .home {
   section div p {
@@ -338,6 +354,7 @@ main .container {
   from {
     background-position: 0 0;
   }
+
   to {
     background-position: 200% 0;
   }
@@ -360,6 +377,7 @@ figure .lazyloading {
   0% {
     -webkit-transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
   }
@@ -369,6 +387,7 @@ figure .lazyloading {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }

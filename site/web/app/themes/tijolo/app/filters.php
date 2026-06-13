@@ -33,3 +33,8 @@ add_filter('get_the_archive_title', function ($title) {
     }
     return $title;
 });
+
+/**
+ * Carregar o CSS dos blocos do Gutenberg apenas quando forem utilizados na página.
+ */
+add_filter('should_load_separate_core_block_assets', '__return_true');

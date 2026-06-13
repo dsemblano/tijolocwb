@@ -23,7 +23,7 @@
         <main id="main" class="main">
             @if (!is_front_page() && !is_page('reservas'))
                 <div
-                    class="container prose max-w-none w-full text-tijolop prose-h1:text-tijolovermelho prose-h2:text-tijolovermelho prose-h3:text-tijolovermelho mx-auto prose-a:no-underline prose-h1:mb-10 prose-h2:mb-4 prose-h3:mb-0 prose-blockquote:border-tijolopink prose-blockquote:text-tijolopink prose-figure:mb-4">
+                    class="container ">
                     @yield('content')
                 </div>
             @else
