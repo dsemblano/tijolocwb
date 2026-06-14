@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a4b02a042fe90f4781290f7508fc757",
+    "content-hash": "075125d31539cdf2f8a3ff334b93aa81",
     "packages": [
         {
             "name": "brick/math",
@@ -7359,6 +7359,37 @@
                 "source": "https://plugins.svn.wordpress.org/greenshift-animation-and-page-builder-blocks"
             },
             "time": "2026-06-12T18:51:29+00:00"
+        },
+        {
+            "name": "wp-plugin/gtm-kit",
+            "version": "2.15.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gtm-kit/",
+                "reference": "tags/2.15.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gtm-kit.2.15.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "TLA Media"
+                }
+            ],
+            "description": "Google Tag Manager and GA4 integration. Including WooCommerce data for Google Analytics 4 and support for server side GTM.",
+            "homepage": "https://gtmkit.com/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/gtm-kit/#developers",
+                "issues": "https://wordpress.org/support/plugin/gtm-kit",
+                "source": "https://plugins.svn.wordpress.org/gtm-kit"
+            },
+            "time": "2026-06-12T06:25:51+00:00"
         },
         {
             "name": "wp-plugin/redirection",

@@ -267,3 +267,11 @@ function wpcf7_is_file_path_in_content_dir( $path ) {
 
 	return false;
 }
+
+/**
+ * Injeta o snippet de Schema no wp_head de forma nativa via Sage 11
+ */
+// add_action('wp_head', function () {
+//     // Aponta exatamente para a pasta separada por pontos
+//     echo \Roots\view('partials.schema')->render();
+// }, 1); // Prioridade 1 faz ele carregar bem no início do wp_head

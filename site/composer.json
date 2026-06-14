@@ -46,6 +46,7 @@
     "wp-plugin/ewww-image-optimizer": ">=6.6.0",
     "wp-plugin/foobox-image-lightbox": "^2.7.34",
     "wp-plugin/greenshift-animation-and-page-builder-blocks": "^13.0",
+    "wp-plugin/gtm-kit": "^2.15",
     "wp-plugin/redirection": ">=5.2.3",
     "wp-plugin/regenerate-thumbnails": ">=3.1.5",
     "wp-plugin/responsive-block-editor-addons": "^2.0.5",

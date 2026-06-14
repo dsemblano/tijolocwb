@@ -37,4 +37,4 @@ add_filter('sage/blade/data', function ($data) {
 /**
  * Carregar o CSS dos blocos do Gutenberg apenas quando forem utilizados na página.
  */
-// add_filter('should_load_separate_core_block_assets', '__return_true');
+add_filter('should_load_separate_core_block_assets', '__return_true');
