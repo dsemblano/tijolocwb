@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="preload" fetchpriority="high" as="image" href={{ Vite::asset('resources/images/TijoloEntrada.webp') }} type="image/webp">
-    <link rel="preload" href={{ Vite::asset('fonts/Cuprum/Cuprum-VariableFont_wght.ttf') }} as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href={{ Vite::asset('resources/fonts/Cuprum/Cuprum-VariableFont_wght.ttf') }} as="font" type="font/ttf" crossorigin>
     <link rel="author" type="text/plain" href="{{ Vite::asset('humans.txt') }}" />
 
     <meta name="apple-mobile-web-app-title" content="Tijolo Restaurante" />
