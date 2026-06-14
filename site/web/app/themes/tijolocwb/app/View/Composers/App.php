@@ -24,6 +24,10 @@ class App extends Composer
     {
         return [
             'siteName' => $this->siteName(),
+            'primary_navigation' => Navi::make()
+                ->withDefaultClasses()
+                ->build('primary_navigation')
+                ->all(),
         ];
     }
 

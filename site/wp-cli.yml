@@ -1,3 +1,10 @@
 path: web/wp
 server:
   docroot: web
+
+@development:
+  ssh: vagrant@tijolocwb.test/srv/www/tijolocwb.com.br/current
+@staging:
+  ssh: web@206.189.200.210/srv/www/tijolocwb.com.br/current
+@production:
+  ssh: web@174.138.80.227/srv/www/tijolocwb.com.br/current

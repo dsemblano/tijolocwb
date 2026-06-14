@@ -35,7 +35,8 @@ class Post extends Composer
         }
 
         if (is_archive()) {
-            return get_the_archive_title();
+            // return get_the_archive_title();
+            return single_cat_title('', false);
         }
 
         if (is_search()) {

@@ -19,11 +19,6 @@
       "name": "QWp6t",
       "email": "hi@qwp6t.me",
       "homepage": "https://github.com/qwp6t"
-    },
-    {
-      "name": "Brandon Nifong",
-      "email": "brandon@tendency.me",
-      "homepage": "https://github.com/log1x"
     }
   ],
   "keywords": [
@@ -45,9 +40,6 @@
   },
   "require-dev": {
     "laravel/pint": "^1.20"
-  },
-  "suggest": {
-    "log1x/sage-directives": "A collection of useful Blade directives for WordPress and Sage (^1.0)."
   },
   "config": {
     "optimize-autoloader": true,

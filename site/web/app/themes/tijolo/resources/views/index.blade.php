@@ -11,67 +11,55 @@
     {!! get_search_form(false) !!}
   @endif
 
-  {{-- <section class="gap-4 grid grid-cols-1 md:grid-cols-2 mt-5 w-full lg:pr-8 mb-6"> --}}
-    <section id="na-midia">
-      <div class="grid grid-cols-1 gap-y-4 gap-x-10 md:grid-cols-2 mt-5 w-full lg:pr-8 mb-6">
-        @php
-        if (is_category()) {
+  <section id="na-midia">
+    <div class="grid grid-cols-1 gap-y-4 gap-x-10 md:grid-cols-2 mt-5 w-full lg:pr-8 mb-6">
+      @php
+        // O WordPress agora lê perfeitamente o 'paged' graças ao setup.php reativado
+        $paged = max(1, get_query_var('paged'));
+        $query = null;
+
+        if (is_category('nosso-dia-a-dia')) {
           $category = get_queried_object();
-          $posts_per_page = 10;
-          $paged = max(1, get_query_var('paged'));
-          $offset = ($paged - 1) * $posts_per_page;
-  
-          // Verifica se a categoria atual é pai ou filha
-          if ($category->category_parent == 0) {
-              // Se for uma categoria pai, mostramos apenas os posts da categoria pai
-              $args = array(
-                  'category__in' => array($category->term_id),
-                  'category__not_in' => get_term_children($category->term_id, 'category'),
-                  'posts_per_page' => $posts_per_page,
-                  'offset' => $offset,
-                  'paged' => $paged,
-              );
-          } else {
-              // Se for uma subcategoria, mostramos apenas os posts da subcategoria
-              $args = array(
-                  'category__in' => array($category->term_id),
-                  'posts_per_page' => $posts_per_page,
-                  'offset' => $offset,
-                  'paged' => $paged,
-              );
-          }
-  
+          
+          $args = array(
+              'cat'            => $category->term_id,
+              'posts_per_page' => 10,
+              'paged'          => $paged,
+          );
+
           $query = new WP_Query($args);
         }
       @endphp
       
-      @if ($query->have_posts())
-        @while ($query->have_posts())
-            <?php $query->the_post(); ?>
+      @if ($query && $query->have_posts())
+        @while ($query->have_posts()) @php $query->the_post(); @endphp
             @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
         @endwhile
-  
       @else
-        @while (have_posts())
-            <?php the_post(); ?>
+        {{-- Fallback nativo caso precise --}}
+        @while (have_posts()) @php the_post(); @endphp
             @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
         @endwhile
-  
       @endif
-      </div>
-
+    </div>
   </section>
 
-  @if ($query->max_num_pages > 1)
+  {{-- Paginação nativa do WordPress renderizando perfeitamente pelos links canônicos --}}
+  @php 
+    $max_pages = $query ? $query->max_num_pages : $GLOBALS['wp_query']->max_num_pages;
+  @endphp
+
+  @if ($max_pages > 1)
     {!! get_the_posts_pagination(array(
-      'total' => $query->max_num_pages,
-      'current' => $paged,
-      'prev_text' => '« Anterior',
-      'next_text' => 'Próximo »',
-      'screen_reader_text' => __('Navegação de página'),
-      )) !!}
+      'total'               => $max_pages,
+      'current'             => $paged,
+      'prev_text'           => '« Anterior',
+      'next_text'           => 'Próximo »',
+      'screen_reader_text'  => __('Navegação de página'),
+    )) !!}
   @endif
-  <?php wp_reset_postdata(); ?>
+  
+  @php wp_reset_postdata(); @endphp
   
 @endsection
 
