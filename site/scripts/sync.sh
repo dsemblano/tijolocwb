@@ -7,7 +7,7 @@
 DEVDIR="web/app/uploads/"
 DEVSITE="https://tijolocwb.test"
 
-PRODDIR="web@174.138.80.227:/srv/www/tijolocwb.com.br/shared/uploads/"
+PRODDIR="web@134.209.211.67:/srv/www/tijolocwb.com.br/shared/uploads/"
 PRODSITE="https://tijolocwb.com.br"
 
 STAGDIR="web@206.189.200.210:/srv/www/tijolocwb.com.br/shared/uploads/"

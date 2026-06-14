@@ -7,4 +7,4 @@ server:
 @staging:
   ssh: web@206.189.200.210/srv/www/tijolocwb.com.br/current
 @production:
-  ssh: web@174.138.80.227/srv/www/tijolocwb.com.br/current
+  ssh: web@134.209.211.67/srv/www/tijolocwb.com.br/current
