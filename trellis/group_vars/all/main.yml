@@ -5,6 +5,15 @@ apt_dev_package_state: latest
 apt_clean_sources: false
 composer_keep_updated: true
 php_version: "8.3"
+php_upload_max_filesize : 300M
+php_upload_max_size: 300M
+php_memory_limit: 768M
+php_upload_max_filesize: 300M
+php_post_max_size: 300M
+php_extensions_custom:
+  php8.3-gd: "{{ apt_package_state }}"
+  php8.3-curl: "{{ apt_package_state }}"
+  php8.3-soap: "{{ apt_package_state }}"
 ntp_timezone: Etc/UTC
 ntp_manage_config: true
 www_root: /srv/www

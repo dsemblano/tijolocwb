@@ -8,7 +8,7 @@
 
 ---
 - name: Install npm dependencies
-  command: npm ci
+  command: npm install
   delegate_to: localhost
   args:
     chdir: "{{ project_local_path }}/web/app/themes/tijolo"
