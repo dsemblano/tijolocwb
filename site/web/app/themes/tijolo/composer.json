@@ -36,7 +36,8 @@
   "require": {
     "php": ">=8.3",
     "log1x/navi": "^3.1",
-    "roots/acorn": "^6.0"
+    "roots/acorn": "^6.0",
+    "roots/acorn-mail": "^2.0"
   },
   "require-dev": {
     "laravel/pint": "^1.20"

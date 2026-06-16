@@ -31,15 +31,15 @@
 
 /* Mapeamento de alinhamento do Gutenberg para Tailwind */
 .has-text-align-left {
-    @apply text-left;
+  @apply text-left;
 }
 
 .has-text-align-center {
-    @apply text-center;
+  @apply text-center;
 }
 
 .has-text-align-right {
-    @apply text-right;
+  @apply text-right;
 }
 
 /* @import 'common/fonts.scss';
@@ -152,7 +152,9 @@ h6 {
   }
 } */
 
-.page, .single {
+.page,
+.single {
+
   h1,
   h2,
   h3,
@@ -160,6 +162,19 @@ h6 {
     color: var(--color-tijolovermelho);
   }
 }
+
+.home {
+  h2 {
+    @apply text-4xl lg:text-5xl mt-4 mb-8 font-bold;
+  }
+
+  .home-section {
+    h2 {
+      color: white;
+    }
+  }
+}
+
 
 .cardapio section.cardapio-pratos figure a {
   aspect-ratio: 1 / 1;
@@ -188,8 +203,8 @@ h6 {
   margin-top: 1rem;
 }
 
-.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
-.is-layout-constrained > .alignwide {
+.is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)),
+.is-layout-constrained>.alignwide {
   max-width: none;
 }
 

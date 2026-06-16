@@ -56,7 +56,6 @@
     "wp-plugin/vayu-blocks": ">=1.3.11",
     "wp-plugin/wordpress-importer": "^0.9.5",
     "wp-plugin/wordpress-popup": ">=7.8.9.1",
-    "wp-plugin/wp-mail-smtp": ">=3.10.0",
     "wp-plugin/wps-hide-login": ">=1.5.4.2",
     "wp-plugin/zoloblocks": "^2.2.7",
     "wp-theme/twentytwentyfive": "^1.0",

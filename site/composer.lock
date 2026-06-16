@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "075125d31539cdf2f8a3ff334b93aa81",
+    "content-hash": "4f1bfd36ee39371996bdac34552529f6",
     "packages": [
         {
             "name": "brick/math",
@@ -3250,16 +3250,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.11.4",
+            "version": "3.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon.git",
-                "reference": "e890471a3494740f7d9326d72ce6a8c559ffee60"
+                "reference": "6e7853a668c3107294aff38d42bf760ec02126b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/e890471a3494740f7d9326d72ce6a8c559ffee60",
-                "reference": "e890471a3494740f7d9326d72ce6a8c559ffee60",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/6e7853a668c3107294aff38d42bf760ec02126b6",
+                "reference": "6e7853a668c3107294aff38d42bf760ec02126b6",
                 "shasum": ""
             },
             "require": {
@@ -3351,7 +3351,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-07T09:57:54+00:00"
+            "time": "2026-06-14T20:41:42+00:00"
         },
         {
             "name": "nunomaduro/termwind",
@@ -7331,15 +7331,15 @@
         },
         {
             "name": "wp-plugin/greenshift-animation-and-page-builder-blocks",
-            "version": "13.1.0",
+            "version": "13.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/greenshift-animation-and-page-builder-blocks/",
-                "reference": "tags/13.1.0"
+                "reference": "tags/13.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/greenshift-animation-and-page-builder-blocks.13.1.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/greenshift-animation-and-page-builder-blocks.13.1.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -7358,7 +7358,7 @@
                 "issues": "https://wordpress.org/support/plugin/greenshift-animation-and-page-builder-blocks",
                 "source": "https://plugins.svn.wordpress.org/greenshift-animation-and-page-builder-blocks"
             },
-            "time": "2026-06-12T18:51:29+00:00"
+            "time": "2026-06-13T20:11:14+00:00"
         },
         {
             "name": "wp-plugin/gtm-kit",
@@ -7393,15 +7393,15 @@
         },
         {
             "name": "wp-plugin/redirection",
-            "version": "5.7.5",
+            "version": "5.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.7.5"
+                "reference": "tags/5.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.7.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.8.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -7420,7 +7420,7 @@
                 "issues": "https://wordpress.org/support/plugin/redirection",
                 "source": "https://plugins.svn.wordpress.org/redirection"
             },
-            "time": "2026-03-23T19:23:21+00:00"
+            "time": "2026-06-14T13:40:51+00:00"
         },
         {
             "name": "wp-plugin/regenerate-thumbnails",
@@ -7668,37 +7668,6 @@
                 "source": "https://plugins.svn.wordpress.org/wordpress-popup"
             },
             "time": "2026-05-25T10:55:56+00:00"
-        },
-        {
-            "name": "wp-plugin/wp-mail-smtp",
-            "version": "4.8.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/4.8.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.4.8.0.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0|~2.0"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://wp-packages.org/downloads",
-            "authors": [
-                {
-                    "name": "Syed Balkhi"
-                }
-            ],
-            "description": "Make email delivery easy for WordPress. Connect with SMTP, Gmail, Outlook, SendGrid, Mailgun, SES, Zoho, + more. Rated #1 WordPress SMTP Email plugin.",
-            "homepage": "https://wpmailsmtp.com/",
-            "support": {
-                "changelog": "https://wordpress.org/plugins/wp-mail-smtp/#developers",
-                "issues": "https://wordpress.org/support/plugin/wp-mail-smtp",
-                "source": "https://plugins.svn.wordpress.org/wp-mail-smtp"
-            },
-            "time": "2026-04-16T15:16:32+00:00"
         },
         {
             "name": "wp-plugin/wps-hide-login",
@@ -10811,16 +10780,16 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
-                "reference": "9007ea6f45ecf352a9422b36644e4bfc039b9155"
+                "reference": "2ccb7c2e821038c03a3e6e1700c570c158c55f70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/9007ea6f45ecf352a9422b36644e4bfc039b9155",
-                "reference": "9007ea6f45ecf352a9422b36644e4bfc039b9155",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/2ccb7c2e821038c03a3e6e1700c570c158c55f70",
+                "reference": "2ccb7c2e821038c03a3e6e1700c570c158c55f70",
                 "shasum": ""
             },
             "require": {
@@ -10871,9 +10840,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/2.4.0"
+                "source": "https://github.com/webmozarts/assert/tree/2.4.1"
             },
-            "time": "2026-05-20T13:07:01+00:00"
+            "time": "2026-06-15T15:31:57+00:00"
         }
     ],
     "aliases": [],
