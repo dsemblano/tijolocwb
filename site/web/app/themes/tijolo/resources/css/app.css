@@ -212,8 +212,14 @@ h6 {
 } */
 
 
-.current_page_item {
+#menu-mobile .current_page_item {
   color: var(--color-tijolovermelho);
+  font-weight: bolder;
+}
+
+#menu-menu-principal .current_page_item {
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 /* Cardapio */
