@@ -42,11 +42,6 @@
   @apply text-right;
 }
 
-/* @import 'common/fonts.scss';
-@import "./menu.scss";
-@import "./arrowcdtop.scss";
-@import 'animate.css'; */
-
 body,
 main p {
   font-family: ui-sans-serif, system-ui, sans-serif;
@@ -175,6 +170,10 @@ h6 {
   }
 }
 
+.responsive-section-wrap.responsive-block-editor-addons-block-section.overlay-type-color.linear {
+  background-color: transparent;
+}
+
 
 .cardapio section.cardapio-pratos figure a {
   aspect-ratio: 1 / 1;
@@ -212,17 +211,10 @@ h6 {
   background-color: purple;
 } */
 
-/* menu, páginas etc */
 
-/* .wp-block-media-text__content {
-  .wp-block-heading {
-    @apply text-5xl lg:text-6xl my-4;
-
-    strong {
-      font-weight: normal;
-    }
-  }
-} */
+.current_page_item {
+  color: var(--color-tijolovermelho);
+}
 
 /* Cardapio */
 
